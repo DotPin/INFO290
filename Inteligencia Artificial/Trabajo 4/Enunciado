@@ -1,0 +1,3 @@
+Consideremos el problema siguiente:
+
+Tenemos a disposición un dataset con 1338 observaciones (filas) y 7 características (columnas): edad, genero, bmi (body mass index), número de niños, si es fumadora o no, su región y sus gastos en salud.
