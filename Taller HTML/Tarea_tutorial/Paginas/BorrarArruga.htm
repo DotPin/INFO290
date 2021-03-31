@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<LINK REL=STYLESHEET TYPE="TEXT/CSS" HREF="estilos_tutorial.css">
+<META HTTP-EQUIV="Page-Enter" CONTENT="RevealTrans (Duration=3, Transition= 7)">
+<title>Documento sin t&iacute;tulo</title>
+<style type="text/css">
+<!--
+body {
+	background-color: #CCCCFF;
+}
+-->
+</style>
+<script src="javascript.js" language="JavaScript"></script>
+<script language="JavaScript">
+<!--
+ie4 = document.all
+function inicio() {
+	animac.style.visibility = "hidden"
+	block = cursor.style
+	block.visibility = "visible"
+	block.xpos = parseInt(block.left)
+	block.ypos = parseInt(block.top)
+	block.xinc = 1
+	block.yinc = 2.5
+	block.count = 0
+}
+function cursor1() {
+	if (block.count < 130) {
+		block.xpos -= block.xinc
+		block.ypos -= block.yinc
+		block.left = block.xpos
+		block.top = block.ypos
+		block.count += 1
+		info = "<p>El primer paso es seleccionar Layer o Capa en el menú</p>"
+		texto.innerHTML = info
+		setTimeout("cursor1()",20)
+	}
+	else {
+		arrugas2.style.visibility = "visible"
+		block.count = 0
+		block.yinc = 0.25
+		block.xinc= 1
+		setTimeout("cursor2()",10)
+	}
+}
+function cursor2() {
+	if(block.count < 60){
+		block.ypos += block.yinc
+		block.xpos += block.xinc
+		block.top = block.ypos
+		block.left = block.xpos
+		block.count += 1
+		info = "<p>Luego seleccionamos duplicar capa</p>"
+		texto.innerHTML = info
+		setTimeout("cursor2()",30)
+	}
+	else{
+		arrugas3.style.visibility = "visible"
+		block.count = 0
+		block.yinc = 1.7
+		block.xinc= 4.5
+		setTimeout("cursor3()",100)
+		}
+}
+function cursor3() {
+	if (block.count < 75) {
+		block.ypos += block.yinc
+		block.xpos += block.xinc
+		block.top = block.ypos
+		block.left = block.xpos
+		block.count += 1
+		info = "<p>y luego ok y observamos que se crea una copia de la capa inicial</p>"
+		texto.innerHTML = info
+		setTimeout("cursor3()",70)
+	}
+	else {
+		arrugas4.style.visibility = "visible"
+		block.count = 0
+		
+    	setTimeout("cursor4()",10)
+	}
+}
+function cursor4() {
+	if (block.count < 15) {
+		block.count += 1
+		info = "<p>seleccionamos la herramienta de forma de parche</p>"
+		texto.innerHTML = info
+		setTimeout("cursor4()",50)
+	}
+	else {
+		arrugas5.style.visibility = "visible"
+		block.count = 0
+		block.yinc = -0.3
+		block.xinc= -5
+		setTimeout("cursor5()",10)
+	}
+}
+function cursor5() {
+	if (block.count < 92) {
+		block.ypos += block.yinc
+		block.xpos += block.xinc
+		block.top = block.ypos
+		block.left = block.xpos
+		block.count += 1
+		info = "<p>Seleccionamos la herramienta que tiene forma de parche hacemos click en la imagen donde no tenga arrugas y luego hacemos un click sostemido en la imagen donde esta la arruga</p>"
+		texto.innerHTML = info
+		setTimeout("cursor5()",50)
+	}
+	else {
+		arrugas6.style.visibility = "visible"
+		block.count = 0
+		block.yinc = 5
+		block.xinc= 7
+		setTimeout("cursor6()",50)
+	}
+}
+function cursor6() {
+	if (block.count < 40) {
+		block.xpos += block.xinc
+		block.left = block.xpos
+		block.count += 1
+		info = "<p>Finalmente dejamos de presionar y la imagen queda sin arrugas</p>"
+		texto.innerHTML = info
+		setTimeout("cursor6()",50)
+	}
+	else {
+		arrugas7.style.visibility = "visible"
+		block.count = 0
+		setTimeout("cursor7()",10)
+	}
+}
+function cursor7() {
+	if (block.count < 20) {
+		block.count += 1
+		info = "<p>sin arrugas :D</p>"
+		texto.innerHTML = info
+		setTimeout("cursor7()",10)
+	}
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.anim {
+	position: absolute;
+	visibility: visible;
+	left: 703px;
+	top: 505px;
+	height: 32px;
+	width: 155px;
+}
+.sig{
+	position: absolute;
+	visibility: visible;
+	left: 417px;
+	top: 504px;
+	height: 20px;
+	width: 150px;
+	font-family: "Monotype Corsiva";
+	font-size: 14pt;
+	color: #0099FF;
+}
+#texto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #6633FF;
+}
+texto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #6633FF;
+}
+-->
+</style>
+</head>
+
+<body><table width="841" height="370" border="0">
+
+
+<div id="arrugas2" style="position: absolute;
+						left: 13px;
+						top: 19px;
+						visibility: hidden;
+						z-index: 6;"> 
+	<img src="../Imagenes/arrugas2.JPG" width="689" height="517"></div>
+<div id="arrugas3" style="position:absolute;
+						left: 13px;
+						top: 19px;
+						visibility: hidden;
+						z-index: 7;"> 
+	<img src="../Imagenes/arrugas3.JPG" width="689" height="517"></div>
+<div id="arrugas4" style="position:absolute;
+						left: 13px;
+						top: 19px;
+						visibility: hidden;
+						z-index: 7;"> 
+	<img src="../Imagenes/arrugas4.JPG" width="689" height="517"></div>
+<div id="arrugas5" style="position:absolute;
+						left: 13px;
+						top: 19px;
+						visibility: hidden;
+						z-index: 7;"> 
+	<img src="../Imagenes/arrugas5.JPG" width="689" height="517"></div>
+<div id="arrugas6" style="position:absolute;
+						left: 13px;
+						top: 19px;
+						visibility: hidden;
+						z-index: 7;"> 
+	<img src="../Imagenes/arrugas6.JPG" width="689" height="517"></div>
+<div id="arrugas7" style="position:absolute;
+						left: 13px;
+						top: 19px;
+						visibility: hidden;
+						z-index: 7;"> 
+	<img src="../Imagenes/arrugas7.JPG" width="689" height="517"></div>
+<div id="cursor" style="position: absolute;
+						left: 200px;
+						top: 366px;
+						visibility: hidden;
+						z-index: 20;">
+	<img src="../Imagenes/cursor.gif" width="20" height="20" ></div>
+  <tr>
+    <td width="539"><div id="princ" class="imagenes"><img src="../Imagenes/arrugas1.jpg" name="aclarar01" width="689" height="517" id="aclarar01" /></div></td>
+    <td width="292"> <div id="texto" style="font-size:20px;color:#6633FF;">En esta secci&oacute;n mostraremos como quitarle las arrugas a una foto</div></td>
+  </tr>
+</table>
+<div id="animac" class="anim"><img src="../Imagenes/bot&oacute;n.JPG" name="img" width="144" height="29" onClick="inicio();cursor1();"></div>
+</div>
+</body>
+</html>

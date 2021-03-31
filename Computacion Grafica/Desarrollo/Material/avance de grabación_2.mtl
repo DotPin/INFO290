@@ -1,0 +1,512 @@
+# Blender MTL File: 'avance de grabación_2.blend'
+# Material Count: 51
+
+newmtl Material.001_re2_BI_Off_8.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.298666 0.298666 0.298666
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/re2_BI_Off_8.dds
+
+newmtl Material.002_re2_BI_Off_6.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.298666 0.298666 0.298666
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/re2_BI_Off_6.dds
+
+newmtl Material.003_re2_BI_Off_2.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.298666 0.298666 0.298666
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/re2_BI_Off_2.dds
+
+newmtl Material.004_re2_BI_Off_1.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.298666 0.298666 0.298666
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/re2_BI_Off_1.dds
+
+newmtl Material.005_re2_BI_Off_4.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.298666 0.298666 0.298666
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/re2_BI_Off_4.dds
+
+newmtl Material.006_re2_BI_Off_7.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.298666 0.298666 0.298666
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/re2_BI_Off_7.dds
+
+newmtl Material.007_re2_BI_Off_5.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.298666 0.298666 0.298666
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/re2_BI_Off_5.dds
+
+newmtl Material.008_re2_BI_Off_3.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.298666 0.298666 0.298666
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/re2_BI_Off_3.dds
+
+newmtl Material.009_3dc3ba2a.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/3dc3ba2a.dds
+
+newmtl Material.010_15b9545d.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/15b9545d.dds
+
+newmtl Material.011_34ef31e0.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/34ef31e0.dds
+
+newmtl Material.012_e7ed4d5e.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/e7ed4d5e.dds
+
+newmtl Material.013_f07ef57a.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/f07ef57a.dds
+
+newmtl Material.014_d9319389.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/d9319389.dds
+
+newmtl Material.015_b27b917f.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/b27b917f.dds
+
+newmtl Material.016_815788ff.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/815788ff.dds
+
+newmtl Material.017_5752a6c0.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/5752a6c0.dds
+
+newmtl Material.018_2f96a28f.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/2f96a28f.dds
+
+newmtl Material.019_b94b8acc.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/b94b8acc.dds
+
+newmtl Material.020_e9b1b406.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/e9b1b406.dds
+
+newmtl Material.022_3a95f655.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/3a95f655.dds
+
+newmtl Material.023_0d056b9e.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd 0d056b9e.dds
+
+newmtl Material.024_8aafcc3c.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/8aafcc3c.dds
+
+newmtl Material.025_a6a70001.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/a6a70001.dds
+
+newmtl Material.026_6eb14ae5.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/6eb14ae5.dds
+
+newmtl Material.027_3a8762ca.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/3a8762ca.dds
+
+newmtl Material.028_79961c3d.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/79961c3d.dds
+
+newmtl Material.029_1d6c83f2.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/1d6c83f2.dds
+
+newmtl Material.030_1584ed6f.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/1584ed6f.dds
+
+newmtl Material.031_97e9076d.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/97e9076d.dds
+
+newmtl Material.032_744589f8.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/744589f8.dds
+
+newmtl Material.033_8cf98d15.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/8cf98d15.dds
+
+newmtl Material.034_f16c2b39.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/f16c2b39.dds
+
+newmtl Material.035_6e9707d5.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/6e9707d5.dds
+
+newmtl Material.036_fa939072.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/fa939072.dds
+
+newmtl Material.037_8ec75092.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/8ec75092.dds
+
+newmtl Material.038_6e9707d5.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/6e9707d5.dds
+
+newmtl Material.039_1c472d25.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/1c472d25.dds
+
+newmtl Material.040_4e2186f1.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/4e2186f1.dds
+
+newmtl Material.041_8ec03af2.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/8ec03af2.dds
+
+newmtl Material.042_43a9b9f1.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/43a9b9f1.dds
+
+newmtl Material.043_97a31162.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/97a31162.dds
+
+newmtl Material.044_f77ce48c.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/f77ce48c.dds
+
+newmtl Material.045_c7f53973.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/c7f53973.dds
+
+newmtl Material.046_0ec48be8.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/0ec48be8.dds
+
+newmtl Material.047_5a5a8ac9.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/5a5a8ac9.dds
+
+newmtl Material.048_d6ccd4e9.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.122980 0.122980 0.122980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/d6ccd4e9.dds
+
+newmtl Material.050_43a9b9f1.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.125490 0.125490 0.125490
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/43a9b9f1.dds
+
+newmtl Material.079_RE2_raccoon.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/RE2_raccoon.dds
+
+newmtl Material.080_RE2_raccoon.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/RE2_raccoon.dds
+
+newmtl Material_defe1aaf.dds
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.097882 0.097882 0.097882
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd /home/hackerter/Descargas/plantillas blender/oficina/RE2 Brian office (custom)/defe1aaf.dds

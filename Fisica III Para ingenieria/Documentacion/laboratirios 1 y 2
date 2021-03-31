@@ -1,0 +1,66 @@
+Para el calculo de potencia se ocupó la propiedad
+de :
+
+P = dw/dt =>  V²/R  => I²/V
+
+POTENCIA SEGúN RESISTENCIA [En paralelo]:
+
+Valores Reales Resistencias:
+R1 = 10,6 Ohm
+R2 = 33,1 Ohm
+R3 = 99,9 Ohm
+RT[Teórico] = 7,43 Ohm
+RT[Real medido] = 7,7 Ohm
+
+Valor Potencias por Resistencia:
+P1 Resistencia 10 ohm = 2,35 [W]
+P1 Resistencia 33 ohm = 0,75 [W]
+P1 Resistencia 100 ohm = 0,25 [W]
+Potencia Total =3,36 [W]
+
+pregunta [II.1], según lo demostrado con el voltaje continuo a 5V, y variando la corriente, en la resistencia de 10 Ohm, varía y disipa mayor potencia, esto se debe a la poca resistividad que posee la resistencia, por lo que el flujo de corriente pasa en mayor cantidad que en las demás resistencias,se puede ver en la relacion que existe entre voltaje, resistividad y corriente para la potencia.
+
+pregunta[II.2], 
+T° R1 = 45°C
+T° R2 = 40°C
+T° R3 = 35°C
+
+
+POTENCIA SEGúN RESISTENCIA [En Serie]:
+
+Valores Reales Resistencias:
+R1 = 10,6 Ohm
+R3 = 99,9 Ohm
+RT[Teórico] = 110,5 Ohm
+RT[Real medido] = 93,7 Ohm
+
+Valor Potencias por Resistencia:
+P1 Resistencia 10 ohm = 0,026 [W]
+P1 Resistencia 100 ohm = 0,249 [W]
+Potencia Total = 0,276 [W]
+
+pregunta[III.1]
+Se disipa más potencia en la resistencia de mayor "resistividada", lo cual no varía mucho su valor con respecto al ejercicio en paralelo, pero la resistencia pequeña si muestra un cambio, debido a la relación de potencia-voltaje-corriente-resistencia, si el voltaje es alto en razon a la resistencia, ésta es mucho lo que cambia.
+
+pregunta[III.2]
+T° R1 = 23°c
+T° R2 = 37°c
+
+EJERCICIOS DE REFLEXIÓN
+
+No, debido que la potencia de un resistor, depende del voltaje y a su vez de la corriente que fluye a través de ella.
+
+En su propiedad física si puede variar, debido que si el % de carbono es mayor en la resistencia en su propiedad física como material, ésta variará en su temperatura, y si aumenta la temperatura será porque la potencia aumenta.
+
+a) 
+Datos en Paralelo:
+Corriente:varia por ciclo de la resistencia del circuito.
+Voltaje: es continuo independiente del lugar de la resistencia.
+
+Datos en Serie:
+Corriente: No varía cuaquier parte del circuito.
+Voltaje: es variable varias partes del circuito.
+
+
+
+

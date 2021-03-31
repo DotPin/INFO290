@@ -1,0 +1,24 @@
+Version del Programa realizando:	1.1
+*creado portal administrador
+*creando portal usuario
+*cambiando permisos a los archivos para uso multiusuario colaborador
+*empezando con los codigos en controler
+*enlazamos las 3 ventanas virtuales
+*hicimos correr el mostrador con grilla
+*arreglamos el model por problemas con "return" para consultas
+*empezaremos a integrar el refresco de la bss en la grilla
+*-> Pasamos a la v1.2
+
+*Empezando versión 1.2:
+Version del Programa Realizado:		1.2
+*intentando refresco de grilla a través de la herramienta QlineEdit(), objeto filtro
+*Terminado con refreso de grilla a través de herramienta QlineEdit(), filtro funcionando
+*actualizado los metodos de load y refresco
+*terminado la ventana de grilla con filtro
+*se termina la ventana de ingreso de noticias
+
+*Empezando version 1.3:
+Version del Programa Realizado:		1.3
+*empezando con el agregado de categoria
+*agregar categoria terminado 
+*eliminar categoria terminado

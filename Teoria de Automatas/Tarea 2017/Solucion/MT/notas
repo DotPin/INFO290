@@ -1,0 +1,29 @@
+MT
+-modificacion codigo obtEstadosAlfabeto:
+ *Ignoraba si el simbolo aparecia solo en posicion 4 (Solucionado)
+ *Agrega elementos vacios dependiendo de la cantidad de tuplas en casos   en que la tuupla tiene muchos elementos pero pocos simbolos esta sigue agregando vacios. (Solucionado)
+-Error para caso particular q0,0,q1,X,D;q0,1,q5,X,D;q0,c,q7,c,D;q1,0,q1,0,D;q1,1,q1,1,D;q1,c,q2,c,D;q2,0,q3,X,I;q2,X,q2,X,D;q3,c,q4,c,I;q3,X,q3,X,I;q4,0,q4,0,I;q4,1,q4,1,I;q4,X,q0,X,D;q5,0,q5,0,D;q5,1,q5,1,D;q5,c,q6,c,D;q6,1,q3,X,I;q6,X,q6,X,D;q7,X,q7,X,D;q7,b,q7,b,D
+
+ingresa las transiciones pero falla el programa al hacer la matriz. Si se borran transiciones hasta q0,0,q1,X,D;q0,1,q5,X,D;q0,c,q7,c,D;q1,0,q1,0,D;q1,1,q1,1,D;q1,c,q2,c,D
+funciona sin problemas.
+Avence: El for de llenarTransiciones es el que da problemas 
+Avance2: Era la matriz dimensionada con indices intercambiados (Solucionado)
+
+Cambio sintaxis de explicaciones en ejemplos de ayuda (incorporacion de imagenes practicas)
+
+Se agrega funcion validadora que restringe el ingreso de la palabra con final B para optimizar el entendimiento y funcionamiento.
+Propuestas para mañana:
+* ver si se puede cambiar la font de la UI.
+* añadir funcion que guarde simbolo de blanco en transiciones y asi no obligar al usuario a usar b o B. de modo que en el metodo valida palabra se usa la variable como restriccion y no la sentencia == 'B'.
+(Solucionado, en el archivo MTuring1Cinta se comentan las lineas 63-66, y en la linea 62 se agregó palabra.append('B'), para dejar una "B" al final de de la transición, en caso de aprobar, borrar lineas comentadas).
+
+*decorar ui
+*Buscar otros posibles errores.
+*(Opcional) ver la manera de imprimir una ventana DOS con la matriz de transiciones para mejorar entendimiento.
+
+BUG: MT f:NxN -> N , z = 2x-y
+MT: q0,0,q1,X,D;q1,0,q1,0,D;q2,0,q2,0,I;q3,0,q3,0,D;q5,0,q5,0,I;q6,0,q3,B,D;q7,0,q8,0,D;q8,0,q8,0,D;q9,0,q10,1,I;q10,0,q10,0,I;q11,0,q12,0,D;q1,1,q1,1,D;q2,1,q2,1,I;q3,1,q3,1,D;q5,1,q5,1,I;q6,1,q7,B,D;q7,1,q11,B,D;q8,1,q9,1,D;q9,1,q9,1,D;q10,1,q10,1,I;q11,1,q11,B,D;q1,B,q2,1,I;q3,B,q4,0,D;q4,B,q5,0,I;q5,B,q6,B,D;q9,B,q9,B,D;q10,B,q7,B,D;q11,B,q12,B,D;q2,X,q3,B,D [pp3-2006]
+
+BUG: MT encuentre palabras q repitan las 'a' de dos entradas separadas por #
+MT:q0,a,q0,a,D;q1,a,q1,a,I;q2,a,q3,B,D;q3,a,q3,a,D;q4,a,q5,0,I;q5,a,q5,a,I;q6,a,q6,B,D;q7,a,q7,a,D;q9,a,q9,q,I;q0,b,q0,b,D;q1,b,q1,b,I;q2,b,q2,B,D;q3,b,q3,b,D;q4,b,q4,b,D;q5,b,q5,b,I;q6,b,q6,B,D;q7,b,q7,b,D;q9,b,q9,b,I;q0,#,q0,#,D;q1,#,q1,#,I;q2,#,q6,B,D;q3,#,q4,#,D;q0,B,q1,X,I;q1,B,q2,B,D;q2,B,q5,X,I;q4,B,q5,X,I;q5,B,q2,B,D;q8,B,q9,0,I;q9,B,q6,B,D;q4,0,q4,0,D;q6,0,q10,B,D;q7,0,q8,X,D;q9,0,q9,X,I;q4,X,q4,0,D;q5,X,q4,0,I;q6,X,q7,B,D;q7,x,q7,0,D;q9,X,q9,0,I
+

@@ -1,0 +1,7 @@
+Diego Rojas, [12.06.17 19:19]
+q0,a,q1,X,D;q1,a,q1,a,D;q2,a,q2,a,I;q1,b,q2,Y,I;q2,X,q0,X,D;q0,Y,q3,Y,D;q1,Y,q1,Y,D;q2,Y,q2,Y,I;q3,Y,q3,Y,D;q3,B,q4,B,D
+q0 - q4
+
+Diego Rojas, [12.06.17 19:19]
+q0,a,qa,B,D;q0,b,qb,B,D;q0,B,qf,a,I;qa,a,qa,a,D;qa,b,qa,b,D;qa,B,qa2,B,I;qb,a,qb,a,D;qb,b,qb,b,D;qb,B,qb2,B,I;qa2,a,ql,B,I;qa2,B,qf,a,I;qb2,b,ql,B,I;qb2,B,qf,a,I;ql,a,ql,a,I;ql,b,ql,b,I;ql,B,q0,B,D
+q0 - qf

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI xmlns:UML="http://schema.omg.org/spec/UML/1.3" xmi.version="1.2" timestamp="2018-04-30T22:16:31" verified="false">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.9</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.3" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isLeaf="false" isSpecification="false" isRoot="false" xmi.id="m1" isAbstract="false" name="Modelo UML">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="folder" name="folder" namespace="m1"/>
+    <UML:Stereotype isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="datatype" name="datatype" namespace="m1"/>
+    <UML:Model isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="Logical View" name="Logical View" namespace="m1">
+     <UML:Namespace.ownedElement>
+      <UML:Package isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="Datatypes" name="Datatypes" namespace="Logical View" stereotype="folder">
+       <UML:Namespace.ownedElement>
+        <UML:DataType isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="PV9IGNVnAWSa" name="int" namespace="Datatypes" stereotype="datatype"/>
+        <UML:DataType isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="iKwOzmrAgG3x" name="char" namespace="Datatypes" stereotype="datatype"/>
+        <UML:DataType isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="xucygJK3mRM0" name="bool" namespace="Datatypes" stereotype="datatype"/>
+        <UML:DataType isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="opmyLEW3WTPV" name="float" namespace="Datatypes" stereotype="datatype"/>
+        <UML:DataType isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="DGeuWfpSZRQD" name="double" namespace="Datatypes" stereotype="datatype"/>
+        <UML:DataType isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="iiFU9ZVxOFuh" name="short" namespace="Datatypes" stereotype="datatype"/>
+        <UML:DataType isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="TQixr7Q5L4xs" name="long" namespace="Datatypes" stereotype="datatype"/>
+        <UML:DataType isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="jmKGBiStRhLa" name="unsigned int" namespace="Datatypes" stereotype="datatype"/>
+        <UML:DataType isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="EoWa3OHUmxRe" name="unsigned short" namespace="Datatypes" stereotype="datatype"/>
+        <UML:DataType isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="4shPueFeOXsZ" name="unsigned long" namespace="Datatypes" stereotype="datatype"/>
+        <UML:DataType isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="GKQfzlDDahnb" name="string" namespace="Datatypes" stereotype="datatype"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Class isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="les9CkgQ3652" name="TRest" namespace="Logical View"/>
+      <UML:Class isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="52yYD8Jj4Lzo" name="Usuario" namespace="Logical View"/>
+      <UML:Class isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="Up3FXz9xSUqT" name="Cat_Mesa" namespace="Logical View"/>
+      <UML:Class isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="dIQRODGr3H6a" name="Mesa" namespace="Logical View"/>
+      <UML:Class isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="M4M5Ys0BARcZ" name="Cat_Cliente" namespace="Logical View"/>
+      <UML:Class isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="2Bp2y8tJADMi" name="Cliente" namespace="Logical View"/>
+      <UML:Class isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="Tjt8rm3vFpnP" name="ListaPedido" namespace="Logical View"/>
+      <UML:Class isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="UUEx9qicaciR" name="Pedido" namespace="Logical View"/>
+      <UML:Class isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="A2hkI6FmaRhi" name="Cat_Menu" namespace="Logical View"/>
+      <UML:Class isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="irxHe3vn3cVJ" name="Menu" namespace="Logical View"/>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams>
+       <diagram localid="-1" showpubliconly="0" showstereotype="1" snapgrid="0" showatts="1" canvasheight="0" type="1" showattsig="1" linewidth="0" isopen="0" showpackage="1" textcolor="#000000" backgroundcolor="#ffffff" name="diagrama de clase" documentation="" snapcsgrid="0" snapx="25" showattribassocs="1" xmi.id="BwQsIhrh3ohN" linecolor="#ff0000" snapy="25" canvaswidth="0" griddotcolor="#d3d3d3" showgrid="0" showscope="1" showopsig="1" fillcolor="#ffff00" usefillcolor="1" showops="1" zoom="100" font="Noto Sans,10,-1,0,50,0,0,0,0,0">
+        <widgets/>
+        <messages/>
+        <associations/>
+       </diagram>
+       <diagram localid="-1" showpubliconly="0" showstereotype="1" autoincrementsequence="0" snapgrid="0" showatts="1" canvasheight="315.652" type="4" showattsig="1" linewidth="0" isopen="1" showpackage="1" textcolor="#000000" backgroundcolor="#ffffff" name="diagrama de colaboraciones" documentation="" snapcsgrid="0" snapx="25" showattribassocs="1" xmi.id="326qzVS1L9PG" linecolor="#ff0000" snapy="25" canvaswidth="704" griddotcolor="#d3d3d3" showgrid="1" showscope="1" showopsig="1" fillcolor="#ffff00" usefillcolor="1" showops="1" zoom="115" font="Noto Sans,10,-1,0,50,0,0,0,0,0">
+        <widgets>
+         <objectwidget localid="pGEPyzz125p1" drawasactor="0" showstereotype="1" isinstance="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="-231" y="-76" decon="0" usesdiagramfillcolor="1" xmi.id="les9CkgQ3652" linecolor="#ff0000" width="54" multipleinstance="0" fillcolor="none" usefillcolor="1" font="Noto Sans,10,-1,0,50,0,0,0,0,0" height="28"/>
+         <objectwidget localid="DQfmCkYQTZy1" drawasactor="1" showstereotype="1" isinstance="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="-472" y="-74" decon="0" usesdiagramfillcolor="1" xmi.id="52yYD8Jj4Lzo" linecolor="#ff0000" width="68" multipleinstance="0" fillcolor="none" usefillcolor="1" font="Noto Sans,10,-1,0,50,0,0,0,0,0" height="63"/>
+         <objectwidget localid="9UqQ7Nv3bIQX" drawasactor="0" showstereotype="1" isinstance="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="-360" y="83" decon="0" usesdiagramfillcolor="1" xmi.id="Tjt8rm3vFpnP" linecolor="#ff0000" width="91" multipleinstance="0" fillcolor="none" usefillcolor="1" font="Noto Sans,10,-1,0,50,0,0,0,0,0" height="28"/>
+         <objectwidget localid="MjMZY7yiZp6g" drawasactor="0" showstereotype="1" isinstance="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="-430.435" y="179" decon="0" usesdiagramfillcolor="1" xmi.id="UUEx9qicaciR" linecolor="#ff0000" width="63" multipleinstance="0" fillcolor="none" usefillcolor="1" font="Noto Sans,10,-1,0,50,0,0,0,0,0" height="28"/>
+         <objectwidget localid="IOKsy1HKidtH" drawasactor="0" showstereotype="1" isinstance="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="24.3478" y="-71.3478" decon="0" usesdiagramfillcolor="1" xmi.id="A2hkI6FmaRhi" linecolor="#ff0000" width="81" multipleinstance="0" fillcolor="none" usefillcolor="1" font="Noto Sans,10,-1,0,50,0,0,0,0,0" height="28"/>
+         <objectwidget localid="ik4HClzS7HK5" drawasactor="0" showstereotype="1" isinstance="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="6.95652" y="95.5217" decon="0" usesdiagramfillcolor="1" xmi.id="irxHe3vn3cVJ" linecolor="#ff0000" width="55" multipleinstance="0" fillcolor="none" usefillcolor="1" font="Noto Sans,10,-1,0,50,0,0,0,0,0" height="28"/>
+        </widgets>
+        <messages/>
+        <associations>
+         <assocwidget indexa="1" indexb="1" type="505" linewidth="0" textcolor="none" usesdiagramusefillcolor="87" totalcounta="2" roleAdoc="" totalcountb="2" visibilityA="0" documentation="" visibilityB="0" usesdiagramfillcolor="0" linecolor="#ff0000" roleBdoc="" widgetbid="pGEPyzz125p1" changeabilityA="900" widgetaid="DQfmCkYQTZy1" changeabilityB="900" fillcolor="#ffff00" usefillcolor="1" font="Noto Sans,10,-1,0,50,0,0,0,0,0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-404" starty="-48"/>
+           <endpoint endx="-231" endy="-48"/>
+          </linepath>
+          <floatingtext localid="QVKt2IsB89xu" showstereotype="1" isinstance="0" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-401" y="-75" usesdiagramfillcolor="1" xmi.id="c9m5H9lVo8np" linecolor="#ff0000" pretext="" width="160" fillcolor="none" usefillcolor="1" role="706" text="consultaCliente(Nombre)" posttext="" font="Noto Sans,10,-1,0,50,0,0,0,0,0" height="22"/>
+         </assocwidget>
+         <assocwidget indexa="1" indexb="1" type="505" linewidth="0" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" roleAdoc="" totalcountb="2" visibilityA="0" documentation="" visibilityB="0" usesdiagramfillcolor="0" linecolor="#ff0000" roleBdoc="" widgetbid="IOKsy1HKidtH" changeabilityA="900" widgetaid="pGEPyzz125p1" changeabilityB="900" fillcolor="#ffff00" usefillcolor="1" font="Noto Sans,10,-1,0,50,0,0,0,0,0" seqnum="1">
+          <linepath layout="Polyline">
+           <startpoint startx="-177" starty="-57.3478"/>
+           <endpoint endx="24.3478" endy="-57.3478"/>
+          </linepath>
+          <floatingtext localid="GZPzAGEs697i" showstereotype="1" isinstance="0" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-171.978" y="-83.4348" usesdiagramfillcolor="1" xmi.id="A2VEcyVJjZYt" linecolor="#ff0000" pretext="" width="194" fillcolor="none" usefillcolor="1" role="706" text="Pmenu:buscarMenu(codigo)" posttext="" font="Noto Sans,10,-1,0,50,0,0,0,0,0" height="22"/>
+         </assocwidget>
+         <assocwidget indexa="1" indexb="1" type="505" linewidth="0" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" roleAdoc="" totalcountb="2" visibilityA="0" documentation="" visibilityB="0" usesdiagramfillcolor="0" linecolor="#ff0000" roleBdoc="" widgetbid="ik4HClzS7HK5" changeabilityA="900" widgetaid="IOKsy1HKidtH" changeabilityB="900" fillcolor="#ffff00" usefillcolor="1" font="Noto Sans,10,-1,0,50,0,0,0,0,0" seqnum="1.1">
+          <linepath layout="Polyline">
+           <startpoint startx="34.4565" starty="-43.3478"/>
+           <endpoint endx="34.4565" endy="95.5217"/>
+          </linepath>
+          <floatingtext localid="JVLQkdW1CtyM" showstereotype="1" isinstance="0" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="34.4565" y="26.087" usesdiagramfillcolor="1" xmi.id="8CCCJJuTJOht" linecolor="#ff0000" pretext="" width="151" fillcolor="none" usefillcolor="1" role="706" text="buscaMesa(codigo)" posttext="" font="Noto Sans,10,-1,0,50,0,0,0,0,0" height="22"/>
+         </assocwidget>
+         <assocwidget indexa="1" indexb="1" type="505" linewidth="0" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" roleAdoc="" totalcountb="2" visibilityA="0" documentation="" visibilityB="0" usesdiagramfillcolor="63" linecolor="#ff0000" roleBdoc="" widgetbid="9UqQ7Nv3bIQX" changeabilityA="900" widgetaid="pGEPyzz125p1" changeabilityB="900" fillcolor="none" usefillcolor="1" font="Noto Sans,10,-1,0,50,0,0,0,0,0" seqnum="2">
+          <linepath layout="Polyline">
+           <startpoint startx="-231" starty="-48"/>
+           <endpoint endx="-269" endy="83"/>
+          </linepath>
+          <floatingtext localid="MDA3kiw3DFUy" showstereotype="1" isinstance="0" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-242.174" y="-2.5" usesdiagramfillcolor="1" xmi.id="qyx0pvKx5U9O" linecolor="#ff0000" pretext="" width="146" fillcolor="none" usefillcolor="1" role="706" text="CreaPedido(PM,PCL)" posttext="" font="Noto Sans,10,-1,0,50,0,0,0,0,0" height="22"/>
+         </assocwidget>
+         <assocwidget indexa="1" indexb="1" type="505" linewidth="0" textcolor="none" usesdiagramusefillcolor="161" totalcounta="2" roleAdoc="" totalcountb="2" visibilityA="0" documentation="" visibilityB="0" usesdiagramfillcolor="0" linecolor="#ff0000" roleBdoc="" widgetbid="9UqQ7Nv3bIQX" changeabilityA="900" widgetaid="pGEPyzz125p1" changeabilityB="900" fillcolor="#ffff00" usefillcolor="1" font="Noto Sans,10,-1,0,50,0,0,0,0,0" seqnum="3">
+          <linepath layout="Polyline">
+           <startpoint startx="-231" starty="-48"/>
+           <endpoint endx="-269" endy="83"/>
+          </linepath>
+          <floatingtext localid="n2r4QXymk8oS" showstereotype="1" isinstance="0" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-250" y="17.5" usesdiagramfillcolor="1" xmi.id="piW2yyymwvlj" linecolor="#ff0000" pretext="" width="160" fillcolor="none" usefillcolor="1" role="706" text="AgregaPedido(Pmenu)" posttext="" font="Noto Sans,10,-1,0,50,0,0,0,0,0" height="22"/>
+         </assocwidget>
+         <assocwidget indexa="1" indexb="1" type="505" linewidth="0" textcolor="none" usesdiagramusefillcolor="49" totalcounta="2" roleAdoc="" totalcountb="2" visibilityA="0" documentation="" visibilityB="0" usesdiagramfillcolor="0" linecolor="#ff0000" roleBdoc="" widgetbid="MjMZY7yiZp6g" changeabilityA="900" widgetaid="9UqQ7Nv3bIQX" changeabilityB="900" fillcolor="#ffff00" usefillcolor="1" font="Noto Sans,10,-1,0,50,0,0,0,0,0" seqnum="2:1">
+          <linepath layout="Polyline">
+           <startpoint startx="-360" starty="111"/>
+           <endpoint endx="-367.435" endy="179"/>
+          </linepath>
+          <floatingtext localid="o5ftaoHLo7QE" showstereotype="1" isinstance="0" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-363.717" y="145" usesdiagramfillcolor="1" xmi.id="eMzMSnoHVIKR" linecolor="#ff0000" pretext="" width="149" fillcolor="none" usefillcolor="1" role="706" text="PP:CreaListaMesa()" posttext="" font="Noto Sans,10,-1,0,50,0,0,0,0,0" height="22"/>
+         </assocwidget>
+        </associations>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="Use Case View" name="Use Case View" namespace="m1">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="Component View" name="Component View" namespace="m1">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="Deployment View" name="Deployment View" namespace="m1">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model isLeaf="false" visibility="public" isSpecification="false" isRoot="false" isAbstract="false" xmi.id="Entity Relationship Model" name="Entity Relationship Model" namespace="m1">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings uniqueid="eMzMSnoHVIKR" viewid="326qzVS1L9PG" documentation=""/>
+  <listview>
+   <listitem type="800" id="Views" open="1">
+    <listitem type="836" id="Entity Relationship Model" open="1"/>
+    <listitem type="802" id="Use Case View" open="1"/>
+    <listitem type="821" id="Component View" open="1"/>
+    <listitem type="827" id="Deployment View" open="1"/>
+    <listitem type="801" id="Logical View" open="1">
+     <listitem type="813" id="M4M5Ys0BARcZ" open="1"/>
+     <listitem type="813" id="A2hkI6FmaRhi" open="1"/>
+     <listitem type="813" id="Up3FXz9xSUqT" open="1"/>
+     <listitem type="813" id="2Bp2y8tJADMi" open="1"/>
+     <listitem type="807" label="diagrama de clase" id="BwQsIhrh3ohN" open="0"/>
+     <listitem type="806" label="diagrama de colaboraciones" id="326qzVS1L9PG" open="0"/>
+     <listitem type="813" id="Tjt8rm3vFpnP" open="1"/>
+     <listitem type="813" id="irxHe3vn3cVJ" open="1"/>
+     <listitem type="813" id="dIQRODGr3H6a" open="1"/>
+     <listitem type="813" id="UUEx9qicaciR" open="1"/>
+     <listitem type="830" id="Datatypes" open="0">
+      <listitem type="829" id="xucygJK3mRM0" open="1"/>
+      <listitem type="829" id="iKwOzmrAgG3x" open="1"/>
+      <listitem type="829" id="DGeuWfpSZRQD" open="1"/>
+      <listitem type="829" id="opmyLEW3WTPV" open="1"/>
+      <listitem type="829" id="PV9IGNVnAWSa" open="1"/>
+      <listitem type="829" id="TQixr7Q5L4xs" open="1"/>
+      <listitem type="829" id="iiFU9ZVxOFuh" open="1"/>
+      <listitem type="829" id="GKQfzlDDahnb" open="1"/>
+      <listitem type="829" id="jmKGBiStRhLa" open="1"/>
+      <listitem type="829" id="4shPueFeOXsZ" open="1"/>
+      <listitem type="829" id="EoWa3OHUmxRe" open="1"/>
+     </listitem>
+     <listitem type="813" id="les9CkgQ3652" open="1"/>
+     <listitem type="813" id="52yYD8Jj4Lzo" open="1"/>
+    </listitem>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="C++"/>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>

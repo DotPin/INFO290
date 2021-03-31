@@ -1,0 +1,226 @@
+Categorías a Incorporar:
+Se solicita que se puedan incoporar noticias de éstas mismas categorías con los datos para la BSS que se necesita, estas mismas categorias serán agregadas a la bss.
+
+Atributos x noticia: fecha, categoría (nombre), título, resumen, publicada (Si o No),
+autor.
+
+
+***************Política:
+
+FECHA: "2016-06-24"
+CATEGORIA: Politica
+TITULO NOTICIA:"La UDI se queja con el directorio de TVN por presencia de DJ Méndez en programa de Kramer"
+RESUMEN: "Diputados UDI envió una carta al presidente del directorio de TVN, Ricardo Solari, quejándose por la presencia de Leopoldo Méndez"
+TEXTO: "La bancada de diputados UDI envió una carta al presidente del directorio de TVN, Ricardo Solari, quejándose por la presencia de Leopoldo Méndez, conocido como DJ Méndez, en la última edición de Kamaleón, el programa de Steffan Kramer."
+PUBLICADA: SI
+Autor: "Periodista, El Dinamo"
+insertada: si
+
+
+FECHA: "2016-06-26"
+CATEGORIA: Politica
+TITULO NOTICIA: "Rodrigo Peñailillo planea su retorno a la política cuando finalice administración Bachelet"
+RESUMEN: "El ex ministro del Interior, Rodrigo Peñailillo, (PPD) volvería al mundo político una vez finalizado el segundo mandato de Michelle Bachelet."
+TEXTO:"El ex ministro del Interior, Rodrigo Peñailillo, (PPD) volvería al mundo político una vez finalizado el segundo mandato de Michelle Bachelet.
+Actualmente Rodrigo Peñailillo trabaja junto a Flavia Candia, en la Facultad Latinoamericana de Ciencias Sociales de Chile (Flacso), en la elaboración de la investigación “Estudios sobre Economías Regionales: Descentralización y Competitividad”, para lo cual viajo a regiones como Aysén, El Bío Bío entre otras.
+Se espera que en noviembre de este año, Peñailillo presente el texto ante un centenar de académicos y políticos, tras esto el ex jefe del Interior retornará a su retiro de la vida política."
+PUBLICADA: SI
+AUTOR: "Catalina Díaz, BioBioChile"
+Insertada: si
+
+
+***************Educación:
+
+FECHA: 24 de junio 2016 
+CATEGORIA: Educacion
+TITULO NOTICIA: "Comisión integrada por Educación 2020 entrega informe sobre “Recomendaciones para una Política Nacional de Desarrollo Curricular”. "
+RESUMEN: "A Variados entes educacionales, se llamó para sesionar de los tópicos del Desarrollo Curricular"
+TEXTO: "A comisión integrada por Educación 2020, académicos y curriculistas, colegio de profesores, sostenedores, entre otros, sesionó quincenalmente y escuchó a diversos representantes del Estado y la Sociedad Civil respecto de sus impresiones de lo que se requiere incorporar y/o modificar en el currículum. Asimismo, se reflexionó conjuntamente en torno a esos tópicos y a los requerimientos y desafíos que supone una política de desarrollo curricular."
+PUBLICADA: SI
+AUTOR: "Periodista, Educacion2020"
+insertada: si
+
+
+FECHA: "2016-06-26"
+CATEGORIA: Educacion
+TITULO NOTICIA: "El 48% de los postulantes a universidades estatales queda fuera por falta de vacantes"
+RESUMEN:"el Consorcio de Universidades Estatales de Chile (Cuech), este año 28.794 personas quedaron sin la opción de matricularse en dichos planteles"
+TEXTO"Según un estudio realizado por el Consorcio de Universidades Estatales de Chile (Cuech), este año 28.794 personas quedaron sin la opción de matricularse en dichos planteles, pese a haberlas elegido en primera opción, debido a la falta de vacantes. Es así como de 59.463 postulaciones, sólo 30.669 obtuvieron un cupo, quedando fuera el 48% de los interesados
+PUBLICADO: SI
+AUTOR: "Daniela Muñoz, La Tercera"
+
+
+***************Cultura:
+
+
+FECHA: 2016-06-26
+CATEGORIA: "Cultura"
+TITULO NOTICIA: "¿Por qué se nos arrugan los dedos cuando pasan mucho rato en contacto con el agua?" 
+RESUMEN: "la piel de los dedos y palmas de tus manos y de los dedos y plantas de tus pies se arrugan tras un tiempo de exposición al agua"
+TEXTO: "Al contrario que el resto de tu cuerpo, la piel de los dedos y palmas de tus manos y de los dedos y plantas de tus pies se arrugan tras un tiempo de exposición al agua. Normalmente cinco minutos bastan.Pero hace un siglo los científicos ya sabían que esta curiosa reacción no era un simple reflejo o el resultado de la ósmosis.Eso gracias a que los cirujanos aprendieron que si eliminaban ciertos nervios de los dedos, éstos ya no se arrugaban.De hecho, la reacción de arrugarse fue sugerida como una forma de determinar si el sistema nervioso simpático funcionaba correctamente en pacientes que no respondían a otros estímulos."
+PUBLICADA: SI
+AUTOR: "Jason G. Goldman, BBC Mundo"
+
+
+FECHA: 2016-06-19
+CATEGORIA: "Cultura"
+TITULO NOTICIA: "666: cómo descifrar el número del diablo"
+RESUMEN:"El teólogo Ian Boxall, de la Universidad Católica de América, ilustra un posible significado del poderoso número"
+TEXTO: "Algunos estudiosos piensan que utilizaba códigos y símbolos para advertirles a los cristianos del siglo I sobre el culto al emperador de Roma y para lanzar un ataque cáustico contra este poderoso gobierno.El teólogo Ian Boxall, de la Universidad Católica de América, ilustra un posible significado del poderoso número.Si 'la bestia' es realmente la manera de referirse al emperador, entonces qué significa este número. Ahora, si escribes el nombre en hebreo de Nerón Cesar, quien fue emperador del Imperio romano desde el año 54 d.C hasta el 68 d.C,, los números que corresponden a cada letra son: 50 + 200 + 6 + 50 y 100 + 60 + 200.
+PUBLICADA: SI
+AUTOR: "Periodista, BBC Mundo"
+
+
+***************Ciencia y Tecnologia:
+
+FECHA: 2016-06-26
+CATEGORIA: "Ciencia y Tecnologia"
+TITULO NOTICIA: "YInMn, la nueva tonalidad de azul que fue descubierta por accidente"
+RESUMEN:"Por accidente, el equipo del profesor de materiales Mas Subramanian, del departamento de Química de la Universidad da Oregon, produjo un azul intenso"
+TEXTO: "Desde la época de los egipcios, pasando por la dinastía Han de China, e incluso en la cultura Maya, dar con una pintura azul perfecta ha sido una tarea muy cuesta arriba.Tanto que desde que se produjo el azul cobalto, en 1802, no se había podido producir un pigmento sintético que fuera verdaderamente azul. Hasta hace unos años que, por accidente, el equipo del profesor de materiales Mas Subramanian, del departamento de Química de la Universidad da Oregon, produjo un azul intenso y muy, muy brillante."
+PUBLICADA: SI
+AUTOR: "Periodista, BBC Mundo"
+
+FECHA: 2016-06-26
+CATEGORIA: Ciencia y Tecnologia ; 4
+TITULO NOTICIA: China ordenó a buscadores de internet que 'mejoren la censura' de resultados
+RESUMEN: "Estas nuevas reglas salen a la luz unas semanas después del escándalo provocado por la muerte de un joven enfermo de cáncer que intentó curarse con un tratamiento experimental"
+TEXTO: "La Administración del Ciberespacio de China (CAC), el organismo encargado de regular internet en el país, publicó este sábado una nueva normativa para los motores de búsqueda en la que les pide que "mejoren la censura" de sus resultados.
+Estas nuevas reglas salen a la luz unas semanas después del escándalo provocado por la muerte de un joven enfermo de cáncer que intentó curarse con un tratamiento experimental sin resultados probados que encontró en el buscador chino Baidu (considerado el equivalente local de Google)."
+PUBLICADA: SI
+AUTOR: "Periodista, Cooperativa"
+
+
+
+***************Deporte:
+
+Fecha: 2016-06-25
+Categoría: Deporte
+Título noticia:"Por qué Chile seguirá siendo campeón de la Copa América aunque no gane la edición Centenario contra Argentina"
+Resumen:La asociación de federaciones sudamericanas emitió una "aclaración" en la que indica que el título de la copa Centenario coexistirá con el campeonato de 2015 de la selección chilena.
+TEXTO: "Pase lo que pase en la final del domingo en la Copa América Centenario, la selección de Chile seguirá ostentando su título de campeón hasta 2019, informó la Conmebol este sábado.La asociación de federaciones sudamericanas emitió una "aclaración" en la que indica que el título de la copa Centenario coexistirá con el campeonato de 2015 de la selección chilena."Chile tendrá su título oficial vigente y seguirá portando el correspondiente escudo en su camiseta hasta que finalice la edición de la Copa América que se celebrará en Brasil en 2019", indicó la Conmebol. Dado que esta es una edición especial por los 100 años del torneo continental, el título será exclusivamente del Centenario, y no de la Copa América regular. El campeón "coexistirá con el título otorgado en la Copa América 2015", explicó la Conembol.Una de las consecuencias principales es que Chile será quien represente a Sudamérica en la Copa Confederaciones a realizarse en Rusia en 2017.De manera que si este domingo gana Argentina, solo se quedará con el título, el trofeo y el premio económico.Lo anterior quedó establecido desde la organización de la Copa América de Chile 2015, pues el artículo 1 del reglamento del torneo dejó en claro que el campeón ostentaría el título hasta 2019."
+Publicada: SI
+Autor: "Periodista, BBC Mundo"
+
+
+FECHA: 2016-06-26
+CATEGORIA: Deporte
+TITULO NOTICIA: "Medio mexicano y final de Copa Centenario: 5 razones para apoyar a Chile”"
+RESUMEN:"Según explica el periodista del programa deportivo Tiempo Extra, uno de los motivos es que, a pesar del 7-0, ni jugadores ni hinchas chilenos se burlaron de mala manera del cuadro ‘azteca’."
+TEXTO: "Esperan una victoria de La Roja. El suplemento deportivo La Afición, del diario El Milenio de México, elaboró en las últimas horas un interesante y simpático artículo.Y es que a través de su periodista Víctor Delgadillo, la publicación llevó a cabo una nota titulada “Cinco razones para apoyar a Chile en la Copa América 2016”.Según explica el periodista del programa deportivo Tiempo Extra, uno de los motivos es que, a pesar del 7-0, ni jugadores ni hinchas chilenos se burlaron de mala manera del cuadro ‘azteca’.
+Otro argumento que aparece en favor de Chile, son los constantes futbolistas que nuestro país ha exportado al balompié mexicano, como Carlos Reinoso, Fabián Estay, Rodrigo Ruiz e Iván Zamorano.El hecho que Argentina haya eliminado a México en tres mundiales (1930, 2006 y 2010) también es punto ‘a favor’ de los dirigidos de Pizzi.Finalmente, el comentarista asegura que ambos países tienen similitudes políticas e ironiza con ‘Prinochet’."
+Publicada: SI
+Autor: "Pablo Velozo, BioBioChile
+
+***************Espectaculo:
+
+FECHA: 21 de junio 2016-06-21, 
+CATEGORIA: Espectaculo
+TITULO NOTICIA: "Informe policial revela perturbadores hallazgos al interior del rancho de Michael Jackson" 
+RESUMEN: "Según el informe, ese material, aunque no podía catalogarse de pornografía infantil, sí podía ser usado para “molestar” a pequeños con sentido sexual: “Basado en mi entrenamiento, este tipo de material puede ser usado como parte de un proceso de ‘preparación’ por el cual las personas (esas que buscan molestar a los niños) pueden bajar las inhibiciones de su posibles víctimas y facilitar el abuso sexual”. "
+PUBLICADA: SI
+AUTOR: "Periodista, Radio Futuro"
+
+FECHA: 2016-04-24
+CATEGORIA: Espectaculo
+TITULO NOTICIA: "Tarantino disfrutó con todo concierto de La Ley en Los Ángeles"
+RESUMEN: "La Ley se presentó en el Greek Theatre, en Los Ángeles"
+TEXTO: "Como parte de su gira por Estados Unidos, La Ley se presentó en el Greek Theatre, en Los Ángeles, y una estrella de Hollywood se dejó caer entre el público para presenciar el show de la banda chilena. Nada menos que Quentin Tarantino. Luego, como muestra La Ley en su cuenta de Twitter, el responsable de Pulp Fiction compartió en camarines con Beto Cuevas y compañía. "
+PUBLICADA: SI
+AUTOR: "Periodista, ADN Radio"
+
+
+
+***************Cine:
+
+FECHA: 2016-06-21
+CATEGORIA: Cine
+TITULO NOTICIA: "Dory nos roba el corazón"
+RESUMEN: Probablemente sea candidato a Mejor Película Animada en la próxima entrega del Oscar
+TEXTO: "La versión bebé de la pececita nos derrite a todos. Hace unos días llegó a la mayoría de los cines "Buscando a Dory" (Finding Dory), film de Disney•Pixar pensado para toda la familia y que probablemente sea candidato a Mejor Película Animada en la próxima entrega del Oscar®. Si bien ya hubo varios adelantos, los estudios quieren seguir robándonos el corazón y convencernos de que hay que ir a las salas a disfrutar de la aventura, por lo que lanzaron un nuevo clip titulado "Baby Dory" que, como indica su nombre, muestra a la pececita azul de pequeña. Mientras lo disfrutan, vale recordar que la secuela de "Buscando a Nemo" (Finding Nemo) de 2003 reunirá a la olvidadiza pez cirujano preferida por la audiencia con sus amigos Nemo y Marlin en una cruzada para hallar respuestas acerca de su pasado. ¿Qué puede recordar? ¿Quiénes son sus padres? ¿Dónde aprendió a hablar en idioma ballena?
+PUBLICADA: SI
+AUTOR: "Alejandro Cusa, TNT"
+
+
+FECHA 2016-04-26
+CATEGORIA: Cine
+TITULO NOTICIA: "Spiderman se enfrenta al Soldado de Invierno en nuevo avance de "Civil War" 
+RESUMEN: Marvel publicó un nuevo adelanto de "Capitán América: Civil War"
+TEXTO: Faltando sólo dos días para su estreno en Chile, Marvel publicó un nuevo adelanto de "Capitán América: Civil War". Se trata de un adelanto que muestra nuevas imágenes del filme, entre las que destaca el enfrentamiento del Soldado de Invierno (Sebastian Stan) y Spiderman (Tom Holland). El filme, que será protagonizado por Chris Evans y Robert Downey Jr., llega este jueves a los cines de Chile este jueves, precedida por buenas críticas de la prensa especializada. La película pondrá punto final a la trlogía basada en el Primer Vengador. 
+PUBLICADA: SI
+AUTOR: "Periodista, ADN Radio"
+
+
+FECHA: 2013-10-07
+CATEGORIA: Cine
+TITULO NOTICIA: " 'MANDRAKE' RECIBE TERCERA NOMINACIÓN AL EMMY® INTERNACIONAL"
+RESUMEN: Este año, Marcos Palmeira compite en la categoría de Mejor Actor por la interpretación de Mandrake
+TEXTO: "HBO Latin America anuncia la tercera nominación  para la exitosa serie brasileña Mandrake a los International Emmy® Awards. Este año, Marcos Palmeira compite en la categoría de Mejor Actor por la interpretación de Mandrake, personaje central en el especial de la serie que  salió al aire en HBO el año pasado. Basada en la obra de Rubem Fonseca, la serie –primera producción original de HBO Latin America en Brasil– tuvo una duración de dos temporadas, cada una con ocho capítulos de una hora. La producción cuenta la historia de Mandrake, un inteligente y seductor abogado penalista de Río de Janeiro, experto en casos de chantaje y extorsión. Mandrake ya había sido nominada dos veces al International Emmy® Awards en 2006 y 2008, en la categoría de Mejor Serie Dramática. La segunda temporada ganó el Premio Telly de Plata."
+PUBLICADA: SI
+AUTOR: "Periodista, HBO"
+
+
+***************Internacional:
+
+FECHA: 2016-06-26
+CATEGORIA: Internacional
+TITULO NOTICIA: "España regresa a las urnas tras meses de incertidumbre"
+RESUMEN: Las urnas ya cerraron y se cuentan los votos en los colegios electorales
+TEXTO: "36,5 millones de españoles estaban convocados a las urnas para elegir su próximo gobierno. Las urnas ya cerraron y se cuentan los votos en los colegios electorales. Tras estas elecciones se renovarán los 350 escaños del Congreso y los 208 asientos de elección directa del Senado para constituir la XII Legislatura.Las nuevas elecciones ocurren solo 6 meses después de las anteriores, celebradas el 20 de diciembre, y tras el fracaso de las negociaciones entre los partidos para formar gobierno."
+PUBLICADA: SI
+AUTOR: "Periodista, CNN Español"
+
+FECHA: 2016-06-26
+CATEGORIA: Internacional
+TITULO NOTICIA: "El ejército de Iraq anuncia la liberación total de Falluyah tras aplastar a los yihadistas de ISIS"
+RESUMEN: El teniente general Abdul Wahab al-Saadi dijo que la ciudad fue liberada este domingo después de retomar el barrio de al-Jolan
+TEXTO: " Un general iraquí anunció en la televisión estatal de Iraq que la batalla por Falluyah ha terminado ya que las tropas del gobierno volvieron a tomar el reducto final de ISIS en esa ciudad, que estuvo ocupada más de dos años por los yihadistas del autodenominado Estado Islámico. El teniente general Abdul Wahab al-Saadi dijo que la ciudad fue liberada este domingo después de retomar el barrio de al-Jolan. Fue la última zona de Falluyah que estaba en manos de ISIS, dijo el militar mientras caminaba por el vecindario. CNN no puede verificar independientemente que los combates en todos los sectores del área de Falluyah han terminado.Falluyah está a unos 60 kilómetros al oeste de Bagdad y permaneció bajo las garras de ISIS desde principios de 2014."
+PUBLICADA: SI
+AUTOR: "Periodista, CNN Español"
+
+***************Economia:
+
+
+FECHA: 2016-06-24
+CATEGORIA: Economia
+TITULO NOTICIA: "Viernes negro: Bolsas mundiales se desplomaron ante sorpresivo triunfo del Brexit"
+RESUMEN: El pesimismo se extendió a los mercados latinoamericanos donde el Ibovepsa cayó 2,82% en el mercado bursátil de Sao Paulo y el Ipsa descendió 1,42% en la Bolsa de Santiago.
+TEXTO: Los mercados internacionales se desplomaron este viernes tras la sorpresiva victoria del Brexit en el Reino Unido lo que llevó a los inversionistas a huir de los activos más riesgosos como las acciones y las materias primas. El pesimismo se extendió a los mercados latinoamericanos donde el Ibovepsa cayó 2,82% en el mercado bursátil de Sao Paulo y el Ipsa descendió 1,42% en la Bolsa de Santiago. En los mercados de materias primas el precio contado del cobre cerró con un descenso de 1,77% en la Bolsa de Metales de Londres a US$2,11 la libra por las preocupaciones sobre el crecimiento económico después de que Reino Unido votó a favor de abandonar la Unión Europea.
+PUBLICADA: SI
+AUTOR: "Diego Vega, BioBioChile"
+
+FECHA: 2016-04-04
+CATEGORIA: Economia
+TITULO NOTICIA: "Descubre si tu banco te debe dinero: hay mil millones olvidados"
+RESUMEN: La información publicada en Clientebancario.cl se basa en los reportes que entregan las mismas instituciones bancarias a la Superintendencia de Bancos (SBIF), durante febrero, según el artículo Nº 156 de la Ley General de Bancos
+TEXTO: " A partir de este lunes 4 de abril, el portal Clientebancario.cl habilitó la publicación “Acreencias Bancarias Afectas a Caducidad”, donde los usuarios podrán revisar si sus bancos les adeudan dineros.En esta oportunidad se han publicado 91.756 acreencias por parte de 21 bancos. Deudas que en su totalidad suman casi 45 mil millones de pesos.De ellos, 40 mil millones son acreencias expresadas en moneda nacional, mientras que también hay acumulados más de 4,3 millones de dólares y más de 1,3 millones de euros, entre otras divisas.La información publicada en Clientebancario.cl se basa en los reportes que entregan las mismas instituciones bancarias a la Superintendencia de Bancos (SBIF), durante febrero, según el artículo Nº 156 de la Ley General de Bancos. En caso de que una persona encuentre su nombre en el listado de personas a las que los bancos les deben dinero, se deben contactar con la institución financiera para hacer el retiro del monto en cuestión.
+PUBLICADA: SI
+AUTOR: "Periodista, La Tercera"
+
+***************Salud:
+
+
+FECHA: 2016-04-15
+CATEGORIA: Salud 
+TITULO NOTICIA: "Diagnostican nuevo caso de meningitis en la región de Valparaíso"
+RESUMEN: Con este, ya son cuatro los casos meningitis registrados en la región de Valparaíso, en lo que va del año 2016
+TEXTO: "SANTIAGO.- "El Instituto de Salud Pública (ISP) confirmó las sospechas en un caso de meningitis meningocosica de una lactante de nueve meses de edad, que permanece internada estable en el Hospital Carlos Van Buren". Con estas palabras, la seremi de Salud de Valparaíso, María Graciela Astudillo, informó que el ISP diagnosticó un caso de meningitis meningocósica en la ciudad puerto. Con este, ya son cuatro los casos meningitis registrados en la región de Valparaíso, en lo que va del año 2016. "Este caso se trata de meningitis W135, y según el protocolo hemos efectuado la respectiva vigilancia epidemiológica que nos ha permitido brindar tratamiento preventivo a la menor. El tratamiento brindado para este tipo de casos es a base de antibióticos y se denomina quimioprofilaxis", puntualizó la seremi Astudillo."
+PUBLICADA:SI
+AUTOR: "Periodista, Emol"
+
+
+FECHA: 2016-06-20
+CATEGORIA: Salud
+TITULO NOTICIA: "Vecinos encuentran en Arica más mosquitos que transmiten el Zika"
+RESUMEN: El hecho ocurrió en el pasaje Alicahue y Canteras, en las casas aledañas a la vivienda donde se halló el primer mosquito a inicios de esta semana, según precisó Soyarica.cl
+TEXTO: "Vecinos de la población Los Industriales 1 de Arica encontraron este miércoles dos nuevos ejemplares del mosquito Aedes aegyptide, transmisor de enfermedades como el dengue, chikungunya y el virus Zika. El hecho ocurrió en el pasaje Alicahue y Canteras, en las casas aledañas a la vivienda donde se halló el primer mosquito a inicios de esta semana, según precisó Soyarica.cl. La información fue confirmada por el entomólogo del Ministerio de Salud Cristián González, quien viajó a la ciudad nortina para investigar el caso. Esta vez, los dos ejemplares encontrados estaban vivos, a diferencia del primer hallazgo. Asimismo, el profesional informó que se encontraron 20 larvas de la misma especie, por lo que hizo un llamado a la población a tomar medidas como realizar una limpieza exhaustiva de los hogares y retirar los recipientes con agua estancada. Según el citado medio, se espera que personal sanitario revise casa por casa para hallar nuevos ejemplares."
+PUBLICADA:SI
+AUTOR: "Periodista, Emol"
+
+FECHA: 2015-10-28
+CATEGORIA: Salud
+TITULO NOTICIA: "Ministra Castillo y Ley Ricarte Soto: “Estamos dando un paso inédito en la Salud Pública” "
+RESUMEN: Carmen Castillo, encabezó la actividad en que se dieron a conocer los 11 tratamientos que serán financiados a través del “Sistema de Protección Financiera para Diagnósticos y Tratamientos de Alto Costo”
+TEXTO: La Ministra de Salud, Carmen Castillo, encabezó la actividad en que se dieron a conocer los 11 tratamientos que serán financiados a través del “Sistema de Protección Financiera para Diagnósticos y Tratamientos de Alto Costo”, conocido como “Ley Ricarte Soto”. En esa línea, la autoridad señaló que “esta Ley constituye un paso inédito en la Salud Pública y un hecho histórico para las asociaciones de personas con enfermedades poco frecuentes que han trabajado para que les sea reconocido su legítimo derecho a la Salud, algunas de las cuales hoy nos acompañan”. 
+PUBLICADA: SI
+AUTOR: "Periodista, MINSAL"

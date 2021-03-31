@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<LINK REL=STYLESHEET TYPE="TEXT/CSS" HREF="estilos_tutorial.css">
+<META HTTP-EQUIV="Page-Enter" CONTENT="RevealTrans (Duration=3, Transition= 7)">
+<title>Dar efecto a una imagen</title>
+<style type="text/css">
+<!--
+body {
+	background-color: #CCCCFF;
+}
+-->
+</style>
+<script src="javascript.js" language="JavaScript"></script>
+<script language="JavaScript">
+<!--
+ie4 = document.all
+function inicio() {
+	animac1.style.visibility = "hidden"
+	block = cursor.style
+	block.visibility = "visible"
+	block.xpos = parseInt(block.left)
+	block.ypos = parseInt(block.top)
+	block.xinc = 0.75
+	block.yinc = 2.5
+	block.count = 0
+}
+function cursor1() {
+	if (block.count < 46) {
+		block.xpos -= block.xinc
+		block.ypos -= block.yinc
+		block.left = block.xpos
+		block.top = block.ypos
+		block.count += 1
+		info = "<p>Para comenzar, debemos seleccionar Filtro en el menú</p>"
+		texto.innerHTML = info
+		setTimeout("cursor1()",30)
+	}
+	else {
+		efecto2.style.visibility = "visible"
+		block.count = 0
+		block.yinc = 2
+		setTimeout("cursor2()",10)
+	}
+}
+function cursor2() {
+	if(block.count < 17){
+		block.ypos += block.yinc
+		block.top = block.ypos
+		block.count += 1
+		info = "<p>Y entonces seleccionamos Galería de filtros</p>"
+		texto.innerHTML = info
+		setTimeout("cursor2()",30)
+	}
+	else{
+		efecto3.style.visibility = "visible"
+		block.count = 0
+		setTimeout("cursor3()",10)
+		}
+}
+function cursor3() {
+	if (block.count < 10) {
+		block.count += 1
+		info = "<p>Aparecerá la ventana de galería de filtros</p>"
+		texto.innerHTML = info
+		setTimeout("cursor3()",10)
+	}
+	else {
+		efecto4.style.visibility = "visible"
+		block.count = 0
+		block.xinc = -1.8
+		block.yinc = 0.5
+		setTimeout("cursor4()",10)
+	}
+}
+function cursor4() {
+	if (block.count < 60) {
+		block.xpos -= block.xinc
+		block.ypos -= block.yinc
+		block.left = block.xpos
+		block.top = block.ypos
+		block.count += 1
+		info = "<p>Elegimos el tipo de filtro que queremos darle a nuestra fotografía, para este caso se ha elegido un filtro artístico, asi que seleccionamos esa pestaña</p>"
+		texto.innerHTML = info
+		setTimeout("cursor4()",50)
+	}
+	else {
+		efecto5.style.visibility = "visible"
+		block.count = 0
+		block.yinc = 1.5
+		block.xinc= 2.5
+		setTimeout("cursor5()",10)
+	}
+}
+function cursor5() {
+	if (block.count < 40) {
+		block.ypos += block.yinc
+		block.xpos += block.xinc
+		block.top = block.ypos
+		block.left = block.xpos
+		block.count += 1
+		info = "<p>Elegimos uno de los efectos artísticos para aplicar a nuestra foto</p>"
+		texto.innerHTML = info
+		setTimeout("cursor5()",30)
+	}
+	else {
+		efecto6.style.visibility = "visible"
+		block.count = 0
+		block.xinc = 2
+		setTimeout("cursor6()",10)
+	}
+}
+function cursor6() {
+	if (block.count < 60) {
+		block.xpos += block.xinc
+		block.left = block.xpos
+		block.count += 1
+		info = "<p>En este ejemplo elegimos fresco, que hace que la foto parezca un retrato pintado. Aquí podemos modificar el tamaño del pincel, el detalle del pincel y la textura</p>"
+		texto.innerHTML = info
+		setTimeout("cursor6()",30)
+	}
+	else {
+		efecto7.style.visibility = "visible"
+		block.count = 0
+		block.yinc = -2
+		setTimeout("cursor7()",10)
+	}
+}
+function cursor7() {
+	if (block.count < 25) {
+		block.ypos += block.yinc
+		block.top = block.ypos
+		block.count += 1
+		info = "<p>Así nuestro nuestro efecto se vea más real y presionamos OK para finalizar</p>"
+		texto.innerHTML = info
+		setTimeout("cursor7()",20)
+	}
+	else {
+		efecto8.style.visibility = "visible"
+		block.count = 0
+		setTimeout("cursor8()",10)
+	}
+}
+function cursor8() {
+	if (block.count < 20) {
+		block.count += 1
+		info = "<p>Ahora sólo nos queda guardar los cambio realizados</p>"
+		texto.innerHTML = info
+		setTimeout("cursor8()",10)
+	}
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.anim {
+	position: absolute;
+	visibility: visible;
+	left: 707px;
+	top: 502px;
+	height: 32px;
+	width: 144px;
+	overflow: visible;
+}
+.sig{
+	position: absolute;
+	visibility: visible;
+	left: 417px;
+	top: 504px;
+	height: 20px;
+	width: 150px;
+	font-family: "Monotype Corsiva";
+	font-size: 14pt;
+	color: #0099FF;
+}
+#texto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #6633FF;
+}
+texto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #6633FF;
+}
+-->
+</style>
+</head>
+
+<body><table width="841" height="370" border="0">
+
+
+<div id="efecto2" style="position: absolute;
+						left: 13px;
+						top: 19px;
+						visibility: hidden;
+						z-index: 6;"> 
+	<img src="../Imagenes/efectos2.JPG" width="689" height="517"></div>
+<div id="efecto3" style="position:absolute;
+						left: 13px;
+						top: 19px;
+						visibility: hidden;
+						z-index: 7;"> 
+	<img src="../Imagenes/efectos3.JPG" width="689" height="517"></div>
+<div id="efecto4" style="position:absolute;
+						left: 13px;
+						top: 19px;
+						visibility: hidden;
+						z-index: 7;"> 
+	<img src="../Imagenes/efectos4.JPG" width="689" height="517"></div>
+<div id="efecto5" style="position:absolute;
+						left: 13px;
+						top: 19px;
+						visibility: hidden;
+						z-index: 7;"> 
+	<img src="../Imagenes/efectos5.JPG" width="689" height="517"></div>
+<div id="efecto6" style="position:absolute;
+						left: 13px;
+						top: 19px;
+						visibility: hidden;
+						z-index: 7;"> 
+	<img src="../Imagenes/efectos6.JPG" width="689" height="517"></div>
+<div id="efecto7" style="position:absolute;
+						left: 13px;
+						top: 19px;
+						visibility: hidden;
+						z-index: 7;"> 
+	<img src="../Imagenes/efectos7.JPG" width="689" height="517"></div>
+<div id="efecto8" style="position:absolute;
+						left: 13px;
+						top: 19px;
+						visibility: hidden;
+						z-index: 7;"> 
+	<img src="../Imagenes/efectos8.JPG" width="689" height="517"></div>
+<div id="cursor" style="position: absolute;
+						left: 200px;
+						top: 150px;
+						visibility: hidden;
+						z-index: 20;">
+	<img src="../Imagenes/cursor.gif" width="20" height="20" ></div>
+  <tr>
+    <td width="539"><div id="princ" class="imagenes"><img src="../Imagenes/efectos1.JPG" name="aclarar01" width="689" height="517" id="aclarar01" /></div>
+    <span class="anim"><img src="../Imagenes/bot&oacute;n.JPG" name="img" width="144" height="29" onclick="inicio();cursor1();" /></span></td>
+    <td width="292"> <div id="texto" style="font-size:20px;color:#6633FF;">En esta secci&oacute;n mostraremos como agregar efectos a las fotograf&iacute;as </div></td>
+  </tr>
+</table>
+<div id="animac1" class="anim"></div>
+</div>
+</body>
+</html>

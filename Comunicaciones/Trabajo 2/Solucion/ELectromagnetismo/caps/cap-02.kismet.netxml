@@ -1,0 +1,1963 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE detection-run SYSTEM "http://kismetwireless.net/kismet-3.1.0.dtd">
+
+<detection-run kismet-version="airodump-ng-1.0" start-time="Wed Jul 11 21:08:16 2018">
+
+	<wireless-network number="1" type="infrastructure" first-time="Wed Jul 11 21:08:44 2018" last-time="Wed Jul 11 21:10:53 2018">
+		<SSID first-time="Wed Jul 11 21:08:44 2018" last-time="Wed Jul 11 21:10:53 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>12</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM TKIP </encryption>
+			<essid cloaked="false">wifitelsur_lacasita</essid>
+		</SSID>
+		<BSSID>4C:6E:6E:A8:43:4D</BSSID>
+		<manuf>Comnect Technology CO.,LTD</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 12</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>12</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>12</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-84</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-84</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-84</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-84</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-84</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="2" type="infrastructure" first-time="Wed Jul 11 21:10:43 2018" last-time="Wed Jul 11 21:10:53 2018">
+		<SSID first-time="Wed Jul 11 21:10:43 2018" last-time="Wed Jul 11 21:10:53 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>2</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA TKIP </encryption>
+			<essid cloaked="false">VDR3</essid>
+		</SSID>
+		<BSSID>00:1F:1F:F7:10:60</BSSID>
+		<manuf>Edimax Technology Co. Ltd.</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 2</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>2</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>2</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-88</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-88</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-88</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-88</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-88</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="3" type="infrastructure" first-time="Wed Jul 11 21:08:41 2018" last-time="Wed Jul 11 21:10:54 2018">
+		<SSID first-time="Wed Jul 11 21:08:41 2018" last-time="Wed Jul 11 21:10:54 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>7</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM </encryption>
+			<essid cloaked="false">RPENZO</essid>
+		</SSID>
+		<BSSID>A4:15:88:2D:AB:40</BSSID>
+		<manuf>ARRIS Group, Inc.</manuf>
+		<channel>9</channel>
+		<freqmhz>2452 7</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>7</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>7</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-89</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-89</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-89</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-89</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-89</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="4" type="infrastructure" first-time="Wed Jul 11 21:08:41 2018" last-time="Wed Jul 11 21:10:45 2018">
+		<SSID first-time="Wed Jul 11 21:08:41 2018" last-time="Wed Jul 11 21:10:45 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>2</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 WPA AES-CCM TKIP </encryption>
+			<essid cloaked="false">WIFI_LAVET</essid>
+		</SSID>
+		<BSSID>30:91:8F:09:86:D5</BSSID>
+		<manuf>Technicolor</manuf>
+		<channel>11</channel>
+		<freqmhz>2462 5</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>2</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>5</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-73</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-73</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-73</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-73</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-73</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="5" type="infrastructure" first-time="Wed Jul 11 21:09:33 2018" last-time="Wed Jul 11 21:10:45 2018">
+		<SSID first-time="Wed Jul 11 21:09:33 2018" last-time="Wed Jul 11 21:10:45 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>3</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM TKIP </encryption>
+			<essid cloaked="false">Wifi_SEREMI_XIV</essid>
+		</SSID>
+		<BSSID>E8:DE:27:6F:E5:F9</BSSID>
+		<manuf>TP-LINK TECHNOLOGIES CO.,LTD.</manuf>
+		<channel>11</channel>
+		<freqmhz>2462 3</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>3</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>3</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-86</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-86</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-86</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-86</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-86</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="6" type="infrastructure" first-time="Wed Jul 11 21:10:00 2018" last-time="Wed Jul 11 21:10:44 2018">
+		<SSID first-time="Wed Jul 11 21:10:00 2018" last-time="Wed Jul 11 21:10:44 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>3</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM </encryption>
+			<essid cloaked="false">UNOSALUD-COMERCIAL</essid>
+		</SSID>
+		<BSSID>D0:C7:89:CD:C8:E1</BSSID>
+		<manuf>Cisco Systems, Inc</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 3</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>3</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>3</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-88</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-88</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-88</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-88</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-88</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="7" type="infrastructure" first-time="Wed Jul 11 21:09:32 2018" last-time="Wed Jul 11 21:10:44 2018">
+		<SSID first-time="Wed Jul 11 21:09:32 2018" last-time="Wed Jul 11 21:10:44 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>4</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM </encryption>
+			<essid cloaked="false">WifiFes</essid>
+		</SSID>
+		<BSSID>86:2A:A8:A1:F3:E0</BSSID>
+		<manuf>Unknown</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 4</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>4</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>4</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-89</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-89</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-89</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-89</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-89</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="8" type="infrastructure" first-time="Wed Jul 11 21:09:46 2018" last-time="Wed Jul 11 21:10:44 2018">
+		<SSID first-time="Wed Jul 11 21:09:46 2018" last-time="Wed Jul 11 21:10:44 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>2</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM </encryption>
+			<essid cloaked="false">CLIENTES_HERTZ</essid>
+		</SSID>
+		<BSSID>50:17:FF:F4:21:65</BSSID>
+		<manuf>Cisco Systems, Inc</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 2</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>2</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>2</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-92</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-92</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-92</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-92</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-92</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="9" type="infrastructure" first-time="Wed Jul 11 21:08:59 2018" last-time="Wed Jul 11 21:10:15 2018">
+		<SSID first-time="Wed Jul 11 21:08:59 2018" last-time="Wed Jul 11 21:10:15 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>3</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM </encryption>
+			<essid cloaked="false">VIRGINIA</essid>
+		</SSID>
+		<BSSID>A4:15:88:E4:5E:70</BSSID>
+		<manuf>ARRIS Group, Inc.</manuf>
+		<channel>6</channel>
+		<freqmhz>2437 3</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>3</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>3</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-87</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-87</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-87</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-87</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-87</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="10" type="infrastructure" first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:09:32 2018">
+		<SSID first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:09:32 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>3</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WEP </encryption>
+			<essid cloaked="false">wifitelsur_MAXIMILIANO</essid>
+		</SSID>
+		<BSSID>00:25:C4:4C:1B:01</BSSID>
+		<manuf>Ruckus Wireless</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 3</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>3</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>3</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-89</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-89</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-89</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-89</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-89</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="11" type="infrastructure" first-time="Wed Jul 11 21:09:13 2018" last-time="Wed Jul 11 21:09:17 2018">
+		<SSID first-time="Wed Jul 11 21:09:13 2018" last-time="Wed Jul 11 21:09:17 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>2</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>OPN </encryption>
+			<essid cloaked="false">Yordiytabi</essid>
+		</SSID>
+		<BSSID>7C:1C:68:BF:4D:D0</BSSID>
+		<manuf>Samsung Electronics Co.,Ltd</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 2</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>2</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>2</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-88</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-88</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-88</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-88</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-88</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="12" type="infrastructure" first-time="Wed Jul 11 21:09:32 2018" last-time="Wed Jul 11 21:09:47 2018">
+		<SSID first-time="Wed Jul 11 21:09:32 2018" last-time="Wed Jul 11 21:09:47 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>3</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WEP </encryption>
+			<essid cloaked="false">Red_Interna</essid>
+		</SSID>
+		<BSSID>00:25:C4:17:69:A1</BSSID>
+		<manuf>Ruckus Wireless</manuf>
+		<channel>6</channel>
+		<freqmhz>2437 3</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>3</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>3</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-91</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-91</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-91</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-91</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-91</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="13" type="infrastructure" first-time="Wed Jul 11 21:09:32 2018" last-time="Wed Jul 11 21:09:46 2018">
+		<SSID first-time="Wed Jul 11 21:09:32 2018" last-time="Wed Jul 11 21:09:46 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>2</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM TKIP </encryption>
+			<essid cloaked="false">canelos CLIENTE</essid>
+		</SSID>
+		<BSSID>4C:6E:6E:98:08:8F</BSSID>
+		<manuf>Comnect Technology CO.,LTD</manuf>
+		<channel>3</channel>
+		<freqmhz>2422 2</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>2</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>2</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-89</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-89</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-89</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-89</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-89</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="14" type="infrastructure" first-time="Wed Jul 11 21:09:32 2018" last-time="Wed Jul 11 21:09:46 2018">
+		<SSID first-time="Wed Jul 11 21:09:32 2018" last-time="Wed Jul 11 21:09:46 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>2</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM </encryption>
+			<essid cloaked="false">Home</essid>
+		</SSID>
+		<BSSID>4E:6E:6E:98:08:8F</BSSID>
+		<manuf>Unknown</manuf>
+		<channel>3</channel>
+		<freqmhz>2422 2</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>2</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>2</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-87</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-87</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-87</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-87</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-87</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="15" type="infrastructure" first-time="Wed Jul 11 21:09:00 2018" last-time="Wed Jul 11 21:10:30 2018">
+		<SSID first-time="Wed Jul 11 21:09:00 2018" last-time="Wed Jul 11 21:10:30 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>4</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>OPN </encryption>
+			<essid cloaked="false">HP-Print-63-LaserJet 1102</essid>
+		</SSID>
+		<BSSID>70:18:8B:A1:2C:63</BSSID>
+		<manuf>Hon Hai Precision Ind. Co.,Ltd.</manuf>
+		<channel>11</channel>
+		<freqmhz>2462 4</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>4</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>4</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-89</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-89</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-89</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-89</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-89</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="16" type="infrastructure" first-time="Wed Jul 11 21:10:15 2018" last-time="Wed Jul 11 21:10:29 2018">
+		<SSID first-time="Wed Jul 11 21:10:15 2018" last-time="Wed Jul 11 21:10:29 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>2</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>OPN </encryption>
+			<essid cloaked="true">\</essid>
+		</SSID>
+		<BSSID>D0:C7:89:CD:C8:E3</BSSID>
+		<manuf>Cisco Systems, Inc</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 2</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>2</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>2</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-88</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-88</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-88</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-88</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-88</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="17" type="infrastructure" first-time="Wed Jul 11 21:08:41 2018" last-time="Wed Jul 11 21:10:50 2018">
+		<SSID first-time="Wed Jul 11 21:08:41 2018" last-time="Wed Jul 11 21:10:50 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>10</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 WPA AES-CCM TKIP </encryption>
+			<essid cloaked="false">VTR-7448158</essid>
+		</SSID>
+		<BSSID>40:0D:10:A4:45:59</BSSID>
+		<manuf>ARRIS Group, Inc.</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 12</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>10</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>12</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-84</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-84</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-84</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-84</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-84</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="18" type="infrastructure" first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:10:50 2018">
+		<SSID first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:10:50 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>1</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 WPA AES-CCM TKIP </encryption>
+			<essid cloaked="false">VTR-7259770</essid>
+		</SSID>
+		<BSSID>48:D3:43:60:14:E1</BSSID>
+		<manuf>ARRIS Group, Inc.</manuf>
+		<channel>6</channel>
+		<freqmhz>2437 4</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>1</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>4</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-83</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-83</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-83</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-83</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-83</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="19" type="infrastructure" first-time="Wed Jul 11 21:10:45 2018" last-time="Wed Jul 11 21:11:09 2018">
+		<SSID first-time="Wed Jul 11 21:10:45 2018" last-time="Wed Jul 11 21:11:09 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>2</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM TKIP </encryption>
+			<essid cloaked="false">SHELL_ALEMANIA</essid>
+		</SSID>
+		<BSSID>82:4C:4B:67:D8:91</BSSID>
+		<manuf>Unknown</manuf>
+		<channel>11</channel>
+		<freqmhz>2462 2</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>2</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>2</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-91</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-91</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-91</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-91</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-91</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="20" type="infrastructure" first-time="Wed Jul 11 21:10:00 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:10:00 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>3</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM </encryption>
+			<essid cloaked="false">WLAN_LAN</essid>
+		</SSID>
+		<BSSID>50:17:FF:F4:21:63</BSSID>
+		<manuf>Cisco Systems, Inc</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 3</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>3</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>3</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-91</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-91</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-91</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-91</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-91</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="21" type="infrastructure" first-time="Wed Jul 11 21:10:53 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:10:53 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>2</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM </encryption>
+			<essid cloaked="false">Hotel P3-1</essid>
+		</SSID>
+		<BSSID>F4:F2:6D:6E:12:06</BSSID>
+		<manuf>TP-LINK TECHNOLOGIES CO.,LTD.</manuf>
+		<channel>3</channel>
+		<freqmhz>2422 2</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>2</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>2</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-90</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-90</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-90</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-90</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-90</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="22" type="infrastructure" first-time="Wed Jul 11 21:08:59 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:08:59 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>2</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM TKIP </encryption>
+			<essid cloaked="false">wifitelsur_RENE</essid>
+		</SSID>
+		<BSSID>E2:7E:53:D1:E0:67</BSSID>
+		<manuf>Unknown</manuf>
+		<channel>6</channel>
+		<freqmhz>2437 2</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>2</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>2</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-89</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-89</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-89</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-89</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-89</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="23" type="infrastructure" first-time="Wed Jul 11 21:10:15 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:10:15 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>4</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 WPA AES-CCM </encryption>
+			<essid cloaked="false">Hotel P4 - 2</essid>
+		</SSID>
+		<BSSID>50:C7:BF:29:16:B0</BSSID>
+		<manuf>TP-LINK TECHNOLOGIES CO.,LTD.</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 4</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>4</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>4</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-89</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-89</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-89</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-89</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-89</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="24" type="infrastructure" first-time="Wed Jul 11 21:09:32 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:09:32 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>4</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM TKIP </encryption>
+			<essid cloaked="false">Wifi123</essid>
+		</SSID>
+		<BSSID>E2:9A:DA:58:06:F5</BSSID>
+		<manuf>Unknown</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 4</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>4</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>4</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-88</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-88</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-88</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-88</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-88</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="25" type="infrastructure" first-time="Wed Jul 11 21:10:29 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:10:29 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>3</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>OPN </encryption>
+			<essid cloaked="false">UNOSALUD-PACIENTES</essid>
+		</SSID>
+		<BSSID>D0:C7:89:CD:C8:E2</BSSID>
+		<manuf>Cisco Systems, Inc</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 3</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>3</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>3</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-87</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-87</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-87</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-87</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-87</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="26" type="infrastructure" first-time="Wed Jul 11 21:10:00 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:10:00 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>5</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM </encryption>
+			<essid cloaked="false">UNOSALUD-CLINICAS</essid>
+		</SSID>
+		<BSSID>D0:C7:89:CD:C8:E0</BSSID>
+		<manuf>Cisco Systems, Inc</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 5</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>5</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>5</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-87</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-87</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-87</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-87</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-87</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="27" type="infrastructure" first-time="Wed Jul 11 21:09:17 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:09:17 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>7</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM TKIP </encryption>
+			<essid cloaked="false">electrinet2</essid>
+		</SSID>
+		<BSSID>4C:6E:6E:91:86:79</BSSID>
+		<manuf>Comnect Technology CO.,LTD</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 7</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>7</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>7</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-86</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-86</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-86</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-86</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-86</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="28" type="infrastructure" first-time="Wed Jul 11 21:08:44 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:08:44 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>8</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>OPN </encryption>
+			<essid cloaked="false">Alumnos</essid>
+		</SSID>
+		<BSSID>D4:68:4D:24:5C:D8</BSSID>
+		<manuf>Ruckus Wireless</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 8</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>8</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>8</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-85</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-85</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-85</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-85</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-85</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="29" type="infrastructure" first-time="Wed Jul 11 21:08:46 2018" last-time="Wed Jul 11 21:11:10 2018">
+		<SSID first-time="Wed Jul 11 21:08:46 2018" last-time="Wed Jul 11 21:11:10 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>8</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM </encryption>
+			<essid cloaked="false">PDV</essid>
+		</SSID>
+		<BSSID>D4:68:4D:24:5C:DD</BSSID>
+		<manuf>Ruckus Wireless</manuf>
+		<channel>48</channel>
+		<freqmhz>5240 8</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>8</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>8</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-85</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-85</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-85</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-85</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-85</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="30" type="infrastructure" first-time="Wed Jul 11 21:08:59 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:08:59 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>5</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM </encryption>
+			<essid cloaked="false">PDV</essid>
+		</SSID>
+		<BSSID>D4:68:4D:24:5C:D9</BSSID>
+		<manuf>Ruckus Wireless</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 5</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>5</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>5</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-85</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-85</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-85</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-85</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-85</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="31" type="infrastructure" first-time="Wed Jul 11 21:08:46 2018" last-time="Wed Jul 11 21:11:10 2018">
+		<SSID first-time="Wed Jul 11 21:08:46 2018" last-time="Wed Jul 11 21:11:10 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>8</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>OPN </encryption>
+			<essid cloaked="false">Alumnos</essid>
+		</SSID>
+		<BSSID>D4:68:4D:24:5C:DC</BSSID>
+		<manuf>Ruckus Wireless</manuf>
+		<channel>48</channel>
+		<freqmhz>5240 8</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>8</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>8</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-84</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-84</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-84</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-84</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-84</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="32" type="infrastructure" first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>9</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 WPA AES-CCM TKIP </encryption>
+			<essid cloaked="false">VTR-7067395</essid>
+		</SSID>
+		<BSSID>C0:05:C2:DD:3B:01</BSSID>
+		<manuf>ARRIS Group, Inc.</manuf>
+		<channel>6</channel>
+		<freqmhz>2437 13</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>9</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>13</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-84</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-84</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-84</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-84</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-84</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="33" type="infrastructure" first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>11</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>OPN </encryption>
+			<essid cloaked="false">ConoceValdivia.cl</essid>
+		</SSID>
+		<BSSID>44:D9:E7:E0:DA:20</BSSID>
+		<manuf>Ubiquiti Networks Inc.</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 16</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>11</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>16</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-84</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-84</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-84</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-84</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-84</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="34" type="infrastructure" first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>15</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM TKIP </encryption>
+			<essid cloaked="false">WifiTelsur_DA8D</essid>
+		</SSID>
+		<BSSID>4C:6E:6E:9A:DA:8E</BSSID>
+		<manuf>Comnect Technology CO.,LTD</manuf>
+		<channel>4</channel>
+		<freqmhz>2427 17</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>15</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>17</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-83</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-83</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-83</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-83</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-83</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="35" type="infrastructure" first-time="Wed Jul 11 21:08:44 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:08:44 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>24</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA AES-CCM TKIP </encryption>
+			<essid cloaked="false">wifitelsur_HEVPA</essid>
+		</SSID>
+		<BSSID>E2:CC:6D:CE:07:5F</BSSID>
+		<manuf>Unknown</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 24</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>24</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>24</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-80</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-80</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-80</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-80</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-80</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="36" type="infrastructure" first-time="Wed Jul 11 21:08:41 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:08:41 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>13</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA TKIP </encryption>
+			<essid cloaked="false">APCCU</essid>
+		</SSID>
+		<BSSID>00:1A:30:33:2F:F0</BSSID>
+		<manuf>Cisco Systems, Inc</manuf>
+		<channel>7</channel>
+		<freqmhz>2442 15</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>13</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>15</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-79</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-79</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-79</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-79</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-79</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="37" type="infrastructure" first-time="Wed Jul 11 21:08:17 2018" last-time="Wed Jul 11 21:11:11 2018">
+		<SSID first-time="Wed Jul 11 21:08:17 2018" last-time="Wed Jul 11 21:11:11 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>11</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 WPA AES-CCM TKIP </encryption>
+			<essid cloaked="false">VTR-1827716</essid>
+		</SSID>
+		<BSSID>C0:05:C2:A0:FB:57</BSSID>
+		<manuf>ARRIS Group, Inc.</manuf>
+		<channel>149</channel>
+		<freqmhz>5745 17</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>11</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>17</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-78</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-78</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-78</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-78</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-78</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="38" type="infrastructure" first-time="Wed Jul 11 21:08:41 2018" last-time="Wed Jul 11 21:11:09 2018">
+		<SSID first-time="Wed Jul 11 21:08:41 2018" last-time="Wed Jul 11 21:11:09 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>27</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM </encryption>
+			<essid cloaked="false">EMn-9ef88e-10-14102</essid>
+		</SSID>
+		<BSSID>00:0F:60:08:AA:0A</BSSID>
+		<manuf>Lifetron Co.,Ltd</manuf>
+		<channel>11</channel>
+		<freqmhz>2462 27</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>27</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>27</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-77</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-77</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-77</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-77</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-77</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="39" type="infrastructure" first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:11:09 2018">
+		<SSID first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:11:09 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>9</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM </encryption>
+			<essid cloaked="false">DIRECT-EPDESKTOP-4I3UA4DmsVR</essid>
+		</SSID>
+		<BSSID>22:F0:2F:91:E5:69</BSSID>
+		<manuf>Unknown</manuf>
+		<channel>11</channel>
+		<freqmhz>2462 10</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>9</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>10</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-75</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-75</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-75</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-75</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-75</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="40" type="infrastructure" first-time="Wed Jul 11 21:08:41 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:08:41 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>22</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM TKIP </encryption>
+			<essid cloaked="false">wifi_cabana</essid>
+		</SSID>
+		<BSSID>4C:6E:6E:9C:F6:3A</BSSID>
+		<manuf>Comnect Technology CO.,LTD</manuf>
+		<channel>5</channel>
+		<freqmhz>2432 22</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>22</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>22</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-75</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-75</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-75</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-75</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-75</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="41" type="infrastructure" first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:11:09 2018">
+		<SSID first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:11:09 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>24</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA TKIP </encryption>
+			<essid cloaked="false">Wifi_DNRV</essid>
+		</SSID>
+		<BSSID>00:25:C4:4C:53:21</BSSID>
+		<manuf>Ruckus Wireless</manuf>
+		<channel>11</channel>
+		<freqmhz>2462 26</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>24</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>26</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-70</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-70</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-70</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-70</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-70</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="42" type="infrastructure" first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>21</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM TKIP </encryption>
+			<essid cloaked="false">Casa Centro\</essid>
+		</SSID>
+		<BSSID>AC:84:C6:47:51:F6</BSSID>
+		<manuf>TP-LINK TECHNOLOGIES CO.,LTD.</manuf>
+		<channel>6</channel>
+		<freqmhz>2437 27</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>21</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>27</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-69</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-69</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-69</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-69</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-69</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="43" type="infrastructure" first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>22</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 WPA AES-CCM TKIP </encryption>
+			<essid cloaked="false">VTR-1827716</essid>
+		</SSID>
+		<BSSID>C0:05:C2:A0:FB:51</BSSID>
+		<manuf>ARRIS Group, Inc.</manuf>
+		<channel>6</channel>
+		<freqmhz>2437 34</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>22</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>34</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-68</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-68</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-68</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-68</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-68</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="44" type="infrastructure" first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:11:08 2018">
+		<SSID first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:11:08 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>17</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM TKIP </encryption>
+			<essid cloaked="false">Wifi</essid>
+		</SSID>
+		<BSSID>82:6D:1A:ED:83:94</BSSID>
+		<manuf>Unknown</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 25</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>17</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>25</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-59</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-59</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-59</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-59</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-59</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="45" type="infrastructure" first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:11:09 2018">
+		<SSID first-time="Wed Jul 11 21:08:18 2018" last-time="Wed Jul 11 21:11:09 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>21</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM </encryption>
+			<essid cloaked="false">CELESTE</essid>
+		</SSID>
+		<BSSID>40:70:09:61:3D:E0</BSSID>
+		<manuf>ARRIS Group, Inc.</manuf>
+		<channel>11</channel>
+		<freqmhz>2462 26</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>21</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>26</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-47</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-47</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-47</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-47</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-47</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="46" type="infrastructure" first-time="Wed Jul 11 21:08:19 2018" last-time="Wed Jul 11 21:11:10 2018">
+		<SSID first-time="Wed Jul 11 21:08:19 2018" last-time="Wed Jul 11 21:11:10 2018">
+			<type>Beacon</type>
+			<max-rate>54.000000</max-rate>
+			<packets>13</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA2 AES-CCM </encryption>
+			<essid cloaked="false">CELESTE-5G</essid>
+		</SSID>
+		<BSSID>40:70:09:61:3D:E5</BSSID>
+		<manuf>ARRIS Group, Inc.</manuf>
+		<channel>48</channel>
+		<freqmhz>5240 28</freqmhz>
+		<maxseenrate>54000</maxseenrate>
+		<packets>
+			<LLC>13</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>28</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<snr-info>
+			<last_signal_dbm>-46</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-46</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-46</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-46</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-46</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+	<wireless-network number="47" type="infrastructure" first-time="Wed Jul 11 21:09:33 2018" last-time="Wed Jul 11 21:11:09 2018">
+		<SSID first-time="Wed Jul 11 21:09:33 2018" last-time="Wed Jul 11 21:11:09 2018">
+			<type>Beacon</type>
+			<max-rate>11.000000</max-rate>
+			<packets>5</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>OPN </encryption>
+			<essid cloaked="false">HP4576E1</essid>
+		</SSID>
+		<BSSID>02:2A:6A:68:7F:62</BSSID>
+		<manuf>Unknown</manuf>
+		<channel>10</channel>
+		<freqmhz>2457 5</freqmhz>
+		<maxseenrate>11000</maxseenrate>
+		<packets>
+			<LLC>5</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>5</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<wireless-client number="1" type="established" first-time="Wed Jul 11 21:09:33 2018" last-time="Wed Jul 11 21:11:09 2018">
+			<client-mac>68:B5:99:45:76:E1</client-mac>
+			<client-manuf>Hewlett Packard</client-manuf>
+			<channel>10</channel>
+			<maxseenrate>1.000000</maxseenrate>
+			<packets>
+				<LLC>0</LLC>
+				<data>0</data>
+				<crypt>0</crypt>
+				<total>5</total>
+				<fragments>0</fragments>
+				<retries>0</retries>
+			</packets>
+			<snr-info>
+				<last_signal_dbm>-89</last_signal_dbm>
+				<last_noise_dbm>0</last_noise_dbm>
+				<last_signal_rssi>-89</last_signal_rssi>
+				<last_noise_rssi>0</last_noise_rssi>
+				<min_signal_dbm>-89</min_signal_dbm>
+				<min_noise_dbm>0</min_noise_dbm>
+				<min_signal_rssi>1024</min_signal_rssi>
+				<min_noise_rssi>1024</min_noise_rssi>
+				<max_signal_dbm>-89</max_signal_dbm>
+				<max_noise_dbm>0</max_noise_dbm>
+				<max_signal_rssi>-89</max_signal_rssi>
+				<max_noise_rssi>0</max_noise_rssi>
+			</snr-info>
+			<cdp-device></cdp-device>
+			<cdp-portid></cdp-portid>
+		</wireless-client>
+		<snr-info>
+			<last_signal_dbm>0</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>0</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>0</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>0</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>0</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>0</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+</detection-run>

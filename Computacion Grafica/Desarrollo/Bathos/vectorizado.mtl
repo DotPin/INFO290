@@ -1,0 +1,35 @@
+# Blender MTL File: 'None'
+# Material Count: 3
+
+newmtl mi_stingerGrenadier_body
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd t_stingerGrenadier_body_d.tga
+map_d t_stingerGrenadier_body_n.tga
+
+newmtl mi_stingerGrenadier_head
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd t_stingerGrenadier_head_d.tga
+map_d t_stingerGrenadier_head_n.tga
+
+newmtl mi_stingerGrenadier_wing
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd t_stingerGrenadier_wings_dm.tga
+map_d t_stingerGrenadier_wings_n.tga
