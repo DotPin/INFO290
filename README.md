@@ -9,14 +9,15 @@ Versionamiento de tareas realizadas en la carrera de informática
 - Disponer de los requisitos necesitados para la tarea.
 - Analizar (si requiere) los requisitos de tarea asociada.
 - Desarrollar metodologías que permiten resolver requerimientos.
+- Concluir (si requiere) los desarrollos implementados de tarea asociada a la discplina.
 
 ## Características
 
-- Contenidos asociados a cada disciplina cuales permiten el uso de metodologías, permiten el sustento de la solución aplicada.
+- Contenidos asociados a cada disciplina cuales en el uso de metodologías, permiten el sustento de la solución aplicada.
 
-- Herramientas usadas para procesamiento de la información, forman parte del de la solución aplicada.
+- Herramientas usadas para procesamiento de la información, forman parte de la solución aplicada.
 
-- Implementaciones de uso tecnológico para el desarrollo de soluciones, serán descritas para su uso y limitaciones bajo condiciones requeridas.
+- Implementaciones de uso tecnológico para el desarrollo de soluciones, serán descritas junto con sus limitaciones bajo condiciones requeridas.
 
 - Referencias estudiadas y documentadas, son parte del proceso investigativo.
 
