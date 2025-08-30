@@ -1,6 +1,8 @@
 # Portafolio de Proyectos Estudiantiles
 
-Versionamiento de tareas realizadas en la carrera de informática
+Repositorio de algunas disciplinas desarrolladas en la carrera de Ingeniería Civil en Informática, cuales describen algunas tareas desempeñadas.
+
+***
 
 ## Objetivos
 
