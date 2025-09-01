@@ -1,6 +1,6 @@
 # Presentación de Caso 1
 
-Cliente, Instituto de Admiistración
+Cliente, Instituto de Administración
 
 ## Necesidad:
 
