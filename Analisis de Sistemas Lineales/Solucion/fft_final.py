@@ -1,24 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-
-
-#Importa  coseno, linspace y pi
-
-from numpy import cos, linspace, pi
-
-#importe adicional para convertir arreglo de datos del archivo en arreglo numpy
-
+#importe adicional para convertir arreglo de datos del archivo en arreglo numpy y coseno, linspace y pi
 import numpy as np	
 
-#Importa plot, show, title, xlabel, ylabel y subplot para graficar
-
-from pylab import plot, show, title, xlabel, ylabel, subplot, xlim, ylim, legend
-
-#Importa fft y arange
-
-from scipy import fft, arange
-
+#Importa librerías gráficas
+import matplotlib.pyplot as plt
 
 # creacion de diccionario de frecuencia valor
 
@@ -69,18 +56,17 @@ def plotSpectrum(y, Fs):
 
     n = len(y)  # longitud de la señal
 
-
-    k = arange(n)  # establece el dominio de
+    k = np.arange(n)  # establece el dominio de
 
     T = n / Fs  # lint:ok  # lint:ok
 
     frq = k / T  # 2 lados del rango de frecuancia
 
-    frq = frq[range(n / 2)]  # Un lado del rango de frecuencia
+    frq = frq[range(int(n / 2))]  # Un lado del rango de frecuencia
 
-    Y = fft(y) / n  # fft calcula la normalizacion
+    Y = np.fft.fft(y) / n  # fft calcula la normalizacion
 
-    Y = Y[range(n / 2)]
+    Y = Y[range(int(n / 2))]
 
     s_mstr.append(Y)
     # para detectar el valor pick e identificar la letra asociada a la freq
@@ -92,14 +78,19 @@ def plotSpectrum(y, Fs):
             freq_max = i
     # print freq_max
 
-    plot(frq, abs(Y), 'r', label=("%s [Hz] = %s" %(freq_max, freq_val.get(freq_max))))  # grafica el espectro de frecuencia
-    legend()
+    rsp = { 
+        'x':frq,
+        'y':abs(Y),
+        'title':str(f"{freq_max} [Hz] = {freq_val.get(freq_max)}"),
+        'label':['Frecuencia (Hz)','|Y(f)|']
+    }
 
-    xlabel('Frecuencia (Hz)')
+    #ax.plot(frq,abs(Y))
+    #ax.set_title(f"{freq_max} [Hz] = {freq_val.get(freq_max)}")
+    #ax.set(xlabel='Frecuencia (Hz)',ylabel='|Y(f)|')
+    #plt.show()
 
-    ylabel('|Y(f)|')
-
-
+    return rsp
 
 
 
@@ -108,7 +99,7 @@ Fs = 1000.0;  # rata de muestreo(Nº de muestreos)
 
 Ts = 1.0/Fs; # intevalo de muestreo(guarda nº de muestras)
 
-t = arange(0,1,Ts) # vector tiempo(fija y genera los intervalos a tasa constante)
+t = np.arange(0,1,Ts) # vector tiempo(fija y genera los intervalos a tasa constante)
 
 #ff = 10;   # frecuencia de la señal(Hz) esta parte no es necesaria debido que la señal ya viene dada
 
@@ -133,41 +124,23 @@ y_1 = []
 desface = 0
 
 # sector inrerfaz usuario
-print "Bienvenido al software DecoSignal"
-print "Creado por:"
-print "\tCaloguerea, Leandro"
-print "\tRojas, Diego\n\n"
+print("Bienvenido al software DecoSignal")
+print("Creado por:")
+print("\tCaloguerea, Leandro")
+print("\tRojas, Diego\n\n")
 
 continua = True
 
-print "Seleccione que señal desea decodificar entre 1 a 23 o un intervalo"
-print "de maximo 8 entre 1 a 23 (Por tamaño de la salida\n\n"
+print("Seleccione que señal desea decodificar entre 1 a 23 o un intervalo")
+print("de maximo 8 entre 1 a 23 (Por tamaño de la salida\n\n")
 
 
-while continua:
-    opcion = raw_input("Ingrese I para seleccionar intervalo o ingrese S para seleccionar una sola señal: ")
-    while (opcion != "i") and (opcion != "I") and (opcion != "s") and (opcion != "S"):
-        opcion = raw_input("Error, ingrese I para intervalo, S para señal unica:")
-    if opcion == "s" or opcion == "S":
-        m = input("Ingrese el numero de la señal que desea codificar (1-23): ")
-        while m < 1 or m > 23:
-            # delimita el termino de la proxima iteracion
-            m = input("Error, fuera de rango o entrada incorrecta, porfavor ingrese un numero de 1 a 23: ")
-        v = m - 1  # delimita el inicio de la prox iteracion
-        d = 2
-        dd = 1
-        desface = v * 1000
-    elif opcion == "I" or opcion == "i":
-        v = input("Ingrese el inicio del intervalo entre 1 a 16: ")
-        while v < 1 or v > 16:
-             v = input("Error, fuera de rango o entrada incorrecta, porfavor ingrese un numero de 1 a 15: ")
-        v = v - 1
-        m = v + 8
-        d = 4
-        dd = 4
-        desface = (v - 1)*1000
+def intervalo(v,m,desface):
+    # incrementador subplot
+    gx = 0 
 
-    g = 1  # incrementador subplot
+    #fig, axs = plt.subplots()
+    fig, axs = plt.subplots(nrows=8,ncols=2,figsize=(10, 6))
     for i in range(v, m):
         y_2 = []  # se crea arreglo python para guardar un tramo
         for j in range(len(t)):
@@ -176,27 +149,91 @@ while continua:
                             #  muestras formato "array numpy"
         desface = desface + 1000
 
-        #Proceso de normalizar y graficar la señal
+        #Se llama a la funcion con la señal y la rata de muestreo
+        pl = plotSpectrum(y_2, Fs)
 
-        subplot(d, dd, g)
-        # F(Nro de mstra [(Dominio)], recorrido[[f de muestra])]
-        plot(t + i, y_2)
-        xlim([i, i + 1])
+        axs[gx,0].plot(t, y_2)
+        if(gx==0):
+            axs[gx,0].set_title("Espectro")
+        axs[gx,0].relim([i, i + 1])
+        if((gx%7)==0):
+            axs[gx,0].set(xlabel='Tiempo',ylabel='Amplitud')
 
-        xlabel('Tiempo')
+        axs[gx,1].plot(pl['x'],pl['y'],label=pl['title'])
+        axs[gx,1].legend(fontsize=6)
+        if(gx==0):
+            axs[gx,1].set_title('Normalizada')
+        if((gx%7)==0):
+            axs[gx,1].set(xlabel=pl['label'][0],ylabel=pl['label'][1])
+        gx = gx +1
+    plt.show()
 
-        ylabel('Amplitud')
-
-        subplot(d, dd, g + 1)
-        g = g + 2
+def señal(v,m,desface):
+    fig, axs = plt.subplots(nrows=1,ncols=2,figsize=(10, 6))
+    for i in range(v, m):
+        y_2 = []  # se crea arreglo python para guardar un tramo
+        for j in range(len(t)):
+            y_2.append(y1[j + desface])  # sgte muestra y1[i+k] con k*1000
+        y_2 = np.array(y_2)  # primer tramo de [0,1] segs"formato lista" en 1000
+                            #  muestras formato "array numpy"
+        desface = desface + 1000
 
         #Se llama a la funcion con la señal y la rata de muestreo
-        plotSpectrum(y_2, Fs)
+        pl = plotSpectrum(y_2, Fs)
 
-    show()
-    cond = raw_input("\n\nDesea analizar otra señal? -ingrese S para si N para no: ")
-    while (opcion != "s") and (opcion != "S") and (opcion != "n") and (opcion != "N"):
-        cond = raw_input("Error, intente una de las opciones S para si, N para no: ")
+        axs[0].plot(t, y_2)
+        axs[0].set_title("Espectro")
+        axs[0].relim([i, i + 1])
+        axs[0].set(xlabel='Tiempo',ylabel='Amplitud')
+
+        axs[1].plot(pl['x'],pl['y'],label=pl['title'])
+        axs[1].legend(fontsize=6)
+        axs[1].set_title('Normalizada')
+        axs[1].set(xlabel=pl['label'][0],ylabel=pl['label'][1])
+    plt.show()
+
+
+while continua:
+    opcion = input("Ingrese I para seleccionar intervalo o ingrese S para seleccionar una sola señal: ")
+    while (opcion != "i") and (opcion != "I") and (opcion != "s") and (opcion != "S"):
+        opcion = input("Error, ingrese I para intervalo, S para señal unica:")
+    if opcion == "s" or opcion == "S":
+        try:    
+            m = int(input("Ingrese el numero de la señal que desea codificar (1-23): "))
+        except:
+            print("Valor incorrecto")
+            break
+        while (m < 1 or m > 23):
+            # delimita el termino de la proxima iteracion
+            try:
+                m = int(input("Error, fuera de rango o entrada incorrecta, porfavor ingrese un numero de 1 a 23: "))
+            except:
+                print("Valor incorrecto")
+                break
+        v = m - 1  # delimita el inicio de la prox iteracion
+        d = 2
+        dd = 1
+        desface = v * 1000
+        señal(v,m,desface)
+
+    elif (opcion == "I" or opcion == "i"):
+        try:
+            v = int(input("Ingrese el inicio del intervalo entre 1 a 16: "))
+            while (v < 1 or v > 16):
+                v = int(input("Error, fuera de rango o entrada incorrecta, porfavor ingrese un numero de 1 a 15: "))
+        except(ValueError):
+            print("Valor incorrecto")
+            break
+        v = v - 1
+        m = v + 8
+        d = 4
+        dd = 4
+        desface = (v - 1)*1000
+        intervalo(v,m,desface)
+
+    cond = input("\n\nDesea analizar otra señal? -ingrese S para si N para no: ")
+    while (cond != "s") and (cond != "S") and (cond != "n") and (cond != "N"):
+        cond = input("Error, intente una de las opciones S para si, N para no: ")
     if cond == "s" or cond == "S":
         continua = True
     else:
@@ -206,19 +243,15 @@ while continua:
 vv=False
 for i in range(len(y1)):
   y_1.append(senal_f[i])
-  if(i%1000)==0 and vv:
+  if( (i%1000)==0 and vv):
     Y = np.array(y_1)
     s_mstr.append(Y)
     Y=[]
     y_1=[]
-  elif i==(len(y1)-1):
+  elif (i==(len(y1)-1)):
     Y=np.array(y_1)
     s_mstr.append(Y)
     Y=[]
     y_1=[]
   else:
     vv=True
-
-
-
-
