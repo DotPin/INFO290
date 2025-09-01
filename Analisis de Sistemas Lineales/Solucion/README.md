@@ -25,6 +25,12 @@ Código desarrollado en Python V3, librerías a importar:
 Archivo a ejecutar:
 - [fft_final.py](https://github.com/DotPin/INFO290/blob/master/Analisis%20de%20Sistemas%20Lineales/Solucion/fft_final.py)
 
+### Consideraciones
+
+- SO Desarrollo y Ejecución Linux
+- Archivo [mensaje2.txt](https://github.com/DotPin/INFO290/blob/master/Analisis%20de%20Sistemas%20Lineales/Solucion/mensaje2.txt), debe estar en el entorno de ejecución
+- Se recomienda ejecución por ventana de comandos (Terminal,Konsole,XTerm,etc).
+
 ## Informe final
 
 Documentación cual especifica análisis, modelo, implementaciones y conclusión del caso de estudio.
