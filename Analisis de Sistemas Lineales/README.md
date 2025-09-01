@@ -18,7 +18,7 @@ Se hace la presentación de 1 caso de estudio, cuales permiten elaborar propuest
 
     - [Documentación](https://github.com/DotPin/INFO290/tree/master/Analisis%20de%20Sistemas%20Lineales/Documentacion): Material usado para elaboración de diseños, estructuración de metodologías, despliegues e implementaciones mediante herramientas informáticas.
 
-    - [Solución](https://github.com/DotPin/INFO290/tree/master/Analisis%20de%20Sistemas%20Lineales/Solucion): Directorio cual almacena material que desempeña la solución del caso de estudio.
+    - [Solución](https://github.com/DotPin/INFO290/tree/master/Analisis%20de%20Sistemas%20Lineales/Solucion): Directorio cual almacena material que desempeña la solución del caso de estudio junto con su informe cual concluye el caso de esutudio.
 
 
 
