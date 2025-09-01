@@ -34,4 +34,4 @@ Archivo a ejecutar:
 ## Informe final
 
 Documentación cual especifica análisis, modelo, implementaciones y conclusión del caso de estudio.
-    - [Informe Tipo](https://github.com/DotPin/INFO290/blob/master/Analisis%20de%20Sistemas%20Lineales/Solucion/TG_CALOGUEREA_ROJAS_IEEE_TRANSAC.pdf)
+- [Informe Tipo](https://github.com/DotPin/INFO290/blob/master/Analisis%20de%20Sistemas%20Lineales/Solucion/TG_CALOGUEREA_ROJAS_IEEE_TRANSAC.pdf)
