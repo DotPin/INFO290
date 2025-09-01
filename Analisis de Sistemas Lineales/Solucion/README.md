@@ -19,11 +19,11 @@ Grupo de inteligencia cual se necesita para hacer el análisis de una señal pro
 ## Implementaciones
 
 Código desarrollado en Python V3, librerías a importar:
-    - Matplotlib
-    - Numpy
+- Matplotlib
+- Numpy
 
 Archivo a ejecutar:
-    - [fft_final.py](https://github.com/DotPin/INFO290/blob/master/Analisis%20de%20Sistemas%20Lineales/Solucion/fft_final.py)
+- [fft_final.py](https://github.com/DotPin/INFO290/blob/master/Analisis%20de%20Sistemas%20Lineales/Solucion/fft_final.py)
 
 ## Informe final
 
