@@ -12,6 +12,7 @@ Se necesita un modelo de gestión de datos relacional, que permita el almacenami
 
 - SO Usado: Linux Kubuntu
 - Gestor Base de datos: MySql
+- [Quey's](https://github.com/DotPin/INFO290/blob/master/Base%20de%20Datos/Documentacion/querys) para implementación
 
 ## Consideraciones
 
