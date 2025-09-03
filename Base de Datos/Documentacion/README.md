@@ -28,8 +28,3 @@ Se necesita un modelo de gestión de datos relacional, que permita el almacenami
     - [Diseño Relacional 2](https://github.com/DotPin/INFO290/blob/master/Base%20de%20Datos/Documentacion/Modelo.jpg) Diseño exportado desde el archivo [Modelo.odg](https://github.com/DotPin/INFO290/blob/master/Base%20de%20Datos/Documentacion/Modelo.odg), desarrollado por
 
 - [Informe](https://github.com/DotPin/INFO290/blob/master/Base%20de%20Datos/Documentacion/Informe.pdf) Documento cual describe el modelo usado con 
-
-## Referencias
-
-- Bateman, T. y S. Snell (2000): Administración: una ventaja competitiva, 4ª edición, McGraw-Hill Interamericana Editores, México, D.F.
-- Illanes, Pablo (1999) : El Sistema Empresa: Una Visión Integral de la Administración, 6ª edición, Santiago de Chile. (También existen en Biblioteca versiones anteriores del libro con el título, La Administración del Sistema Empresa de Editorial Universitaria)

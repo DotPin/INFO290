@@ -23,5 +23,6 @@ Mediante un caso de estudio, se ocuparán los conocimientos adquiridos en la dis
 ## Referencias:
 
 - Srinivasa-Desikan B., (2018). Natural Language Processing and Computational Linguistics: A practical guide to text analysis with Python, Gensim, spaCy and Keras. Packt Publishing.
+
 - Garrido G., Joshi P., (2018). OpenCV 3.x with Python by Example Packt Publishing.
 
