@@ -22,7 +22,7 @@ Mediante un caso de estudio, se ocuparán los conocimientos adquiridos en la dis
 
 ## Referencias:
 
-- Srinivasa-Desikan B., (2018). Natural Language Processing and Computational Linguistics: A practical guide to text analysis with Python, Gensim, spaCy and Keras. Packt Publishing.
+- Oracle Database: Conceptos Fundamentales de SQL Versión(I-II-III-IV)·Guía del Alumno, Salome Clement, Brian Pottle, Puja Singh
+- Fundamentos de Bases de Datos, Versión V, Abraham Silberschartz, Henry Korth, S.Sudarshan
 
-- Garrido G., Joshi P., (2018). OpenCV 3.x with Python by Example Packt Publishing.
-
+- Modern Database Management, Version III, Joffrey A. Hoffer, V.Ramesh, Heikki Topi
