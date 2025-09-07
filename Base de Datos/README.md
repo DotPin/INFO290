@@ -22,7 +22,8 @@ Mediante un caso de estudio, se ocuparán los conocimientos adquiridos en la dis
 
 ## Referencias:
 
-- Oracle Database: Conceptos Fundamentales de SQL Versión(I-II-III-IV)·Guía del Alumno, Salome Clement, Brian Pottle, Puja Singh
+- Modern Database Management, Version III, Joffrey A. Hoffer, V.Ramesh, Heikki Topi
+
+- Oracle Database: Conceptos Fundamentales de SQL, Versión(I-II-III-IV) Guía del Alumno, Salome Clement, Brian Pottle, Puja Singh
 - Fundamentos de Bases de Datos, Versión V, Abraham Silberschartz, Henry Korth, S.Sudarshan
 
-- Modern Database Management, Version III, Joffrey A. Hoffer, V.Ramesh, Heikki Topi
