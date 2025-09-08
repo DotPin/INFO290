@@ -1,6 +1,6 @@
 # Presentación de Información
 
-Datos de Compilación
+**Datos de Compilación**
 
 ***
 
