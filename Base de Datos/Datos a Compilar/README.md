@@ -27,4 +27,8 @@ Para la revisión del archivo de base de datos, es necesario usar algún softwar
 
 ## Software para despliegue de datos.
 
-- En desarrollo.
+- Generado y guardado en éste repositorio, [Laravel](https://github.com/DotPin/rutas_transporte_beta/tree/main)
+
+### Nota
+
+Software Beta, para la implementación de 1 sólo requerimiento de despliegue.
