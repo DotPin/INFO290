@@ -18,7 +18,7 @@ Mediante un caso de estudio, se ocuparán los conocimientos adquiridos en la dis
 
 - [Documentación](https://github.com/DotPin/INFO290/tree/master/Base%20de%20Datos/Documentacion): Material usado para elaboración de diseños, estructuración de metodologías, despliegues e implementaciones mediante herramientas informáticas, junto con informe solución.
 
-- [Datos a Compilar](https://github.com/DotPin/INFO290/tree/master/Base%20de%20Datos/Datos%20a%20Compilar): Directorio cual almacena material de datos relacionados a los recorridos del transporte público en Valdivia. 
+- [Datos a Compilar](https://github.com/DotPin/INFO290/tree/master/Base%20de%20Datos/Datos%20a%20Compilar): Directorio cual almacena material y prototipo WEB para despliegue de datos relacionados a los recorridos del transporte público en Valdivia. 
 
 ## Referencias:
 
