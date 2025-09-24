@@ -15,7 +15,7 @@
 ## Requerimientos de sistema
 
 - SO Usado, Linux
-- JavaJDK v11
+- JavaJDK
 
 ### Nota
 
