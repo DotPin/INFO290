@@ -24,16 +24,16 @@ Dentro de éste directorio, se almacenan tanto de librerías JAVA como los archi
 Usando una ventana de terminal, en el mismo directorio donde se almacenan los archivos, debe ejecutarse se deben ejecutar los siguientes comandos
 
 Comando que permite el proceso de limpieza de archivos
-´´bash
+``bash
 $make clean
-´´
+``
 
 Comando que permite el proceso de compilación y ejecución del software
-´´bash
+``bash
 $make
-´´
+``
 
 Comando que permite el proceso de ejecución del software
-´´bash
+``bash
 $make exec
-´´
+``
