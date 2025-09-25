@@ -19,40 +19,40 @@ Los requerimientos del sistema establecidos anteriormente permitirán, la ejecuc
 
 - Ejecutar comando
 
-´´´bash
+```bash
 $flex Tarea1.flex
-´´´
+```
 
 - Compilar archivo obtenido lex.yy.c
 
-´´´bash
+```bash
 $gcc lex.yy.c -o <archivo>
-´´´
+```
 
 - Ejecutar código objeto generado 
 
-´´´bash
+```bash
 $./<archivo>
-´´´
+```
 
 ## Compilación rápida
 
 - Limpieza de directorio
 
-´´´bash
+```bash
 $make clean
-´´´
+```
 
 - Compilación + ejecución
 
-´´´bash
+```bash
 $make
-´´´
+```
 
 - Ejecución, si se encuentra todo compilado
 
-´´´bash
+```bash
 $make run
-´´´
+```
 
 
