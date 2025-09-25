@@ -16,7 +16,18 @@ Dentro de cada directorio, se almacenan tanto de librerías JAVA como los archiv
 
 
 
-## [Requerimientos de sistema](https://github.com/DotPin/INFO290/tree/master/Compiladores/Tarea%20-%202019#requerimientos-de-sistema)
+## Requerimientos de sistema
+
+- Requisitos de software [Enlace](https://github.com/DotPin/INFO290/tree/master/Compiladores/Tarea%20-%202019#requerimientos-de-sistema)
+
+### Requerimientos de hardware
+
+- Procesador genérico de 266Mhz
+- Memoria Ram 128mb.
+- Procesador de video >= 16Bits.
+- Almacenamiento 4Gb.
+
+[Referencia](https://docs.oracle.com/cd/E19957-01/817-5992/6mldm43gb/index.html)
 
 ## Consideraciones
 
