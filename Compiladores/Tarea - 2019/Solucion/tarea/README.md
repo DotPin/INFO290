@@ -1,6 +1,6 @@
 # Presentación de Información
 
-**Tarea**
+**Traductor Dirigido por Sintaxis - Tipo Dibujo**
 
 ***
 
