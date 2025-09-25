@@ -1,19 +1,58 @@
-## Compiladores_2019
-Trabajo de compiladores
+# Presentación de Información
 
-# Instrucciones para compilar.flex
+**Analizador Léxico**
 
-Instalar dependencia analizador sintáctico flex linux
+***
 
-$sudo apt install flex
+## Descripción de Datos
+
+Dentro de cada directorio, se almacenan los archivos fuente que permiten la ejecución del Analizador Lexico, cuales se detallarán a continuación.
+
+- [Tarea1.lex]https://github.com/DotPin/INFO290/blob/master/Compiladores/Tarea%20-%202019_1/Solucion/Tarea1.lex): Archivo de tipo léxico cual almacena las restricciones del uso de tokens, usando Lenguaje Regular.
+
+
+## Consideraciones
+
+Los requerimientos del sistema establecidos anteriormente permitirán, la ejecución del Analizador Léxico con su posterior compilación mediante GCC, generando el código objeto cual ejecuta el programa.
 
 # Compilar archivo desde linux
 
--> Ejecutar comando
+- Ejecutar comando
+
+´´´bash
 $flex Tarea1.flex
+´´´
 
-->Buscar y compilar único archivo lex.yy.c
-$gcc lex.yy.c
+- Compilar archivo obtenido lex.yy.c
 
-->buscar archivo a.out ejecutar archivo
-$./a.out
+´´´bash
+$gcc lex.yy.c -o <archivo>
+´´´
+
+- Ejecutar código objeto generado 
+
+´´´bash
+$./<archivo>
+´´´
+
+## Compilación rápida
+
+- Limpieza de directorio
+
+´´´bash
+$make clean
+´´´
+
+- Compilación + ejecución
+
+´´´bash
+$make
+´´´
+
+- Ejecución, si se encuentra todo compilado
+
+´´´bash
+$make run
+´´´
+
+

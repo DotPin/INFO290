@@ -19,7 +19,7 @@ empiece|listo|ver|dato|asigna|inserta|elimina     {printf("\n Palabra Reservada:
 int yywrap(){} 
 int main(){
 printf("Comienza Analizador Léxico \n");
-printf("Integrantes:\n·Camilo Muñoz\n·Leandro Caloguerea\n·Diego Rojas\n");
+printf("Integrantes:\n·Diego Rojas\n·Leandro Caloguerea\n·Camilo Muñoz\n");
 printf("*********************\n\n\n");
 
 yylex();

@@ -1,1 +1,27 @@
-Desarrollar en algun lenguaje adecuado un analizador lexico que permita procesar instrucciones definidas y logre entregar salidas respectivas
+Desarrollar en algún lenguaje adecuado un Analizador Lexico que permita procesar tokens definidos mediante el uso de lenguaje regular y logre obtener salidas respectivas
+
+Las restricciones para el uso de tokens es el siguiente:
+
+letra   => debe ser token alfanumérico
+digito  => debe ser token de tipo numérico
+
+empiece     |
+listo       |
+ver         |
+dato        |
+asigna      | => Token de palabra reservada para definición de instrucción
+inserta     |
+elimina     |
+
+
+(           |
+)           |
+,           | => Token que defina símbolo
+=           |
+
+Creación de LR para los siguientes tokens que debe procesar:
+
+- Ingreso de palabras reservadas    (Ej: empiece, listo, ver, etc... )
+- Ingreso de Enteros                (Ej: 4, 12, 102, 1115, etc...)
+- Ingreso de Identificador          (Ej: F, a, Af2, F1, G01, etc...)
+- Ingreso de Símbolos               (EJ: (, ), ",", =)
