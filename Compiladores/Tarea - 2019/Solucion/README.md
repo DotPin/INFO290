@@ -22,7 +22,7 @@ Dentro de cada directorio, se almacenan tanto de librerías JAVA como los archiv
 
 ### Requerimientos de hardware
 
-- Procesador genérico de 266Mhz
+- Procesador Pentium II de 266Mhz
 - Memoria Ram 128mb.
 - Procesador de video >= 16Bits.
 - Almacenamiento 4Gb.
