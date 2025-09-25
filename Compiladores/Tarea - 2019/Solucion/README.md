@@ -1,10 +1,3 @@
-javac -cp java-cup-11b-runtime.jar:. *.java  
-
-
-java -cp java-cup-11b-runtime.jar:. Main test.txt  
-
-
-
 links de utilidad:  
 https://github.com/moy/JFlex/tree/master/jflex/examples  
 https://github.com/moy/JFlex/tree/master/jflex/examples/cup  
@@ -22,3 +15,5 @@ java -cp java-cup-11b-runtime.jar:. Main
 
 
 EN ESE MISMO ORDEN: CUP -> JFLEX -> MAIN
+
+Para usar Traductor Dirigido por Sintaxis, usar comando e instancias "Make" en el directorio tarea
