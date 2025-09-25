@@ -1,16 +1,19 @@
 import java_cup.runtime.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.awt.geom.*;
 import javax.swing.*;
 import java.util.*;
 
 parser code {:
+    
     private JFrame mainFrame;
-    DrawPanel dibujo;
-    ArrayList<Instruccion> memoria2;
-    Hashtable<Integer,Object> memoria;
+    private DrawPanel dibujo;
+    private ArrayList<Instruccion> memoria2;
+    private Hashtable<Integer,Object> memoria;
+    private Integer escala;
 
-    class Instruccion{
+    public class Instruccion{
         String tipo; //color / posicion / linea
 
         //color
@@ -43,67 +46,116 @@ parser code {:
 
     }
 
-
-    /* Change the method report_error so it will display the line and
-       column of where the error occurred in the input as well as the
-       reason for the error which is passed into the method in the
-       String 'message'. */
-
-    class DrawPanel extends JPanel{
+    public class DrawPanel extends JPanel{
 
         public void paintComponent(Graphics g) {
-            for (Instruccion i: instrucciones) {
-                /* 
-                switch (i):
-                case "posicion": g.translate(!"!23")
-                case "color": g.setcolor(asdasd);
-                case "linea": g.drawline(0,0,a,0)
-                */
+
+            super.paintComponent(g);
+            Graphics2D g2d = (Graphics2D)g;
+
+            setBackground(new Color(0, 0, 0)); // Establecemos el color de fondo del dibujo en negro
+            g.setColor(new Color(255, 255, 255)); // Establecemos el color por defecto de los trazos color blanco
+               
+            AffineTransform origen = g2d.getTransform();
+
+            /*  Recorre las instrucciones guardadas para dibujarlas en el panel en el orden que corresponda  */
+
+            for (Instruccion i:memoria2) {
+                switch (i.tipo) {
+                    case "color":       //  Se establece el color para el dibujado de trazos
+                    {
+                        switch (i.color)
+                        {
+                            case "rojo":
+                            {
+                                g.setColor(new Color(255, 0, 0));
+                                break;
+                            }
+                            case "amarillo":
+                            {
+                                g.setColor(new Color(255, 255, 0));
+                                break;
+                            }
+                            case "verde":
+                            {
+                                g.setColor(new Color(0, 255, 0));
+                                break;
+                            }
+                            case "blanco":
+                            {
+                                g.setColor(new Color(255, 255, 255));
+                                break;
+                            }
+                            case "azul":
+                            {
+                                g.setColor(new Color(0, 0, 255));
+                                break;
+                            }
+                            default:
+                                break;
+                        }
+                        break;
+                    }
+                    case "posicion":    //  Se redefine el origen para posicionar un nuevo objeto a dibujar en el panel 
+                                        //  según las coordenadas ingresadas.
+                    {                   //  Escala definida es a pixel
+                        g2d.setTransform(origen);
+                        g.translate(i.x, i.y);
+                        break;
+                    }
+                    case "linea":       //  Define la dirección del trazo a dibujar en el panel con su largo y dirección
+                    {                   //  Escala definida es a centímetros (1 pixel =~ 56 centimetros) (Resolucion 1920x1080, 15.6")
+                        switch (i.direccion) {
+                            case "izquierda":
+                            {
+                                g.drawLine(0, 0, -i.largo * escala, 0);
+                                g.translate(-i.largo * escala, 0);
+                                break;
+                            }
+                            case "derecha":
+                            {
+                                g.drawLine(0, 0, i.largo * escala, 0);
+                                g.translate(i.largo * escala, 0);
+                                break;
+                            }
+                            case "abajo":
+                            {
+                                g.drawLine(0, 0, 0, i.largo * escala);
+                                g.translate(0, i.largo * escala);
+                                break;
+                            }
+                            case "arriba":
+                            {
+                                g.drawLine(0, 0, 0, -i.largo * escala);
+                                g.translate(0, -i.largo * escala);
+                                break;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
     public void report_error(String message, Object info) {
    
-        /* Create a StringBuilder called 'm' with the string 'Error' in it. */
         StringBuilder m = new StringBuilder("Error");
    
-        /* Check if the information passed to the method is the same
-           type as the type java_cup.runtime.Symbol. */
         if (info instanceof java_cup.runtime.Symbol) {
-            /* Declare a java_cup.runtime.Symbol object 's' with the
-               information in the object info that is being typecasted
-               as a java_cup.runtime.Symbol object. */
+
             java_cup.runtime.Symbol s = ((java_cup.runtime.Symbol) info);
    
-            /* Check if the line number in the input is greater or
-               equal to zero. */
             if (s.left >= 0) {                
-                /* Add to the end of the StringBuilder error message
-                   the line number of the error in the input. */
                 m.append(" in line "+(s.left+1));   
-                /* Check if the column number in the input is greater
-                   or equal to zero. */
                 if (s.right >= 0)                    
-                    /* Add to the end of the StringBuilder error message
-                       the column number of the error in the input. */
                     m.append(", column "+(s.right+1));
             }
         }
    
-        /* Add to the end of the StringBuilder error message created in
-           this method the message that was passed into this method. */
         m.append(" : "+message);
    
-        /* Print the contents of the StringBuilder 'm', which contains
-           an error message, out on a line. */
         System.err.println(m);
     }
    
-    /* Change the method report_fatal_error so when it reports a fatal
-       error it will display the line and column number of where the
-       fatal error occurred in the input as well as the reason for the
-       fatal error which is passed into the method in the object
-       'message' and then exit.*/
     public void report_fatal_error(String message, Object info) {
         report_error(message, info);
         System.exit(1);
@@ -112,78 +164,113 @@ parser code {:
 
 
 terminal    POS, IZQ, DER, ARR, ABA, DAVALOR, COLOR, EDITAR, TERMINO, LPAREN, RPAREN, COMMA, EQUAL;
-terminal Integer ID, DIGITO, C;
+terminal String C;
+terminal Integer ID, DIGITO;
    
 
 non terminal Object I, A, S, B, N, D;
 
    S ::= 
         {: 
-        mainFrame = new JFrame("ETT");
-        mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
-        mainFrame.setSize(1440, 900);
-        dibujo = new DrawPanel();
-        mainFrame.add(dibujo);
-        mainFrame.setVisible(true);
-        memoria = new Hashtable<Integer, Object>();
-        memoria2 = new ArrayList<Instruccion>;
-        
+            mainFrame = new JFrame("TDS"); // Se inicializa la ventana
+            mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // El programa se cierra cuando la ventana se cierra manualmente
+            Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize(); // Obtenemos la resolución de la pantalla
+            Integer width = (int)screenSize.getWidth(); // Obtenemos el ancho en pixeles
+            Integer height = (int)screenSize.getHeight(); // Obtenemos el alto en pixeles
+            Double PPI = (Math.sqrt(Math.pow(width, 2)+Math.pow(height,2))) / 15.6; // Hacemos el cálculo considerando una pantalla de 15.6"
+            escala = (int)Math.round(PPI / 2.54); // Hacemos el calculo para pasar de pixel por pulgada a pixel por centimetro y lo consideramos nuestra escala
+            mainFrame.setSize((int)(width * 0.9), (int)(height * 0.9)); // Creamos la ventana como el 90% del tamaño de pantalla disponible
+            memoria = new Hashtable<Integer, Object>(); // Inicializamos la memoria para los identificadores
+            memoria2 = new ArrayList<Instruccion>();
+            dibujo = new DrawPanel(); // Inicializamos el panel de dibujo
+            mainFrame.add(dibujo); // Añadimos el panel a la ventana
+            mainFrame.setVisible(true); // Lo dejamos visible
          :}
-        EDITAR
-         A TERMINO
+        EDITAR A 
+        {:
+            System.out.println("\n\nGracias por usar TDS.\n\n");
+            System.out.print("\nEl programa se cerrará en 0.5 segundos.");
+            Thread.sleep(500);
+            System.out.print(".");
+            Thread.sleep(500);
+            System.out.print(".");
+            Thread.sleep(500);
+            System.out.print(".");
+            Thread.sleep(500);
+            System.out.print(".");
+            Thread.sleep(500);
+            System.out.print(".\n");
+            mainFrame.dispose();
+            System.exit(0);
+         :}
+        TERMINO
+        |
         ;
    A ::= A I
         |
         I
         ;
 
-    I ::= POS LPAREN N:a COMMA N:b {: 
-            memoria2.add(new Instruccion(a,b));
-            System.out.println("POS " + a + "  " + b); :} 
+    I ::= POS LPAREN N:X COMMA N:Y {:
+            memoria2.add(new Instruccion((Integer)X,(Integer)Y));
+            :} 
             RPAREN
           |
-          IZQ LPAREN D:a  {: 
-            memoria2.add(new Instruccion("izquierda",a));
-            System.out.println("IZQ " + a); :} 
+          IZQ LPAREN D:L  {:
+            memoria2.add(new Instruccion("izquierda",(Integer)L));
+            dibujo.repaint();
+            :} 
             RPAREN
           |
-          DER LPAREN D:a  {:
-            memoria2.add(new Instruccion("derecha",a));
-            System.out.println("DER " + a); :} RPAREN
+          DER LPAREN D:L  {:
+            memoria2.add(new Instruccion("derecha",(Integer)L));
+            dibujo.repaint();
+            :} RPAREN
           |
-          ABA LPAREN D:a  {: 
-            memoria2.add(new Instruccion("abajo",a));
-            System.out.println("ABA " + a); /* instrucciones.add(new Instruccion("abajo", (Integer)a))*/ :} RPAREN
+          ABA LPAREN D:L  {:
+            memoria2.add(new Instruccion("abajo",(Integer)L));
+            dibujo.repaint();
+            :} RPAREN
           |
-          ARR LPAREN D:a  {: 
-            memoria2.add(new Instruccion("arriba",a));
-            System.out.println("ARR " + a); :} RPAREN
+          ARR LPAREN D:L  {: 
+            memoria2.add(new Instruccion("arriba",(Integer)L));
+            dibujo.repaint();
+            :} RPAREN
           |
-          DAVALOR ID:id EQUAL N:n  {: 
-            System.out.println("DAVALOR " + id + " = " + n); :}
+          DAVALOR ID:ID EQUAL N:N  {:
+            memoria.put((Integer)ID, N); 
+            dibujo.repaint();
+            :}
           |
-          COLOR LPAREN B:a  {: System.out.println("COLOR " + a); :} RPAREN
+          COLOR LPAREN B:C  {: 
+            memoria2.add(new Instruccion((String)C));
+            dibujo.repaint();
+            :} RPAREN
           ;
     
-    D ::= ID:a.intValue()
-          {: RESULT = memoria.get(a.intValue()); :}
+    D ::= ID:ID
+          {:
+            RESULT = memoria.get(ID);
+          :}
           |
-          DIGITO:b
-          {: RESULT = b; :}
+          DIGITO:D
+          {: RESULT = D; :}
           ;
 
-    B ::= C:c
-          {: RESULT = c; :}
+    B ::= C:C
+          {: RESULT = C; :}
           |
-          ID:d
-          {: RESULT = d; :}
+          ID:ID
+          {: RESULT = memoria.get(ID); :}
           ;
     N ::= ID:f
-          {: RESULT = f; :}
+          {:    
+            RESULT = memoria.get(f);
+          :}
           |
-          DIGITO:g
-          {: RESULT = g; :}
+          DIGITO:D
+          {: RESULT = D; :}
           |
-          C:h
-          {: RESULT = h; :}
+          C:C
+          {: RESULT = C; :}
           ;

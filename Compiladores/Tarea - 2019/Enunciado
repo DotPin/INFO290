@@ -1,3 +1,13 @@
-Mediante los lenguajes disponibles, programar un compilador que integre las fases de analizador léxico y síntactico, 
+Mediante lenguaje de programación Java y motor de desarrollo SDK, desarrollar un Traductor dirigido por Sintaxis que puedaa procesar elementos gráficos mediante librerías disponibles.
 
-para instrucciones especificas
+Los comandos a usar son los siguientes:
+
+EDITAR = Permite iniciar el programa
+POS(X,Y) = Localiza el inicio del elemento gráfico en las coordenadas (X,Y), donde dichas coordenadas serán enteras
+COLOR(LETRA) = Comando para asignar color al elemento gráfico
+ARR(X) => Traza una línea desde su última posición en dirección hacia arriba
+ABA(X) => Traza línea desde su última posición en direccion hacia abajo
+DER(X) => Traza línea desde su última posición en dirección hacia la derecha
+IZQ(X) => Traza línea desde su última posición en dirección hacia la izquierda
+DAVALOR B=X => Asigna un valor "X" siendo éste número entero, en una dirección de memoria "B"
+TERMINO => Finaliza el programa

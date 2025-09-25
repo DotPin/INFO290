@@ -18,15 +18,11 @@ this.tabla = new Hashtable<String, Integer>();
 %{   
     private Integer i;
     private Hashtable<String, Integer> tabla;
-    /* To create a new java_cup.runtime.Symbol with information about
-       the current token, the token will have no value in this
-       case. */
+    
     private Symbol symbol(int type) {
         return new Symbol(type, yyline, yycolumn);
     }
     
-    /* Also creates a new java_cup.runtime.Symbol with information
-       about the current token, but this object has a value. */
     private Symbol symbol(int type, Object value) {
         return new Symbol(type, yyline, yycolumn, value);
     }
@@ -44,7 +40,7 @@ this.tabla = new Hashtable<String, Integer>();
 %}
 
 
-ID = [a-zA-Z][a-zA-Z_0-9]*
+ID = [a-zA-Z][a-zA-Z0-9]*
 
 DIGITO = [0-9]+
 
@@ -52,8 +48,8 @@ LineTerminator = \r|\n|\r\n
 
 WhiteSpace     = {LineTerminator} | [ \t\f]
 
-EDITAR = editar|EDITAR
-TERMINO = termino|TERMINO
+EDITAR = editar
+TERMINO = termino
 C = rojo|verde|amarillo|azul|blanco
 POS = pos
 IZQ = izq
@@ -80,7 +76,7 @@ COLOR = color
 "="                             { return symbol(sym.EQUAL); }
 
 {C}                             { return symbol(sym.C, yytext()); }
-{DIGITO}                        { return symbol(sym.DIGITO, new Integer(yytext())); }
+{DIGITO}                        { return symbol(sym.DIGITO, Integer.valueOf(yytext())); }
 {ID}                            { return symbol(sym.ID, this.get()); }
 
 {WhiteSpace}                    {  /* IGNORE */ }
