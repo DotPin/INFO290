@@ -12,7 +12,7 @@ Dentro de cada directorio, se almacenan los archivos fuente que permiten la ejec
 
 - [Documentación](https://github.com/DotPin/INFO290/tree/master/Compiladores/Tarea%20-%202020/Documentacion):Rercurso informativo cual detalla la estrategias y tácticas tomadas para la toma de requerimientos, tanto para el diseño como la implementación del software bajo los requisitos de arquitectura definidos.
 
-- [Enunciado](hhttps://github.com/DotPin/INFO290/blob/master/Compiladores/Tarea%20-%202019_1/Enunciado): Archivo que describe de manera resumida los requisitos para la estructura de tokens que se necesitan analizar mediante el uso de Lenguaje Regular y el conjunto de instrucciones que procesen mediante producciones gramaticales.
+- [Enunciado](https://github.com/DotPin/INFO290/blob/master/Compiladores/Tarea%20-%202019_1/Enunciado): Archivo que describe de manera resumida los requisitos para la estructura de tokens que se necesitan analizar mediante el uso de Lenguaje Regular y el conjunto de instrucciones que procesen mediante producciones gramaticales.
 
 ## Requerimientos de sistema
 
