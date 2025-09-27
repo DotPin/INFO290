@@ -1,4 +1,5 @@
 #define L 15
+#include <string.h>
 typedef struct arreglo
 {
     char *id;
@@ -14,6 +15,13 @@ arreglo *nuevo_arreglo()
     a->next = NULL;
     return a;
 }
+
+int buscar(char *id, int option);
+void ordenar(int index);
+void meter(char *id, int val, int pos);
+void mirar(char *id);
+void dato(char *id, int pos);
+void sacar(char *id, int pos);
 
 void iniciar(char *id, int e1, int e2, int e3, int e4, int e5, int e6, int e7, int e8)
 {

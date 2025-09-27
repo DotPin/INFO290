@@ -4,7 +4,8 @@
     #include <stdio.h>
     #include <stdlib.h>
     #include "arreglo.h"
-    //int yylex();
+    int yylex(void);
+    void yyerror(const char *s);
 %}
 
 
@@ -50,13 +51,10 @@ inst_dato  : DATO APAR ID COMA ENTERO CPAR
 %%
 int data_offset = 0;
 int data_location() { return data_offset++; }
-yyerror (s) /* Llamada por yyparse ante un error */
-char *s;
-{
-printf ("%s SALIDA\n", s); /* Esta implementación por defecto nos valdrá/* Si no creamos esta función, habrá que enlazar con –ly en el */
+
+void yyerror(const char *s) {
+    fprintf(stderr, "Error: %s\n", s); /* Imprime el mensaje de error */
 }
-
-
 
 
 int main()
