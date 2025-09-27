@@ -1,6 +1,6 @@
 # Presentación de Información
 
-**Traductyor Dirigido por Sintaxis**
+**Traductor Dirigido por Sintaxis**
 
 ***
 
