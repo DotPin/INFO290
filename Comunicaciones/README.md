@@ -7,7 +7,7 @@
 
 ## Descripción
 
-Disciplina encargada fundamentar mediante teorías, modelos y técnicas, permitiendo implementar aplicaciones para la transmisión de información digital a través de los sistemas de comunicación modernos.
+Disciplina encargada fundamentar mediante teorías, modelos y técnicas, permitiendo implementar y estudiar aplicaciones para la transmisión de información digital a través de los sistemas de comunicación modernos.
 
 ## Propuestas
 
