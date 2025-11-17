@@ -69,6 +69,7 @@ for i in range(8):
 ################## transformada ##################################################
 def trans(a):
     global qa
+    #Librería en mantención
     #t = dc.dctTransform(a)
     t = dct(a,type=2,n=None,axis=-1,norm='ortho',overwrite_x=False)
     F = np.zeros((8,8))
@@ -93,6 +94,8 @@ def inv(mt):
     for i in range(8):
         for j in range(8):
             new[i][j] = mt[i][j]*qa[i][j]
+
+    #Librería en mantención
     #t = idc.dctTransform(new)
     t = idct(new, type=2, n=None, axis=-1, norm='ortho', overwrite_x=False)
 
@@ -172,9 +175,13 @@ def main():
     print(time.strftime("%H:%M:%S"))
     tiempoI = time.strftime("%H:%M:%S")
     tablaY(imagen)
+    print("ycbcr")
     proces("ycbcr.jpg")
+    print("transforma")
     retorno("trans.jpg")
+    print("dimensiona")
     uno = tam(imagen)
+    print("dimensiona 2")
     dos = tam("rgb.jpg")
     print ("Original : ",uno," bytes vs Nueva : ",dos,"bytes")
     print ("porcentaje de compresion :",100.0 - (float(dos)*100.0)/float(uno),") %")
