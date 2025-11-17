@@ -11,9 +11,9 @@ Disciplina encargada fundamentar mediante teorías, modelos y técnicas, permiti
 
 ## Propuestas
 
-Caso de Uso 1: Mediante un caso de estudio, se ocuparán los conocimientos adquiridos en la disciplina, para implementar un modelo codificación y decodificación de datos digital, permitiendo que éstos puedan ser transportados por medios de comunicación del mismo principio basado en información.
+- Caso de Uso 1: Mediante un caso de estudio, se ocuparán los conocimientos adquiridos en la disciplina, para implementar un modelo codificación y decodificación de datos digital, permitiendo que éstos puedan ser transportados por medios de comunicación del mismo principio basado en información.
 
-Caso de Uso 2: Mediante los conocimientos adquiridos en clase, se realizará una investigación, que permita orientar un estudio de fiscalización en la transmisión de información por medios electromagnéticos, cual en éste caso es el WIFI.
+- Caso de Uso 2: Mediante los conocimientos adquiridos en clase, se realizará una investigación, que permita orientar un estudio de fiscalización en la transmisión de información por medios electromagnéticos, cual en éste caso es el WIFI.
 
 ## Documentos:
 
