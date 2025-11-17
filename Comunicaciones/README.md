@@ -26,8 +26,7 @@ Disciplina encargada fundamentar mediante teorías, modelos y técnicas, permiti
 
 - Lathi. 2009. Modern Digital and Analog Communication System. Oxford University Press.
 - Stallings, William. 2004. Comunicaciones y Redes de Computadores. Pearson Educación.
-- Smith Steven. 1999. The Scientistic and Engineer’s guide to Digital Signal Processing. Technical
-- Publishing. San Diego California, 1999.
+- Smith Steven. 1999. The Scientistic and Engineer’s guide to Digital Signal Processing. Technical Publishing. San Diego California, 1999.
 - Couch. 1998. Comunicación Análoga y digital. Prentice Hall.
 - Oppenheim-A, Willsky-H Nawab. 1998. Señales y Sistemas. Prentice may.
 - Tomasi W. 1998. Sistemas de comunicaciones electrónicas. Prentice may.
