@@ -8,15 +8,6 @@
 
 Se necesita el estudio de decodificadores de información, usando metodologías y algoritmos matemáticos de compresión para datos digitales, permitiendo su transmisión y recepción por medios del mismo principio tecnológico.
 
-## Implementacion
-
-- SO Usado: Linux Kubuntu
-- Lenguaje usado: Python
-
-## Consideraciones
-
-- Ejecuciones serán a través de la consola de comandos Terminal, los script adjuntos al portafolio.
-
 ## Documentos
 
 - [Documentación](https://github.com/DotPin/INFO290/tree/master/Comunicaciones/Trabajo%201/Documentacion) Directorio cual almacena la teoría y las metodologías usadas para el caso de estudio.
