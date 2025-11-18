@@ -19,6 +19,11 @@ Dentro de cada directorio, se almacenan tanto códigos en Python, base de datos,
 
 - [lectura.py](https://github.com/DotPin/INFO290/blob/master/Comunicaciones/Trabajo%202/Solucion/Materiales/lectura.py) Código en Python que transcribe información de una tabla de datos para traspasarla a una base de datos relacional.
 
+Ejecución:
+```bash
+$python3 lectura.py
+```
+
 - [polígono.trk](https://github.com/DotPin/INFO290/blob/master/Comunicaciones/Trabajo%202/Solucion/Materiales/poligono.trk) Archivo de data de potencia energética creado con software [Acrylic](https://www.acrylicwifi.com/)
 
 - [redes](https://github.com/DotPin/INFO290/blob/master/Comunicaciones/Trabajo%202/Solucion/Materiales/redes) Archivo de base de datos cual almacena información de las redes WIFI colectadas.
