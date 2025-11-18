@@ -19,8 +19,8 @@ Se necesita el estudio de decodificadores de información, usando metodologías 
 
 ## Documentos
 
-- [Caso de estudio](https://github.com/DotPin/INFO290/blob/master/Comunicaciones/Trabajo%201/Solucion/proyecto1_info185.pdf) Despliegue detallado de la necesidad a resolver.
-
 - [Documentación](https://github.com/DotPin/INFO290/tree/master/Comunicaciones/Trabajo%201/Documentacion) Directorio cual almacena la teoría y las metodologías usadas para el caso de estudio.
 
-- [Informe](https://github.com/DotPin/INFO290/blob/master/Comunicaciones/Trabajo%201/Solucion/informe%20proyecto1_%20comunicaciones.doc.pdf) Informe que detalla estudio sobre los análisis de codificación para la información digital.
+- [Solución](https://github.com/DotPin/INFO290/tree/master/Comunicaciones/Trabajo%201/Solucion) Directorio cual almacena informe de estudio y códigos de ejecución.
+
+- [Enunciado](https://github.com/DotPin/INFO290/blob/master/Comunicaciones/Trabajo%201/Enunciado.pdf) Documento cual plantea la necesidad de los oferentes y sus requisitos para cumplimiento de tareas.
