@@ -17,9 +17,9 @@ Disciplina encargada fundamentar mediante teorías, modelos y técnicas, permiti
 
 ## Documentos:
 
-- [Caso Estudio 1](https://github.com/DotPin/INFO290/blob/master/Comunicaciones/Trabajo%201/Enunciado.pdf): Presentación del caso de estudio decodificador de señales digitales.
+- [Caso Estudio 1](https://github.com/DotPin/INFO290/tree/master/Comunicaciones/Trabajo%201): Presentación del caso de estudio decodificador de señales digitales.
 
-- [Caso Estudio 2](https://github.com/DotPin/INFO290/blob/master/Comunicaciones/Trabajo%202/Enunciado.pdf): Presentación del caso de estudio sobre el impacto de las redes electromagnéticas de tipo WIFI.
+- [Caso Estudio 2](https://github.com/DotPin/INFO290/tree/master/Comunicaciones/Trabajo%202): Presentación del caso de estudio sobre el impacto de las redes electromagnéticas de tipo WIFI.
 
 
 ## Referencias:
