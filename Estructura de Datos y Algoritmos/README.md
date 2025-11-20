@@ -12,17 +12,21 @@ Disciplina encargada de fundamentar mediante la teoría del uso de la informaci�
 
 ## Propuestas
 
-- Caso de Uso 1:En esta tarea, vamos a utilizar lo que hemos aprendido sobre estructuras dinámicas de datos y el lenguaje orientado a objetos C++ para desarrollar una pequeña aplicación que permita a un usuario realizar la reserva de su pasaje en avión, elegir o modificar asiento, eliminar la reserva y desplegar la información de cada vuelo.
+- Caso de Uso 1: En este desafío, se usará lo aprendido sobre estructuras dinámicas de datos y el lenguaje orientado a objetos C++ para desarrollar una pequeña aplicación que permita a un usuario realizar la reserva de su pasaje en avión, elegir o modificar asiento, eliminar la reserva y desplegar la información de cada vuelo.
 
-- Caso de Uso 2: 
+- Caso de Uso 2: Para el evento de la Copa Mundial de Futbol Brasil 2014, la tarea consiste en
+desarrollar un software para que un usuario pueda llevar el registro de los partidos que se han jugado en la
+primera fase de grupos, además de conocer el grupo al que pertenece cada equipo y posiciones en tiempo real de
+cada uno en la tabla general y por grupo. Para llevar a cabo esta tarea se utilizara lo aprendido sobre estructuras
+dinámicas de datos en el lenguaje orientado a objetos C++. 
 
 ## Documentos:
 
-- [Caso Estudio 1](): Presentación del caso de estudio decodificador de señales digitales.
+- [Caso Estudio 1](): Presentación de software orientado como prototipo de agencia de vuelos.
 
-- [Caso Estudio 2](): Presentación del caso de estudio sobre el impacto de las redes electromagnéticas de tipo WIFI.
+- [Caso Estudio 2](): Presentación de software orientado como prototipo de registro de partidos de futbol.
 
 
 ## Referencias:
 
-- 
+- [PDTE]
