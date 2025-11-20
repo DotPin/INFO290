@@ -12,6 +12,6 @@ dinámicas de datos en el lenguaje orientado a objetos C++.
 
 ## Documentos
 
-- [Material](https://github.com/DotPin/INFO290/tree/master/Estructura%20de%20Datos%20y%20Algoritmos/Tarea%202/Material) Directorio cual almacena la teoría y las metodologías usadas para el caso de estudio.
+- [Material](https://github.com/DotPin/INFO290/tree/master/Estructura%20de%20Datos%20y%20Algoritmos/Tarea%202/Material) Directorio cual almacena los códigos usados para la creación del software.
 
-- [Enunciado](https://github.com/DotPin/INFO290/blob/master/Estructura%20de%20Datos%20y%20Algoritmos/Tarea%202/Enunciado.pdf) Documento cual plantea la necesidad de los oferentes y sus requisitos para cumplimiento de tareas.
+- [Enunciado](https://github.com/DotPin/INFO290/blob/master/Estructura%20de%20Datos%20y%20Algoritmos/Tarea%202/Enunciado.pdf) Documento cual plantea la necesidad del software desarrollado.
