@@ -1,4 +1,4 @@
-# Presentación de caso de software.
+# Presentación de caso 2 de software.
 
 **Cliente: Dpto de deportes, sección Futbol**
 
