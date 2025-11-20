@@ -1,4 +1,4 @@
-# Estudio en características radioeléctricas, de los medios de transmisión inalámbricos.
+# Presentación de caso de software.
 
 **Cliente: Dpto de deportes, sección Futbol**
 
