@@ -38,7 +38,6 @@ def dctTransform(matrix):
                 
             
             dct1[x][y] =  sm
-        
     return dct1
 
 

@@ -36,7 +36,6 @@ def dctTransform(matrix):
                 
             
             dct1[u][v] = cu * cv * sm
-        
     return dct1
 
 
