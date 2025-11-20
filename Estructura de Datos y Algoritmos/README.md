@@ -1,33 +1,28 @@
  
 # Disciplina a desplegar
 
-**Comunicaciones**
+**Estructura de Datos y Algoritmos**
 
 ***
 
 ## Descripción
 
-Disciplina encargada fundamentar mediante teorías, modelos y técnicas, permitiendo implementar y estudiar aplicaciones para la transmisión de información digital a través de los sistemas de comunicación modernos.
+Disciplina encargada de fundamentar mediante la teoría del uso de la información, diferentes métodos de diseño, organización, estructuración, representación, composición, cálculo para de datos, entregando alternativas y respuesta a diversas formas de integración en lenguajes de programación, como es el uso de Pilas, Arreglos, Listas, Colas, Heap.
+
 
 ## Propuestas
 
-- Caso de Uso 1: Mediante un caso de estudio, se ocuparán los conocimientos adquiridos en la disciplina, para implementar un modelo codificación y decodificación de datos digital, permitiendo que éstos puedan ser transportados por medios de comunicación del mismo principio basado en información.
+- Caso de Uso 1:En esta tarea, vamos a utilizar lo que hemos aprendido sobre estructuras dinámicas de datos y el lenguaje orientado a objetos C++ para desarrollar una pequeña aplicación que permita a un usuario realizar la reserva de su pasaje en avión, elegir o modificar asiento, eliminar la reserva y desplegar la información de cada vuelo.
 
-- Caso de Uso 2: Mediante los conocimientos adquiridos en clase, se realizará una investigación, que permita orientar un estudio de fiscalización en la transmisión de información por medios electromagnéticos, cual en éste caso es el WIFI.
+- Caso de Uso 2: 
 
 ## Documentos:
 
-- [Caso Estudio 1](https://github.com/DotPin/INFO290/tree/master/Comunicaciones/Trabajo%201): Presentación del caso de estudio decodificador de señales digitales.
+- [Caso Estudio 1](): Presentación del caso de estudio decodificador de señales digitales.
 
-- [Caso Estudio 2](https://github.com/DotPin/INFO290/tree/master/Comunicaciones/Trabajo%202): Presentación del caso de estudio sobre el impacto de las redes electromagnéticas de tipo WIFI.
+- [Caso Estudio 2](): Presentación del caso de estudio sobre el impacto de las redes electromagnéticas de tipo WIFI.
 
 
 ## Referencias:
 
-- Lathi. 2009. Modern Digital and Analog Communication System. Oxford University Press.
-- Stallings, William. 2004. Comunicaciones y Redes de Computadores. Pearson Educación.
-- Smith Steven. 1999. The Scientistic and Engineer’s guide to Digital Signal Processing. Technical Publishing. San Diego California, 1999.
-- Couch. 1998. Comunicación Análoga y digital. Prentice Hall.
-- Oppenheim-A, Willsky-H Nawab. 1998. Señales y Sistemas. Prentice may.
-- Tomasi W. 1998. Sistemas de comunicaciones electrónicas. Prentice may.
-- Ferrel Stremler. 1993. Sistemas de Comunicación. Addison Wesley.
+- 
