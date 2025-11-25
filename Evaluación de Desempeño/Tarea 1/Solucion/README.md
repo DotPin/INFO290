@@ -29,15 +29,10 @@ Se usa ruta http://localhost:8000/rsp, para pruebas, según la aplicación anter
 Resultados:
 
 Datos|Equipo
---- | ---
 Solicitudes|50
---- | ---
 P de Subida|10
---- | ---
 Desviación|12.05
---- | ---
 (%Error)|0
---- | ---
 Rendimiento|5.1[s]
 
   
