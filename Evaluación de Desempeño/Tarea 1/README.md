@@ -1,6 +1,6 @@
 # Presentación de Caso 1 de software
 
-**Cliente: Agencia de Vuelos Genérica**
+**Software Benchmarking JMeter**
 
 ***
 

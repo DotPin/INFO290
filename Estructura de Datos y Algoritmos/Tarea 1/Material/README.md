@@ -1,46 +1,42 @@
 # Presentación de Información
 
-**Agencia de Vuelos**
+**Benchmarking JMeter**
 
 ***
 
 ## Descripción de Datos
 
-Dentro de cada directorio, se almacenan tanto de librerías C++ como los archivos fuente que permiten la ejecución del software Agencia de Vuelos, cuales se detallarán a continuación.
+Dentro de cada directorio, se almacena la presentación de la herramienta de benchmarking cual permite hace pruebas de rendimiento para 2 equipos, permitiendo responder las preguntas respectivas frente el uso de la herramienta en cuestión.
 
-- [ListaVuelos.cpp](https://github.com/DotPin/INFO290/blob/master/Estructura%20de%20Datos%20y%20Algoritmos/Tarea%201/Material/ListaVuelos.cpp): Archivo estructura de métodos que organizan los objetos creados en librería ListaVuelos.h 
+- [JMeter.pdf](https://github.com/DotPin/INFO290/blob/master/Evaluaci%C3%B3n%20de%20Desempe%C3%B1o/Tarea%201/Solucion/JMeter.pdf): Archivo presentación de la herramienta para pruebas de rendimiento. 
 
-- [ListaVuelos.h](https://github.com/DotPin/INFO290/blob/master/Estructura%20de%20Datos%20y%20Algoritmos/Tarea%201/Material/ListaVuelos.h) Archivo definición de la estructura de métodos que organizan los objetos para ListaVuelos.cpp 
-
-- [Pasajeros.txt](https://github.com/DotPin/INFO290/blob/master/Estructura%20de%20Datos%20y%20Algoritmos/Tarea%201/Material/Pasajeros.txt) Lista de usuarios que componen la reserva de pasajes para el software.
-
-- [Vuelos.txt](https://github.com/DotPin/INFO290/blob/master/Estructura%20de%20Datos%20y%20Algoritmos/Tarea%201/Material/Vuelos.txt) Archivo de exportación que entrega los datos de la reserva de vuelo con el usuario.
-
-- [main.cpp](https://github.com/DotPin/INFO290/blob/master/Estructura%20de%20Datos%20y%20Algoritmos/Tarea%201/Material/main.cpp): Archivo principal de software cual contienen las funciones principales en la integración de librerías para procesos CRUD del software.
-
+- [link](https://github.com/DotPin/INFO290/blob/master/Evaluaci%C3%B3n%20de%20Desempe%C3%B1o/Tarea%201/Solucion/link) Documento cual guarda los enlaces de respaldo usados para presentación.
 ## Requerimientos de sistema
 
 - SO Linux, Kubuntu 24.04
-- C++
+- Java JDK v18+
 
 
 ### Ejecución en Linux
 
-- Compilar Software
+Descargar desde Apache [JMETER](https://jmeter.apache.org/download_jmeter.cgi)
 
-```bash
-$make
-```
+Tras su ejecución, se realizará prueba a servidor local de aplicación [Rutas de Transporte Valdivia](https://github.com/DotPin/rutas_transporte_beta/tree/main)
 
-- Ejecutar Software
+Se usa ruta http://localhost:8000/rsp, para pruebas, según la aplicación anterior.
 
-```bash
-$./exec
-```
+Resultados:
 
-
-### Ejecución en Windows
-
-Usar programa [DevC++](https://www.dev-cpp.com/), abrir archivo ReservaPasajes.dev, compilar, y ejecutar archivo exportado.
+Datos|Equipo
+--- | ---
+Solicitudes|50
+--- | ---
+P de Subida|10
+--- | ---
+Desviación|12.05
+--- | ---
+(%Error)|0
+--- | ---
+Rendimiento|5.1[s]
 
   
