@@ -15,7 +15,7 @@ Disciplina del área de la ingeniería, cual permite la comprensión de las leye
 
 ## Documentos:
 
-- [Caso Estudio 1](https://github.com/DotPin/INFO290/tree/master/Evaluaci%C3%B3n%20de%20Desempe%C3%B1o/Tarea%201): Presentación de proyecto solar.
+- [Caso Estudio 1](https://github.com/DotPin/INFO290/tree/master/Fisica%20III%20Para%20ingenieria/Proyecto%201): Presentación de proyecto solar.
 
 ## Referencias:
 
