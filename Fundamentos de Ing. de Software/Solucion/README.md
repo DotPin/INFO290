@@ -12,11 +12,11 @@ En este desafío, se realiza la recopìlación de la teoría sobre los fundament
 
 **Proceso: Venta en restaurant**
 
-## Descripción de Datos
+### Descripción de Datos
 
 Dentro del directorio, se almacenan tanto los archivos que documentan los modelos de unificación lógicos de una fase de diseño, donde también está informe que describe todo procedimiento documentado para posterior fase de desarrollo.
 
-### Consideraciones
+#### Consideraciones
 
 Para la revisión de cada los archivo UML creado, instalar software [Umbrello](https://uml.sourceforge.io/).
 
