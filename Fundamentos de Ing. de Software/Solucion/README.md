@@ -22,18 +22,18 @@ Para la revisión de cada los archivo UML creado, instalar software [Umbrello](h
 
 - [Tarea 1.pdf](https://github.com/DotPin/INFO290/blob/master/Fundamentos%20de%20Ing.%20de%20Software/Solucion/Tarea%201.pdf): Archivo cual describre el caso de estudio a modelar, junto con los gráficos de desempeño lógico de cada procedimiento de un proceso de venta.
 
-- [diagrama colaboracion 1_1.xmi](): Archivo Umbrello cual describe procedimiento de Contrato 1.
+- [diagrama colaboracion 1_1.xmi](https://github.com/DotPin/INFO290/blob/master/Fundamentos%20de%20Ing.%20de%20Software/Solucion/diagrama%20colaboracion%201_1.xmi): Archivo Umbrello cual describe procedimiento de Contrato 1.
 
-- [diagrama colaboración 1_2](): Archivo Umbrello cual describe procedimiento de Contrato 2.
+- [diagrama colaboración 1_2](https://github.com/DotPin/INFO290/blob/master/Fundamentos%20de%20Ing.%20de%20Software/Solucion/diagrama%20colaboracion%201_2.xmi): Archivo Umbrello cual describe procedimiento de Contrato 2.
 
-- [diagrama colaboracion 1_3.xmi](): Archivo Umbrello cual describre procedimiento Contrato 3.
+- [diagrama colaboracion 1_3.xmi](https://github.com/DotPin/INFO290/blob/master/Fundamentos%20de%20Ing.%20de%20Software/Solucion/diagrama%20colaboracion%201_3.xmi): Archivo Umbrello cual describre procedimiento Contrato 3.
 
-- [diagrama colaboracion 1_4.xmi](): Archivo Umbrello cual describre procedimiento Contrato 4.
+- [diagrama colaboracion 1_4.xmi](https://github.com/DotPin/INFO290/blob/master/Fundamentos%20de%20Ing.%20de%20Software/Solucion/diagrama%20colaboracion%201_4.xmi): Archivo Umbrello cual describre procedimiento Contrato 4.
 
-- [diagrama colaboracion 1_5.xmi](): Archivo Umbrello cual describre procedimiento Contrato 5.
+- [diagrama colaboracion 1_5.xmi](https://github.com/DotPin/INFO290/blob/master/Fundamentos%20de%20Ing.%20de%20Software/Solucion/diagrama%20colaboracion%201_5.xmi): Archivo Umbrello cual describre procedimiento Contrato 5.
 
-- [diagrama colaboración 1_6](): Archivo Umbrello cual describe procedimiento de Contrato 6.
+- [diagrama colaboración 1_6](https://github.com/DotPin/INFO290/blob/master/Fundamentos%20de%20Ing.%20de%20Software/Solucion/diagrama%20colaboracion%201_6.xmi): Archivo Umbrello cual describe procedimiento de Contrato 6.
 
-- [diagrama de clases ejercicio 1.xmi](): Archivo Umbrello cual describre modelo relacional del procedimiento
+- [diagrama de clases ejercicio 1.xmi](https://github.com/DotPin/INFO290/blob/master/Fundamentos%20de%20Ing.%20de%20Software/Solucion/diagrama%20de%20clases%20ejercicio%201.xmi): Archivo Umbrello cual describre modelo relacional del procedimiento
 
-- [diagrama de secuencia ejercicio 1.xmi](): Archivo Umbrello cual describre conjunto de estados cuales realiza interacción el usuario con el sistema.
+- [diagrama de secuencia ejercicio 1.xmi](https://github.com/DotPin/INFO290/blob/master/Fundamentos%20de%20Ing.%20de%20Software/Solucion/diagrama%20de%20secuencia%20ejercicio%201.xmi): Archivo Umbrello cual describre conjunto de estados cuales realiza interacción el usuario con el sistema.
