@@ -10,13 +10,13 @@ Disciplina del área de la ingeniería, cual permite la creación de modelos que
 
 ## Propuestas
 
-- Caso de Uso 1: Desafío cual permite presentar un diseño procedimental de modelo unificación lógico (UML), para un proceso de venta.
+- Caso de Uso 1: Desafío cual permite presentar un modelo de gestión, cual permite integración de diversos sistemas de ingeniería para la calefacción.
 
 ## Documentos:
 
-- [Solución](https://github.com/DotPin/INFO290/tree/master/Fundamentos%20de%20Ing.%20de%20Software/Solucion): Directorio con la presentación de caso de estudo procedimental UML.
+- [Solución](https://github.com/DotPin/INFO290/tree/master/Ingenieria%20en%20Sistemas/Solucion): Directorio con la presentación de caso de estudo de sistema energético.
 
-- [Enunciado](https://github.com/DotPin/INFO290/blob/master/Fundamentos%20de%20Ing.%20de%20Software/Enunciado): Enunciado cual describre el desafío a realizar.
+- [Enunciado](https://github.com/DotPin/INFO290/blob/master/Ingenieria%20en%20Sistemas/Enunciado): Enunciado cual describre el desafío a realizar.
 
 ## Referencias:
 
