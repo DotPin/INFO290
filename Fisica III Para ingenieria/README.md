@@ -19,4 +19,8 @@ Disciplina del área de la ingeniería, cual permite la comprensión de las leye
 
 ## Referencias:
 
-[PDTE]
+- SEARS, ZEMANSKY, YOUNG, FREEDMAN: '" Fisica Universitaria con física moderna", Vol.II, Decimosegunda edición Pearson Educación, 2006.
+- HEWITT, “Física Conceptual” décima edición, Pearson Educación, 2007.
+- HENRY JACOBOWITZ, “Electricidad Simplificada” Centro regional de ayuda técnica, agencia
+para el desarrollo internacional, 1964
+- WARD: “Electricidad”, McGraw-Hill, 1973 
