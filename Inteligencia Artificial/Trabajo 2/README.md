@@ -1,4 +1,4 @@
-# Presentación de Caso 1 de software
+# Presentación de Caso 2 de software
 
 **Cliente: Personal de Salud = Médico/a, Cardiólogo/a, Enfermero/a**
 
@@ -6,7 +6,7 @@
 
 ## Necesidad
 
-En este desafío, Determinar enfermedad cónica que describa usando un modelo de aprendizaje supervisado cual objetivo es procesar información, indicando un resultado de un % afirmación. 
+En este desafío, Determinar enfermedad crónica que describa usando un modelo de aprendizaje supervisado cual objetivo es procesar información, indicando un resultado de un % afirmación. 
 
 ## Documentos
 
