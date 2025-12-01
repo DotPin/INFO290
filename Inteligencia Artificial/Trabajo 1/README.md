@@ -10,4 +10,4 @@ Desafío en creación de prototipo de software Orientado en la optimización de 
 
 ## Documentos
 
-- [IA Bioinspirada (AG) ](https://github.com/DotPin/INFO290/tree/master/Inteligencia%20Artificial/Trabajo%205/Solucion) : Directorio de algoritmos cuales ejecutan los procesos de automatización, de cada metodología usada y sus resultados.
+- [IA Bioinspirada (AG) ](https://github.com/DotPin/AG_Prototipe) : Directorio de algoritmos cuales ejecutan los procesos de automatización, de cada metodología usada y sus resultados.
