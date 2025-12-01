@@ -11,7 +11,7 @@ Disciplina encargada de aprender mediante lenguaje de programación Python, algo
 
 ## Propuestas
 
-- Caso de Uso 1: Desafío cual predende presentar un prototipo de simulación orientado en Aprendizaje Automático cual describe un problema del taxista. 
+- Caso de Uso 1: Desafío cual predende presentar un prototipo de simulación orientado en Aprendizaje Automático de orientación biológico para ajuste de parámetros. 
 
 - Caso de Uso 2: Desafío cual presenta un algoritmo de Aprendizaje Automático que permite precedir si una persona tiene enfermedad crónica. 
 
@@ -24,9 +24,15 @@ Disciplina encargada de aprender mediante lenguaje de programación Python, algo
 
 ## Documentos:
 
-- [Caso Estudio 1](https://github.com/DotPin/INFO290/tree/master/Inteligencia%20Artificial/Trabajo%201): Presentación de software orientado como prototipo de agencia de vuelos.
+- [Caso Estudio 1](https://github.com/DotPin/AG_Prototipe): Presentación de software Aprendizaje Automático de tipo bioinspirado como ajuste de parámetros AG.
 
-- [Caso Estudio 2](https://github.com/DotPin/INFO290/tree/master/Estructura%20de%20Datos%20y%20Algoritmos/Tarea%202): Presentación de software orientado como prototipo de registro de partidos de futbol.
+- [Caso Estudio 2](https://github.com/DotPin/INFO290/tree/master/Inteligencia%20Artificial/Trabajo%202):  Desafío cual presenta un algoritmo de Aprendizaje Automático que permite precedir si una persona tiene enfermedad crónica.
+
+- [Caso Estudio 3](https://github.com/DotPin/INFO290/tree/master/Inteligencia%20Artificial/Trabajo%203): Presentación de software Aprendizaje Automático de tipo bioinspirado como ajuste de parámetros PSO.
+
+- [Caso Estudio 4](https://github.com/DotPin/INFO290/tree/master/Inteligencia%20Artificial/Trabajo%204):Desafío cual presenta algoritmo de Aprendizaje Automático cual permite predecir si una persona es fumadora o no. 
+
+- [Caso Estudio 5](https://github.com/DotPin/INFO290/tree/master/Inteligencia%20Artificial/Trabajo%205): Desafío cual pretende presentar algoritmos de aprendizaje automático, que premiten generar estudio para el ajuste de parámetros astronómicos en la búsqueda de Galaxia, Estrellas o Quasares
 
 
 ## Referencias:
