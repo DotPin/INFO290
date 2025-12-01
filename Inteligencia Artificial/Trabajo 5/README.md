@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Presentación de caso 5 de software.
 
 **Cliente:Astrónomo, Astrofísico, GeoFísico, Fotógrafo, Diseñador**

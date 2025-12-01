@@ -7,7 +7,7 @@
 
 ## Descripción
 
-Disciplina encargada de aprender mediante lenguajes de programación, algoritmos de aprendizaje automático de tipo supervisado y no supervisado, tales como Machine Learning u otros relacionados con Redes Neuronales, cuales fundamentan las bases de las áreas de la Inteligancia Artificial.
+Disciplina encargada de aprender mediante lenguaje de programación Python, algoritmos de aprendizaje automático de tipo supervisado y no supervisado, tales como Machine Learning u otros relacionados con Redes Neuronales, cuales fundamentan las bases de las áreas de la Inteligancia Artificial.
 
 ## Propuestas
 
