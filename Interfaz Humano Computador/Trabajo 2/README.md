@@ -6,7 +6,7 @@
 
 ## Necesidad
 
-Desafío en creación de prototipo de sistema, cual permita la ejecución de multiples servicios, dando solución a un requisito funcional.
+Desafío en creación de prototipo de sistema, cual permita la ejecución de multiples servicios, dando solución a un requisito funcional de tipo emergencia.
 
 ## Documentos
 
