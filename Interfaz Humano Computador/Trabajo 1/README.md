@@ -6,7 +6,7 @@
 
 ## Necesidad
 
-Desafío en describir requisitos funcionales para el desarrollo de software, orientado en la creación del diseño visual del sistema, permitiendo su interacción con los usuarios que usarán el sistema.
+Desafío en describir requisitos funcionales para el desarrollo de software, orientado en la creación del diseño visual del sistema de un inventarios, permitiendo su interacción con los usuarios que usarán el sistema.
 
 ## Documentos
 
