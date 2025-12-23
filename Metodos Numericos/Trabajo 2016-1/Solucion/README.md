@@ -12,7 +12,7 @@ Dentro del directorio, se almacenan los archivos de ejecución Octave, cuales se
 
 - [F1.m->F12.m](https://github.com/DotPin/INFO290/tree/master/Metodos%20Numericos/Trabajo%202016-1/Solucion): Archivos multiparamétricos que modularizan tanto variables como ecuaciones de variación paramétricas.
 
-- [Heun.m]https://github.com/DotPin/INFO290/blob/master/Metodos%20Numericos/Trabajo%202016-1/Solucion/Heun.m): Método de aproximación numérica de nivel 2 de tipo Euler variación Taylor para EDO, Heun
+- [Heun.m](https://github.com/DotPin/INFO290/blob/master/Metodos%20Numericos/Trabajo%202016-1/Solucion/Heun.m): Método de aproximación numérica de nivel 2 de tipo Euler variación Taylor para EDO, Heun
 
 - [Informe Final.pdf](https://github.com/DotPin/INFO290/blob/master/Metodos%20Numericos/Trabajo%202016-1/Solucion/Informe%20Final.pdf): Documento cual entrega los requisitos y análisis experimentales.
 
