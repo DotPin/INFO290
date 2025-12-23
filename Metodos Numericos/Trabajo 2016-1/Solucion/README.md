@@ -8,7 +8,7 @@
 
 Dentro del directorio, se almacenan los archivos de ejecución Octave, cuales se detallarán a continuación.
 
-- [Euler.m]https://github.com/DotPin/INFO290/blob/master/Metodos%20Numericos/Trabajo%202016-1/Solucion/Euler.m): Método numérico de aproximación variación Taylor para EDO, Euler. 
+- [Euler.m](https://github.com/DotPin/INFO290/blob/master/Metodos%20Numericos/Trabajo%202016-1/Solucion/Euler.m): Método numérico de aproximación variación Taylor para EDO, Euler. 
 
 - [F1.m->F12.m](https://github.com/DotPin/INFO290/tree/master/Metodos%20Numericos/Trabajo%202016-1/Solucion): Archivos multiparamétricos que modularizan tanto variables como ecuaciones de variación paramétricas.
 
