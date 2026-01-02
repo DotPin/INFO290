@@ -1,6 +1,6 @@
 # Presentación de Información
 
-**Monorriel**
+**Placa en Tº**
 
 ***
 
@@ -8,15 +8,7 @@
 
 Dentro del directorio, se almacenan los archivos de ejecución Octave, cuales se detallarán a continuación.
 
-- [Euler.m](https://github.com/DotPin/INFO290/blob/master/Metodos%20Numericos/Trabajo%202016-1/Solucion/Euler.m): Método numérico de aproximación variación Taylor para EDO, Euler. 
-
-- [F1.m->F12.m](https://github.com/DotPin/INFO290/tree/master/Metodos%20Numericos/Trabajo%202016-1/Solucion): Archivos multiparamétricos que modularizan tanto variables como ecuaciones de variación paramétricas.
-
-- [Heun.m](https://github.com/DotPin/INFO290/blob/master/Metodos%20Numericos/Trabajo%202016-1/Solucion/Heun.m): Método de aproximación numérica de nivel 2 de tipo Euler variación Taylor para EDO, Heun
-
-- [Informe Final.pdf](https://github.com/DotPin/INFO290/blob/master/Metodos%20Numericos/Trabajo%202016-1/Solucion/Informe%20Final.pdf): Documento cual entrega los requisitos y análisis experimentales.
-
-- [RungeKutta4.m](https://github.com/DotPin/INFO290/blob/master/Metodos%20Numericos/Trabajo%202016-1/Solucion/RungeKutta4.m): Método de aproximación numérica de nivel 3 de tipo Euler variación de Taylor para EDO, RungeKutta-4
+- [simulación.m](https://github.com/DotPin/INFO290/blob/master/Metodos%20Numericos/Trabajo%202016-2/Solucion/Simulation.m): Algoritmo cual ejecuta rutina de aproximación GausSeidel junto con Diferencias Finitas.
 
 ## Requerimientos de sistema
 
@@ -30,20 +22,9 @@ Dentro del directorio, se almacenan los archivos de ejecución Octave, cuales se
 - Ejecutar Software
 
 ```bash
-$Octave Euler.m
+$Octave simulacion.m
 ```
-
-
-```bash
-$Octave Heun.m
-```
-
-
-```bash
-$Octave RungeKutta4.m
-```
-
 
 ### Ejecución en Windows
 
-Usar programa [Octave](https://octave.org/), abrir archivo Euler.m, Heun.m, RungeKutta4.m, y ejecutar archivos individualmente al ser exportado.
+Usar programa [Octave](https://octave.org/), abrir archivo simulacion.m, y ejecutar archivos individualmente al ser exportado.
