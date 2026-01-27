@@ -4,9 +4,9 @@
 % y para ejecutarse deben estar en el mismo directorio.
 
 
-A = dlmread("matriz_a",",")
-B = dlmread("matriz_b")
-n = length(B)
+A = dlmread("matriz_a",",");
+B = dlmread("matriz_b");
+n = length(B);
 format short
 
 plp = true;
@@ -48,7 +48,7 @@ end
 
 % Matriz Mgs y Vgs
 Mgs=-inv(D+E)*F
-Vgs= inv(D+E)*B' 
+Vgs= inv(D+E).*B' 
 
 % Iteraciones para solucion del sistema
 x=zeros(n,1);
