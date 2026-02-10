@@ -1,11 +1,12 @@
 %% Para poder ejecutar el programa es necesario importar la matriz de valores A con el vector B
 % para ello debe ejecutarse antes el archivo Dif_finitas.py
-% luego generará los archivos "matris A.csv" y "vector B.csv"
+% luego generará los archivos "matris A.csv", "vector B.csv", "dimension"
 % y para ejecutarse deben estar en el mismo directorio.
 
 
 A = dlmread("matriz_a",",");
 B = dlmread("matriz_b");
+C = dlmread("dimension");
 n = length(B);
 format short
 
@@ -17,9 +18,8 @@ plp = true;
     end
   end
 
-
-a = input("Ingrese el lado cuadrado de la superficie: ");
-z = input("Ingrese la profundidad de la superficie: ");
+a = C(1)
+z = C(2)
 a = a*2-2
 z = z*2-2
 
@@ -54,7 +54,7 @@ x=zeros(n,1);
 norm(Mgs,2);
 norm((Mgs*x+Vgs - x),2);
 printf ("Numero de iteraciones aproximadas a realizar")
-k = ceil( log((nn*(1-norm(Mgs,2)))/norm((Mgs*x+Vgs - x),2))/log(norm(Mgs,2)) )
+k = ceil( log((nn*(1-norm(Mgs,2)))/norm((Mgs*x+Vgs - x),2))/log(norm(Mgs,2)) );
 
 zz = input("Comienza el metodo iterativo, presione 'enter' ");
 
@@ -67,8 +67,6 @@ for i=0:1:k;
 	      break
       end
 end
-printf("Solucion aproximada 'X' del sistema \n")
-x
 printf("Error relativo de corte \n")
 e
 printf("Cantidad de iteraciones realizadas \n")

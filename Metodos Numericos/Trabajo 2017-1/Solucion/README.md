@@ -20,6 +20,7 @@ Dentro del directorio, se almacenan los archivos de ejecución Octave, cuales se
 
 - SO Linux, Kubuntu 24.04
 - C++
+- Python 3.7 or Latest
 - Octave Cli v8.X
 
 
@@ -28,5 +29,5 @@ Dentro del directorio, se almacenan los archivos de ejecución Octave, cuales se
 - Ejecutar Software
 
 ```bash
-$python3 prueba.py
+$sh execute.sh
 ```

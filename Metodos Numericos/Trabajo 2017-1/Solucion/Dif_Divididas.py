@@ -1,11 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-#Para la ejecución de éste código es necesario tener instalado python v2.7 o superior
-#ademas tener instalada la paquetería python-sympy
-#desde linux $sudo apt-get install python-sympy
-#para windows descargar e instalar el paquete sympy desde el siguiente link:https://pypi.python.org/pypi/sympy
-
+#Para la ejecución de éste código es necesario tener instalado python v3.7 o superior
+#ademas tener instalada la paquetería python-sympy y csv
 
 from sympy import *
 import csv
@@ -22,21 +19,20 @@ B = 60	#condicion 4
 dx = 0.5
 dy = 0.5
 dz = 0.5
-xx=6
-xy=4
-z=9
+dim_x=6
+dim_z=9
 
 #Inputs manuales
 #dx = float(input("INgrese valor dx entre 0<dx<1: "))
 #dy = float(input("INgrese valor dy entre 0<dy<1: "))
 #dz = float(input("INgrese valor dz entre 0<dz<1: "))
-#xx = float(input("Ingrese el lado cuadrado: "))
-#z = float(input("Ingrese profundidad de la superficie: "))
+#dim_x = float(input("Ingrese el lado cuadrado: "))
+#dim_z = float(input("Ingrese profundidad de la superficie: "))
 
 #Para el caso de evaluar con deltas descomentar las 2 lineas inferiores
 
-xx= int(round(xx/dx))		#dx dy dz son variaciones dif_finitias del nodo para calcular dimensiones correctas de la matriz 3D
-z= int(round(z/dz))
+xx= int(round(dim_x/dx))		#dx dy dz son variaciones dif_finitias del nodo para calcular dimensiones correctas de la matriz 3D
+z= int(round(dim_z/dz))
 
 #<********************Declaracion de métodos**********************
 
@@ -194,43 +190,20 @@ for a in range(len(w)):
             # Número positivo solo
             mB(a, float(b))
   
-  #Código original del bloque anterior
-  #sp = str(w[a]).split("+")
-  #for b in sp:
-  #  if b.find("-")!= -1:		#determina si algúno posee negativo
-  #    if b.find("-")<2:
-  #      pt = b.split("-")		#separa el negativo
-  #      pt[1] = "-"+pt[1]	
-  #    else:
-	#      pt = b.split("-")		#separa el negativo
-	#      pt[1] = "-"+pt[1]	
-	#
-  #    for c in pt:		#luego separa el multiplicador
-	#      if c != "":
-	#        pt1 = c.split("*")	
-	#        mM1(a,pt1)		#funcion para meterlo a matriz
-  #  elif(b.find("*")<0):
-  #        if b == "":
-	#          mB(a,0)
-  #        else:
-	#          mB(a,float(b))
-  #  else:  
-  #    ptf = b.split("*")
-  #    mM(a,ptf)
-
 #Transfomamos parámetro en Vector Columna
 Bb = [[x] for x in B]
+dim=[]
+dim.append(dim_x)
+dim.append(dim_z)
 
-with open("matriz_b", "w", newline='') as dataCSV2:
-  wr = csv.writer(dataCSV2, dialect='excel')
-  wr.writerows(Bb)
+with open("dimension","w",newline='') as dataCSV0:
+  writer = csv.writer(dataCSV0, dialect='excel')
+  writer.writerow(dim)
 
 with open("matriz_a","w",newline='') as dataCSV:
   writer = csv.writer(dataCSV, dialect='excel')
   writer.writerows(M)
 
-    
-
-            
-
-
+with open("matriz_b", "w", newline='') as dataCSV2:
+  wr = csv.writer(dataCSV2, dialect='excel')
+  wr.writerows(Bb)
