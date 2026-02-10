@@ -27,7 +27,7 @@ Disciplina cual permite análisis numérico en la resolución de problema de ing
 
 - [Caso Estudio 3](https://github.com/DotPin/INFO290/tree/master/Metodos%20Numericos/Trabajo%202017-1): Presentación propuesta de caso aleta disipadora.
 
-- [Caso Estudio 4](https://github.com/DotPin/INFO290/tree/master/Metodos%20Numericos/Trabajo%202016-2): Presentación propuesta de caso deformación de placa.
+- [Caso Estudio 4](https://github.com/DotPin/INFO290/tree/master/Metodos%20Numericos/Trabajo%202017-2): Presentación propuesta de caso deformación de placa.
 
 ## Referencias:
 
