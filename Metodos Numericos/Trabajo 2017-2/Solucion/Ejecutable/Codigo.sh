@@ -4,8 +4,8 @@ do
  echo "."
  sleep 1
 done
-python3 valores2.py
 python3 Dif_Divididas.py
+python3 descomposicion.py
 for i in 1 2 3
 do
  echo "."

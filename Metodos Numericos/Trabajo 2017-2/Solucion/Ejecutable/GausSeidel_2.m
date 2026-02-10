@@ -84,5 +84,9 @@ end
 save "Resultado_final_GausSeidel" x
 
 surf(srf)
-pause(10)
+title("Gráfico de Deflexion de placa rectangular");
+xlabel('Nodo posición y');
+ylabel('Nodo posición x');
+zlabel('Deflexion');
+xxx = input("Presione tecla para continuar")
 

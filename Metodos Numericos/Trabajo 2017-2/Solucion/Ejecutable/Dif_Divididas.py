@@ -163,6 +163,6 @@ vv.append(largo)
 
 with open('len.csv', 'w', newline='') as dataCSV:
     writer = csv.writer(dataCSV, dialect='excel')
-    writer.writerows([vv])
+    writer.writerow(vv)
 
 
