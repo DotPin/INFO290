@@ -1,6 +1,6 @@
 %Variables
 clear all %% borra todo lo guardado
-n = 1000;     %Numero de iteraciones
+n = 10000;     %Numero de iteraciones
 t = 0;         %Tiempo inicial
 h = 0.1;     %Tamaño de paso
 % reserva de memoria 
@@ -119,3 +119,5 @@ end
         ylabel('velocidad');
         legend('x6','x5','x4','x3','x2','x1')
     title('velocidad: HEUN')
+
+xxx = input("presione tecla para terminar")

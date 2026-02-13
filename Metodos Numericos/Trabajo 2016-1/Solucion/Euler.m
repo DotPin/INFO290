@@ -1,6 +1,6 @@
 %Variables
 clear all %% borra todo lo guardado
- n= 18000 ;   %Numero de iteraciones
+n= 10000 ;   %Numero de iteraciones
 t = 0;         %Tiempo inicial
 %tf= 1800;
 h = 0.1;     %Tamaño de paso
@@ -99,3 +99,6 @@ end
         ylabel('velocidad');
         legend('x6','x5','x4','x3','x2','x1')
     title('velocidad: EULER')
+
+
+xxx = input("Presione tecla para terminar");
