@@ -96,7 +96,7 @@ figure(2);
 [x,y,z] = ind2sub(size(matriz), find(matriz > 0.00001));
 scatter3(x, y, z, 30, matriz(matriz > 0.00001), 'filled')
 colorbar
-title("Gráfico de Tº de una placa irregular 3D");
+title("Gráfico de Tº de aleta disipadora en 3D");
 xlabel('Nodo posición y');
 ylabel('Nodo posición x');
 zlabel('Temperatura de la placa');

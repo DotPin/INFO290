@@ -125,7 +125,7 @@ in_nd = 0
 for i in range(1,z-1):		
   for j in range(1,xx-1):		
     for k in range(1,xx-1):
-      w[in_nd] = ddtx(prl[i][j][k+1],prl[i][j][k],prl[i][j][k-1],k) + ddty(prl[i][j+1][k],prl[i][j][k],prl[i][j-1][k-1],j) + ddtx(prl[i+1][j][k],prl[i][j][k],prl[i-1][j][k],i)
+      w[in_nd] = ddtz(prl[i][j][k+1],prl[i][j][k],prl[i][j][k-1],k) + ddty(prl[i][j+1][k],prl[i][j][k],prl[i][j-1][k-1],j) + ddtx(prl[i+1][j][k],prl[i][j][k],prl[i-1][j][k],i)
       in_nd += 1		
 
 for i in range(len(w)):			#Corroboramos que las ecuaciones estén bien ejecutadas
