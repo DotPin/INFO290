@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from sympy import *
-import numpy as np
-import csv
+#import csv
 
 xx = 7      #Largo de la placa
 yy = 5      #Alto de la placa
