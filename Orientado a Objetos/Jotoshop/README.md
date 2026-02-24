@@ -12,21 +12,21 @@ posicion del frame quedandose inactivo.
 -Estos filtros por panel son: Negativo, Escala de Grises, Blanco y negro, 
 Brillo y contraste, y redimencion.
 
-	El Filtro de negativo, aplica el filtro en el panel n°2
+	-El Filtro de negativo, aplica el filtro en el panel n°2
 
-	El filtro escala de grises, aplica automaticamente el filtro en el 
+	-El filtro escala de grises, aplica automaticamente el filtro en el 
 	panel n°2
 
-	El filtro Blanco y negro, aplica al instante el filtro en el
+	-El filtro Blanco y negro, aplica al instante el filtro en el
 	panel n°2.
 
-	El filtro Brillo y Contraste, aplica este filtro de manera 
+	-El filtro Brillo y Contraste, aplica este filtro de manera 
 	progresiva con un Slider por separado con el contraste y son 
 	aplicados por botones, "Pintar C" y "Pintar B", los rangos estan
 	asignados por cada Slider de -100 a +100 dando el 0 como filtro 
 	neutro.
 
-	El filtro de Redimencion, aplica este filtro de manera progresiva
+	-El filtro de Redimencion, aplica este filtro de manera progresiva
 	con un Slider aumentando y reduciendo la imagen su tamaño, 
 	seleccionandola con el objeto, y pindandose con el boton "Pintar",
 	el rango es desde -10 a +10 dejando el 0 como el neutro de la imagen.
@@ -35,21 +35,13 @@ Brillo y contraste, y redimencion.
 proceso de carga de imagen que deja al estar abierto el programa, junto 
 con el proceso de java.exe
 
-
-
 ## AUTORES/DESARROLLADORES
-
 
 @Diego ROjas Asenjo, Estudiante Ingeniería Civil en Informática
 
-
-
 ## LICENCIA
 
-
 @Programa Desarrollado en codigo Java, uso demo ilimitado.
-
-
 
 ## LISTADO DE BUGS
 
