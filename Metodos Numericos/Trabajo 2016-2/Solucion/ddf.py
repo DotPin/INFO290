@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 
 from sympy import *
-#import csv
+import numpy as np
+import csv
 
 xx = 7      #Largo de la placa
 yy = 5      #Alto de la placa
@@ -13,6 +14,8 @@ xx = int(round(xx/dx))-1
 yy = int(round(yy/dy))-1
 
 #matriz = np.zeros((yy,xx),dtype='f')
+
+#matriz = [[Valor for x in range(Columnas)] for x in range(filas)]
 matriz = [[0 for x in range(xx)] for x in range(yy)]
 
 range1 = round(yy/2)+1
@@ -52,6 +55,47 @@ for i in range(yy):
             idx_node, matriz[i][j] = pluss_node(idx_node)
 
 
-print(f'\n\n**********(Mallado)********************')
+print(f'\n\n**********(Mallado ({xx},{yy}))********************')
 for a in matriz:
     print(a)
+
+def d_x(ix,iy):     #condiciones de borde para flujo en "X"
+    if(iy==0):  #condición de dirichlet
+        rst = ((ix+iy)/sqrt(2))*(2*dx) + 4
+    elif((iy>1 and iy<4) or iy==4 or iy==5):    #condición de neumann
+        rst =  ((ix+iy)/sqrt(2))*(2*dx) + matriz[ix-2][iy]
+    return rst
+
+
+def d_dx(ix,iy):     #diferencia finita de posicionamiento central en "x"
+    if (ix==0 and iy==0):
+        rst = d_x(ix+1,iy) - 2*matriz[ix][iy] + 4
+        return rst
+    elif(ix==0 and iy!=yy-1):
+        rst = matriz[ix+1][iy] - 2*matriz[ix][iy] + 4
+        return rst
+    elif(ix<3 and iy<3):
+        if(matriz[ix+1][iy]==0):
+            rst = d_x(ix+1,iy) - 2*matriz[ix][iy] + matriz[ix-1][iy]
+            return rst
+        else:
+            rst =  matriz[ix+1][iy] - 2*matriz[ix][iy] + matriz[ix-1][iy]
+            return rst
+    elif(ix==8 or ix==9):
+        rst = d_x(ix,iy) -2*matriz[ix][iy] + matriz[ix-1][iy]
+        return rst
+    elif(ix==xx-1):
+        rst =  iy - 2*matriz[ix][iy] + matriz[ix-1][iy]
+        return rst
+    else:
+        rst = matriz[ix+1][iy] - 2*matriz[ix][iy] + matriz[ix-1][iy]
+        return rst
+
+polinomios=[]
+for i in range(4):
+    for j in range(4):
+        polinomios.append(d_dx(i,j))
+
+for a in polinomios:
+    print(a)
+
