@@ -3,6 +3,7 @@
 
 from sympy import *
 import numpy as np
+import math
 import csv
 
 xx = 7      #Largo de la placa
@@ -61,18 +62,23 @@ for a in matriz:
 
 #condiciones de borde neumann para flujo en "X"
 def d_x(ix,iy):
-    if(iy==0):
-        rst = ((ix+iy)/sqrt(2))*(2*dx) + 4
+    if(ix==0):
+        rst = ((ix+iy)/math.sqrt(2))*(2*dx) + 4
         return rst
     elif((iy>=1 and iy<5) or ix==4 or ix==5):
-        rst =  ((ix+iy)/sqrt(2))*(2*dx) + matriz[ix][iy-2]
+        rst =  ((ix+iy)/math.sqrt(2))*(2*dx) + matriz[ix][iy-2]
         return rst
+
+def d_y(ix,iy):
+    rst =  ((ix+iy)/math.sqrt(2))*(2*dx) + matriz[ix+2][iy]
+    return rst
+
 
 #diferencia finita de posicionamiento central en "x"
 def d_dx(ix,iy):
     #matriz[fila=yy][columna=xx]
     if (ix==0 and iy==0):
-        rst = d_x(ix+1,iy) - 2*matriz[ix][iy] + 4
+        rst = d_x(ix,iy+1) - 2*matriz[ix][iy] + 4
         return rst
     elif(iy==0 and ix<=xx-1):
         rst = matriz[ix][iy+1] - 2*matriz[ix][iy] + 4
@@ -88,11 +94,61 @@ def d_dx(ix,iy):
         rst = d_x(ix,iy+1) - 2*matriz[ix][iy] + matriz[ix][iy-1]
         return rst
     elif(iy==len(matriz[ix])-1):
-        rst =  iy - 2*matriz[ix][iy] + matriz[ix][iy-1]
+        rst =  (iy+1) - 2*matriz[ix][iy] + matriz[ix][iy-1]         #Neumann dx(y+1) - 2*T(x,y) + T(x,y-1), donde aquí dx(y+1) = y+1
         return rst
     else:
         rst = matriz[ix][iy+1] - 2*matriz[ix][iy] + matriz[ix][iy-1]
         return rst
+
+#diferencia finita de posicionamiento central en "y"
+def d_dy(ix,iy):
+    if(ix==0 and iy==0):
+        rsp =  matriz[ix+1][iy] - 2*matriz[ix][iy] + d_y(ix-1,iy)
+        return rsp
+    elif(ix<4 and iy<4):
+        if(matriz[ix-1][iy]==0):
+            rsp = matriz[ix+1][iy] - 2*matriz[ix][iy] + d_y(ix-1,iy)
+            return rsp
+        else:
+            rsp = matriz[ix+1][iy] - 2*matriz[ix][iy] + matriz[ix-1][iy]
+            return rsp
+    elif(ix==4 and iy<=8):
+        if(iy<8):
+            if(matriz[ix-1][iy]!=0):
+                rsp = matriz[ix+1][iy] -2*matriz[ix][iy] + matriz[ix-1][iy]
+                return rsp
+            else:
+                rsp = matriz[ix+1][iy] -2*matriz[ix][iy] + (ix-1)
+                return rsp
+        else:
+            rsp = matriz[ix+1][iy] -2*matriz[ix][iy] + d_y(ix-1,iy)
+            return rsp
+    elif(ix==5 and iy<=9):
+        if(matriz[ix-1][iy]!=0):
+            rsp = matriz[ix+1][iy] -2*matriz[ix][iy] + matriz[ix-1][iy]
+            return rsp
+        else:
+            rsp = matriz[ix+1][iy] -2*matriz[ix][iy] + d_y(ix-1,iy)
+            return rsp
+    elif(ix==6 and iy<xx):
+        if(matriz[ix-1][iy]!=0):
+            rsp = matriz[ix+1][iy] -2*matriz[ix][iy]+ matriz[ix-1][iy]
+            return rsp
+        else:
+            if(iy==10):
+                rsp = matriz[ix+1][iy] -2*matriz[ix][iy] + d_y(ix-1,iy)
+                return rsp
+            else:
+                rsp = matriz[ix+1][iy] - 2*matriz[ix][iy] + (ix-1)
+                return rsp
+    else:
+        if(ix<yy-1):
+            rsp = matriz[ix+1][iy] -2*matriz[ix][iy]+ matriz[ix-1][iy]
+            return rsp
+        else:
+            rsp = 4 -2*matriz[ix][iy]+ matriz[ix-1][iy]
+            return rsp
+
 
 
 #Generando polinomios del mallado.
@@ -100,22 +156,32 @@ polinomios=[]
 for i in range(4):
     for j in range(4):
         if(j<=i):
-            #print(f'({i},{j})={matriz[i][j]}',end="\t")
-            polinomios.append(d_dx(i,j))
+            polinomios.append(d_dx(i,j)+ d_dy(i,j))
+
 for i in range(4,6):
     for j in range(0,10):
         if(j<=9):
-            #print(f'({i},{j})={matriz[i][j]}',end="\t")
-            polinomios.append(d_dx(i,j))
+            polinomios.append(d_dx(i,j)+ d_dy(i,j))
             if(j==8 and matriz[i][j+1]==0): break
 for i in range(6,yy):
     for j in range(0,xx):
-        polinomios.append(d_dx(i,j))
+        polinomios.append(d_dx(i,j)+ d_dy(i,j))
 
 idx=0
-print(f'\nPolinomios generados usando laplaciano (ddx + _ = 0) de diferencias finitas \n')
+print(f'\nPolinomios generados usando laplaciano ( ddx + ddy = 0) de diferencias finitas \n')
+
 for a in polinomios:
     print(f'[{idx}]\t=\t{a}')
     idx+=1
 
-print(f'\nPendiente laplaciano ddy para diferencia finita en "y"')
+#exportación de datos
+with (open("polinomios.txt",'w')) as a:		#exporta los polinomios en archivo de texto
+  for i in polinomios:
+    a.write(str(i)+"\n")
+
+vv = []
+vv.append(yy)
+vv.append(xx)
+with open('len.csv', 'w', newline='') as dataCSV:
+    writer = csv.writer(dataCSV, dialect='excel')
+    writer.writerow(vv)
