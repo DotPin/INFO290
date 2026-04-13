@@ -2,7 +2,7 @@
 % para ello debe ejecutarse antes el archivo Dif_finitas.py
 % luego generará los archivos "matris A.csv", "vector B.csv", "dimension"
 % y para ejecutarse deben estar en el mismo directorio.
-
+clear;
 
 A = dlmread("matriz_a",",");
 B = dlmread("matriz_b");
@@ -53,8 +53,8 @@ Vgs= inv(D+E).*B';
 x=zeros(n,1);
 norm(Mgs,2);
 norm((Mgs*x+Vgs - x),2);
-printf ("Numero de iteraciones aproximadas a realizar")
-k = ceil( log((nn*(1-norm(Mgs,2)))/norm((Mgs*x+Vgs - x),2))/log(norm(Mgs,2)) );
+printf ("Numero de iteraciones aproximadas a realizar: ")
+k = ceil( log((nn*(1-norm(Mgs,2)))/norm((Mgs*x+Vgs - x),2))/log(norm(Mgs,2)) )
 
 zz = input("Comienza el metodo iterativo, presione 'enter' ");
 
@@ -93,8 +93,8 @@ end
 disp('Matriz resuelta por Diferencias Finitas:');
 %disp(matriz);
 figure(2);
-[x,y,z] = ind2sub(size(matriz), find(matriz > 0.00001));
-scatter3(x, y, z, 30, matriz(matriz > 0.00001), 'filled')
+[X,Y,Z] = ind2sub(size(matriz), find(matriz > 0.0000000001));
+scatter3(X,Y,Z, 30, matriz(matriz > 0.0000000001), 'filled')
 colorbar
 title("Gráfico de Tº de aleta disipadora en 3D");
 xlabel('Nodo posición y');

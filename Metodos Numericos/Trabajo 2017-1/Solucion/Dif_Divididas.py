@@ -7,11 +7,12 @@
 from sympy import *
 import csv
 
-
 #Declaracion de variables
 
-h = 0.999999999999	#condicion de temperaturas
-R = 12	#temperatura refrigerante
+h = 1	#condicion de temperaturas
+#k = 380 #Conductividad térmica (cobre) para transferencia de calor
+k = 0.02 #Conductividad térmica (poluiretano) para aislante de calor
+R = 25	#temperatura refrigerante
 A = 0	#condicion Cara Aislante
 B = 60	#condicion 4
 
@@ -50,53 +51,57 @@ def mostrar(texto):
           print("\n")
 	        #print "{} \t".format(prl[i][j][k])
 
-def ddty(x,y,z,j):		#Condiciones de newman
-  if j==1:
-    z = x-2*dy*h*(x-R)
-  elif j== xx-2:
-    x = z-2*dy*h*(z-R)
-  yyy = (x-2*y+z)/(dy*dy)
-  return yyy
+def ddt_y(x, y, z, idxj):        # dirección y
+  if idxj == 1:               # borde izquierdo (Robin)
+    z = y + ((2 * dy * h ) * (R - y))/ k
+  elif idxj == xx - 2:        # borde derecho (Robin)
+    x = y + ((2 * dy * h ) * (R - y))/ k
+  return (x - 2*y + z) / (dy**2)
 
-def ddtx(x,y,z,i):
-  if i==1:
-    z = x-2*dy*h*(x-R)
-  elif i==xx-2:
-    x = z-2*dy*h*(z-R)
-  xxx = (x-2*y+z)/(dx*dx)
-  return xxx
 
-def ddtz(x,y,z,k):
-  if k==1:
-    z = x-2*dy*h*(x-A)
-  elif k==z-2:
-    x = z-2*dy*h*(z-B)
-  zzz = (x-2*y+z)/(dz*dz)
-  return zzz
+def ddt_x(x, y, z, idxi):        # dirección x
+  if idxi == 1:               # borde izquierdo
+    z = y + ((2 * dx * h) * (R - y))/k
+  elif idxi == xx - 2:        # borde derecho
+    x = y + ((2 * dx * h) * (R - y))/k
+  return (x - 2*y + z) / (dx**2)
+
+
+def ddt_z(x, y, z, idxk):        # dirección z → Dirichlet puro
+  return (x - 2*y + z) / (dz**2)
 
 #<********************Fin Declaracion de métodos*************************
 
 
 #Inicio del programa principal
 
-prl = [[["" for x in range(xx)] for x in range(xx)] for x in range(z)]
+prl = [[[0 for x in range(xx)] for x in range(xx)] for x in range(z)]
 
-for i in range(0,z):		#rellenado condiciones de borde
-    for j in range(0,xx):
-      prl[i][0][j] = R
-      prl[i][xx-1][j] = R
-      prl[i][j][0] = R
-      prl[i][j][xx-1] = R
+#for i in range(0,z):		#rellenado condiciones de borde
+#    for j in range(0,xx):
+#      prl[i][0][j] = R
+#      prl[i][xx-1][j] = R
+#      prl[i][j][0] = R
+#      prl[i][j][xx-1] = R
 
-mostrar("Condiciones de Borde")
-      
-  
-for i in range(1,xx-1):		#Rellenando condiciones en caras
-  for j in range(1,xx-1):
-    prl[0][i][j] = A
-    prl[z-1][i][j] = B
+#mostrar("Condiciones de Borde")
 
-mostrar("Condiciones en Caras")
+for i in range(z):
+    for j in range(xx):
+        for k in range(xx):
+
+            # Z → Dirichlet
+            if i == 0:
+                prl[i][j][k] = A
+            elif i == z-1:
+                prl[i][j][k] = B
+ 
+#for i in range(1,xx-1):		#Rellenando condiciones en caras
+#  for j in range(1,xx-1):
+#    prl[0][i][j] = A
+#    prl[z-1][i][j] = B
+
+#mostrar("Condiciones en Caras")
 
 in_nd = 0
 for i in range(1,z-1):		#relleno con las variables "symbolic" a nodos equisdistantes
@@ -106,32 +111,25 @@ for i in range(1,z-1):		#relleno con las variables "symbolic" a nodos equisdista
       sy = symbols(nd)
       #prl[z][y][x]
       prl[i][j][k] = sy
-      print (f'{prl[i][j][k]}')
+      #print (f'{prl[i][j][k]}')
       in_nd += 1		#numerará los nodos uno x uno hasta terminar cada celda de la matriz	
 
-mostrar("LLenado")    
+#mostrar("LLenado")    
 
 #x = ["" for x in range(xx*z)] generar vector para generar matriz H[x*y*z] y rellenar con ecuación elíptica de nodos
 #despues generar matriz con datos de tipo A[x*y*z,x*y*z] y vector B[x*y*z] a incógnitas de tipo Ax=B
 
-
-
 #Haciendo algoritmo para diferencias divididas, para generar los polinomios lineales por cada nodo de la ecuacion laplaceana en 3D.
 
-w = ["" for x in range((xx-2)*(z-2)*(xx-2))]		#Vector para guardar las ecuaciones lineales
-
-
+w = []
 in_nd = 0
-for i in range(1,z-1):		
+i=1
+for i in range(1,z-1):	
   for j in range(1,xx-1):		
     for k in range(1,xx-1):
-      w[in_nd] = ddtz(prl[i][j][k+1],prl[i][j][k],prl[i][j][k-1],k) + ddty(prl[i][j+1][k],prl[i][j][k],prl[i][j-1][k-1],j) + ddtx(prl[i+1][j][k],prl[i][j][k],prl[i-1][j][k],i)
-      in_nd += 1		
+      w.append(ddt_z(prl[i+1][j][k],prl[i][j][k],prl[i-1][j][k],i) + ddt_y(prl[i][j+1][k],prl[i][j][k],prl[i][j-1][k],j) + ddt_x(prl[i][j][k+1],prl[i][j][k],prl[i][j][k-1],k))
+      in_nd += 1
 
-for i in range(len(w)):			#Corroboramos que las ecuaciones estén bien ejecutadas
-  print(w[i])
-  
-print("\n\n")
 #Realizando descomposición de ecuaciones lineales a matriz
 
 def mM1(aa,txt):
@@ -207,3 +205,5 @@ with open("matriz_a","w",newline='') as dataCSV:
 with open("matriz_b", "w", newline='') as dataCSV2:
   wr = csv.writer(dataCSV2, dialect='excel')
   wr.writerows(Bb)
+
+  
