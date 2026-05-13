@@ -6,7 +6,7 @@
 
 ## Necesidad
 
-Presentación de una Análisis Estratégico y Creación de Valor al sector Hotelero, Bodegaje y Mercados alimenticios, identificando y/o generando fuentes potenciales de ventajas competitivas al rubro en cuestión, permitiendo mediante el análisis generar alguna propuesta de tecnológica que gestione los procedimientos a nivel de gestión y organizativo, con aporte en alguna mejora innovadora como integración futura dentro de sus procesos sistemáticos en producción. 
+Presentación de un Análisis Estratégico y Creación de Valor al sector Hotelero, Bodegaje y Mercados alimenticios, identificando y/o generando fuentes potenciales de ventajas competitivas al rubro en cuestión, permitiendo mediante el análisis generar alguna propuesta de tecnológica que gestione los procedimientos a nivel de gestión y organizativo, con aporte en alguna mejora innovadora como integración futura dentro de sus procesos sistemáticos en producción. 
 
 ## Documentos
 
