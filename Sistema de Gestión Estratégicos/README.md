@@ -29,10 +29,22 @@ Disciplina cual encarga de describir las diversas etapas de orden estratégicas 
 
 ## Referencias:
 
+
+- La noción de shareholder value y la teoría de los stakeholders: visión  contemporánea del concepto de “interés social” desde una perspectiva de creación de valor - Wilson Iván Morgestein Sánchez, 2012.
+
+- Andreu Rafael, Et.Al.; Estrategia y Sistemas de Información; McGraw-Hill; 1996. ISBN 84-481-0508-7 (**)
+
+- Chris Edwards, et. Al.; Fundamentos de Sistemas de Información; Ed. Prentice-Hall; 2a ed.; 1998. (**)
+
+- Kaplan Robert S., Norton David P.; Cuadro de Mando Integral; Ediciones Gestión 2000 S.A.; Barcelona; 1997. (**)
+
+- LAUDON, Jane P. Sistemas de Información Gerencial, Administración de la Empresa Digital. Editorial Prentice Hall. 10a
+ed. 2008
+
 - El Balanced Scorecard: Mediciones que impulsan el desempeño - Robert S. Kaplan y David P. Norton, 2005
 
-- El Modelo Delta -  Arnoldo Hax, Dean Wilde, 2014
+- Arnoldo Hax; El Modelo Delta, Reinventando la estrategia de tu negocio; 2013.
 
 - El Hype Cycle de Gartner - Carolina Alberto Notario, 2017
 
-- La noción de shareholder value y la teoría de los stakeholders: visión  contemporánea del concepto de “interés social” desde una perspectiva de creación de valor - Wilson Iván Morgestein Sánchez, 2012.
+- Frank Rothaermel; Competitive Advantage in Technology Intensive Industries; Elsevier, 2008.
