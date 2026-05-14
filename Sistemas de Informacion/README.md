@@ -26,3 +26,11 @@ Disciplina cual permite la descripción y desglose de necesidad para elaboració
 - Information Systems Development: an introduction to information systems engineering., Beynon-Davies, P. (1998)
 
 - The complete business process handbook: Body of knowledge from process modeling to BPM, volume 1 (Vol. 1). Morgan Kaufmann, Von Rosing, M., Von Scheel, H., & Scheer, A. W. (2014). 
+
+- Laudon, K., & Laudon, J. (2014). Management information systems . (13 ed., p. 648). Saddle River: Prentice Hall
+
+- Laguna, M., & Marklund, J. (2013). Business process modeling, simulation and design . CRC Press.
+
+- Wallace, P. (2015). Introduction to Information Systems . Pearson
+
+- Rainer, R. K., Prince, B., & Watson, H. J. (2014). Management Information Systems . Wiley Publishing.
