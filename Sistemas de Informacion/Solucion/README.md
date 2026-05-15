@@ -1,6 +1,6 @@
 # Presentación de caso 1.
 
-**Cliente: Restonrats, Pubs, Cafeterías Shoperías, Heladerías, Pizzería, Sanwicherías, Mercados Alimenticios **
+**Cliente: Restonrats, Pubs, Cafeterías Shoperías, Heladerías, Pizzería, Sanwicherías, Mercados Alimenticios**
 
 ***
 
