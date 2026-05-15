@@ -16,9 +16,9 @@ Disciplina cual permite la descripción y desglose de necesidad para elaboració
 
 ## Documentos:
 
-- [Documentación](https://github.com/DotPin/INFO290/tree/master/Sistema%20de%20Gesti%C3%B3n%20Estrat%C3%A9gicos/Documentacion): Material de respaldo para Casos de Estudio.
+- [Documentación](https://github.com/DotPin/INFO290/tree/master/Sistemas%20de%20Informacion/Documentacion): Material de respaldo para Casos de Estudio.
 
-- [Caso Estudio 1](https://github.com/DotPin/INFO290/tree/master/Sistema%20de%20Gesti%C3%B3n%20Estrat%C3%A9gicos/Tarea%201): Modelamiento de negocio para sistematización.
+- [Caso Estudio 1](https://github.com/DotPin/INFO290/tree/master/Sistemas%20de%20Informacion/Solucion): Modelamiento de negocio para sistematización.
 
 
 ## Referencias:
