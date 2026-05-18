@@ -1,4 +1,4 @@
-# Presentación de caso 1.
+# Presentación de caso 2.
 
 **Cliente: Físicos, Matemáticos, Docentes, Ingenieros**
 
