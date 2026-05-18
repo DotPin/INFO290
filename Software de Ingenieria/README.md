@@ -13,13 +13,13 @@ Disciplina cual permite el modelamiento sobre problemas de ingeniería, cual dis
 °
 - Caso de Uso 1: Aproximación de Ecuación diferencial lineal de 2° orden usando diferencias finitas.
 
-- Caso de Uso 2: Aproximación de Ecuación diferencial lineal de 2° orden usando Galerking.
+- Caso de Uso 2: Aproximación de Ecuación diferencial lineal de 2° orden usando Galerkin.
 
 ## Documentos:
 
 - [Caso Estudio 1](https://github.com/DotPin/INFO290/tree/master/Software%20de%20Ingenieria/Tarea%201): Aproximación de Ecuación diferencial lineal de 2° orden usando diferencias finitas.
 
-- [Caso Estudio 2](https://github.com/DotPin/INFO290/tree/master/Software%20de%20Ingenieria/Tarea%202): Aproximación de Ecuación diferencial lineal de 2° orden usando Galerking.
+- [Caso Estudio 2](https://github.com/DotPin/INFO290/tree/master/Software%20de%20Ingenieria/Tarea%202): Aproximación de Ecuación diferencial lineal de 2° orden usando Galerkin.
 
 
 ## Referencias:
