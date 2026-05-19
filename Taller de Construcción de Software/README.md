@@ -26,3 +26,15 @@ Disciplina encargada de la elaboración de prototipos de software mediante metod
 
 ## Referencias:
 
+- Escofet, C. M. (2002). El lenguaje SQL. UOC, la universidad virtual.
+
+- Shotts, W. (2026). The Linux command line: a complete introduction. No Starch Press.
+
+- Sommerville, I. (2005). Ingeniería del software. Pearson educación.
+
+- Smith, R. W. (2012). Linux essentials. John Wiley & Sons.
+
+- López, J. G. (2022). Administración de sistemas GNU/LINUX®. Ediciones de la U.
+
+- Stallings, W. (2001). Sistemas operativos (Vol. 2). Prentice Hall.
+
