@@ -1,15 +1,15 @@
 # Presentación de caso 1.
 
-**Cliente: Físicos, Matemáticos, Docentes, Ingenieros**
+**Cliente: Secretaría, consultorios, hospitales, clínicas**
 
 ***
 
 ## Necesidad
 
-Se necesita implementar mediante un modelo de ecuación diferencial de 2° orden lineal (Ax'' + Bx' + C = f(t)), un algoritmo que permita aproximar dicho modelo usando Elementos Finitos de tipo Galerkin.
+Se necesita realzar la implementación de un prototipo de software que permita la gestión de citas y pacientes en un centro asistencial de salud.
 
 ## Documentos
 
-- [Documentación](https://github.com/DotPin/INFO290/tree/master/Software%20de%20Ingenieria/Tarea%202/Documentacion): Documentación cual presenta informe y metodologías de cálculo.
+- [Enunciado]https://github.com/DotPin/INFO290/blob/master/Taller%20de%20Construcci%C3%B3n%20de%20Software/Tarea%201/Enunciado.pdf): Ficha de requerimientos solicitados para la necesidad a escalar
 
-- [Solución](https://github.com/DotPin/INFO290/tree/master/Software%20de%20Ingenieria/Tarea%202/Solucion): Código de implementación.
+- [Software](https://github.com/DotPin/INFO290/tree/master/Taller%20de%20Construcci%C3%B3n%20de%20Software/Tarea%201/Software): Código de implementación.
