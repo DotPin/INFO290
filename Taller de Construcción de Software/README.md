@@ -6,7 +6,7 @@
 
 ## Descripción
 
-Disciplina encargada de la elaboración de prototipos de software mediante metodologías de desarrollo basadas en la ingeniería de software, permitiendo solventar soluciones a necesidades puntuales, elaboradas a partir de cada etapa o ciclo de software correspondiente, usando herramientas de desarrollo convenientes para su construcción.
+Disciplina encargada de la elaboración de prototipos de software mediante metodologías de desarrollo basadas en la ingeniería de construcción de software, permitiendo solventar soluciones a necesidades puntuales, elaboradas a partir de cada etapa o ciclo de software correspondiente, usando herramientas de desarrollo convenientes para su construcción.
 
 
 ## Propuestas
