@@ -1,23 +1,28 @@
 # Presentación de caso 2.
 
-**Cliente: Físicos, Matemáticos, Docentes, Ingenieros**
+**Cliente: Analista, Periodista, Científico**
 
 ***
 
 ## Necesidad
 
-Se necesita implementar mediante un modelo de ecuación diferencial de 2° orden lineal (Ax'' + Bx' + C = f(t)), un algoritmo que permita aproximar dicho modelo usando Elementos Finitos de tipo Galerkin.
+Se necesita desarrollar una aplicación que permita la gestión de información categorizada en relación a noticias, donde se necesitará mediante alguna herramienta de desarrollo, y usando técnicas de ingeniería de software, desplegar sus funcionalidades con alguna interfaz gráfica de algún lenguaje de programación compatible.
 
 ## Documentos
 
-- [Documentación](https://github.com/DotPin/INFO290/tree/master/Software%20de%20Ingenieria/Tarea%202/Documentacion): Documentación cual presenta informe y metodologías de cálculo.
+- [Documentación](https://github.com/DotPin/INFO290/tree/master/Taller%20de%20Construcci%C3%B3n%20de%20Software/Tarea%202/Documentaci%C3%B3n): Documentación cual almacena requisitos, detalles y estados de desarrollo.
 
-- [Solución](https://github.com/DotPin/INFO290/tree/master/Software%20de%20Ingenieria/Tarea%202/Solucion): Código de implementación.
+- [Solución](https://github.com/DotPin/INFO290/tree/master/Taller%20de%20Construcci%C3%B3n%20de%20Software/Tarea%202/Software): Código de implementación.
 
+### Características funcionales de Software
 
+- SO Linux/Windows
+- Gcc Versión +12
+- Python v2.7
+- Librería PySide v2
 
 ### Observaciones
-Trabajo de Taller de Construcción de Software
-Prueba del archivo de lectura...
-Rama 1.3, Version 1.3
-Para la ejecucion del programa ir a la carpeta codigos-> ejecutar$python login.py
+
+- Software se encuentra en proceso de actualización y migraciones.
+
+- Software desarrollado para propósito de presentación funcional.
