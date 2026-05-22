@@ -14,6 +14,8 @@ Disciplina encargada en la comprensión de los diversos estados de procesos auto
 
 - Caso de Uso 2: Generación de un Autómata Finito Determinista para detección de funciones y lenguajes.
 
+- Caso de Uso 3: Generación de una Máquina de Turing para detección de funciones y lenguajes.
+
 ## Documentos:
 
 - [Caso de Uso 1](https://github.com/DotPin/INFO290/tree/master/Teoria%20de%20Automatas/Tarea%201) : Generación de un Autómata Push Down para detección de funciones y lenguajes.
