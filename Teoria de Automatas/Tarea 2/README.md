@@ -17,30 +17,12 @@ Se necesita generar un Autómata Finito Determinista, cual permita mediante ingr
 ### Características funcionales de Software
 
 - SO Linux
-- TPython 2.7.6
+- Python 2.7.6
 - Gcc v+4.8.2
 
 ### Compilación y Ejecución código
 
-- Compilación de software 
-
-```bash
-$g++ *.cpp -o <ejecutable>
-```
-
-- Ejecución tras compilación
-
-    - Asignación de permisos
-
-    ```bash
-    $chmod +x <ejecutable>
-    ```
-
-    - Ejecución
-    
-    ```bash
-    $./<ejecutable>
-    ```
+- Entornos y requerimientos de ejecución en informe documentado
 
 ### Observaciones
 
