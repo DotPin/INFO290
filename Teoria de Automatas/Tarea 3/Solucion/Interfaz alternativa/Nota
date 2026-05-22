@@ -1,0 +1,42 @@
+ 
+Para la creación de la gui, tengo pensado agregar en grillas las transiciones a través de textbox individuales interactivas a través de tabulaciones, donde el proceso cíclico debe ser:
+
+******Inicio Ciclo, y traslado por box con TAB's enumerados***************
+
+txtBOX1 = estestado_actual
+txtBOX2 = simbolo_actual_del_cabezal
+txtBOX3 = estado_siguiente
+txtBOX4 = simbolo_a_escribir
+txtBOX5 = direccion_de_avance
+
+Button1 = Ingreso Grilla la transicion
+
+*****Reinicio Ciclo/Valido Campos Vacíos*******
+
+Pasando al proceso final de confirmación de transiciones con otro button.
+
+Button2 = Confirmar Ingreso de Transiciones
+
+El motivo de esto es que:
+
+La transicion mal ingresada que quiera ser eliminada solo será a través de interacción, seleccionandola y borrandola, dejando la opción de poder agregar una nueva, y si es posible modificarla.
+
+Button3 = Modificar Transiciónn
+Button4 = Eliminar Transición
+
+Esto será de manera ciclica hasta que el usuario confirme por si mismo que su ingreso ha terminado con un Button2
+
+Una vez ingresada las transiciones, el programa debe habilitar automáticamente el campo para ingresar la palabra a procesar:
+
+txtBOX6 = Campo ingreso palabra
+
+Ejecutar Maquina:
+
+Button5 = Ejecutar maquina, validando campo vacío.
+
+Una vez ingresada la palabra y las transiciones, debe entregar el resultado final de la simulación.
+
+OBS1 : Cabe mencionar que mientras más flexible y versátil sea para el usuario usar un simulador de máquina de turing, mejor será la experiencia de su proceso.
+
+
+OBS2 : debemos considerar todo tipo de accesos directos, usos, ayudas y explicaciones del funcionamiento interactivo.

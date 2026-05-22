@@ -1,0 +1,4 @@
+Genere un APD que permita el ingreso de los estados con sus respectivas entradas, 
+cuales permita decir si las transiciones aceptan o no la palabra ingresada.
+
+Dicho APD será generado a través de algún lenguaje de programación a conveniencia, describir las estructuras de datos que usará
