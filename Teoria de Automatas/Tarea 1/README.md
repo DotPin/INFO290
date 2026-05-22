@@ -1,25 +1,44 @@
 # Presentación de caso 1.
 
-**Cliente: Usuario, Académico, Desarrollador, Instituciones de capacitación**
+**Cliente: Fiscalizadores, Docente, Desarrollador, Ingeniero Informático**
 
 ***
 
 ## Necesidad
 
-Se necesita generar un prototimo de tipo web en HTML, cual permita desplegar algunas funcionalidades básicas de un programa de diseño de imágenes.
+Se necesita generar un Autómata Push Down, cual permita mediante ingreso de producciones de estado, su verificación y validación de las transiciones resultantes.
 
 ## Documentos
 
-- [Imágenes](https://github.com/DotPin/INFO290/tree/master/Taller%20HTML/Tarea%201/Imagenes): Directorio cual almacena imágenes para frames de páginas.
-
-- [Páginas](https://github.com/DotPin/INFO290/tree/master/Taller%20HTML/Tarea%201/Paginas): Código de implementación en HTML con scripts.
-
-- [Index.html](https://github.com/DotPin/INFO290/blob/master/Taller%20HTML/Tarea%201/Index.html): Página principal cual despliega el manual.
+- [Desarrollo](https://github.com/DotPin/INFO290/tree/master/Teoria%20de%20Automatas/Tarea%201/Desarrollo): Directorio cual almacena códigos de implementación.
 
 ### Características funcionales de Software
 
-- SO Linux/Windows
-- Navegador Compatible
+- SO Linux
+- Terminal
+- Gcc/G++ v+13
+
+### Compilación y Ejecución código
+
+- Compilación de software 
+
+```bash
+$g++ *.cpp -o <ejecutable>
+```
+
+- Ejecución tras compilación
+
+    - Asignación de permisos
+
+    ```bash
+    $chmod +x <ejecutable>
+    ```
+
+    - Ejecución
+    
+    ```bash
+    $./<ejecutable>
+    ```
 
 ### Observaciones
 
