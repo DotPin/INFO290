@@ -6,20 +6,19 @@
 
 ## Descripción
 
-Disciplina encargada en la comprensión de los diversos estados de procesos automatizados cuales están definidos como máquinas de estados. La disciplina comprende los conceptos de manejo de estados deterministas/indeterminstas, propiedades de lenguajes regulares, lenguajes de libre contexto, normalización de producciones de estado, premitiendo el diseño para generar máquinas de basadas en autómatas y relaciones de lenguaje de libre contexto. Su entendimiento teórico, promueve el conocimiento de máquinas de turing como aplicación en tratamiento de reconocimiento de lenguajes y funciones de cálculo. 
+Disciplina encargada en la comprensión de los diversos estados de procesos automatizados cuales están definidos como máquinas de estados. La disciplina comprende los conceptos de manejo de estados deterministas/indeterminstas, propiedades de lenguajes regulares, lenguajes de libre contexto, normalización de producciones de estado, premitiendo el diseño para generación máquinas de basadas en autómatas y relaciones de lenguaje de libre contexto. Su entendimiento teórico, promueve el conocimiento de máquinas de turing como aplicación en tratamiento de reconocimiento de lenguajes y funciones de cálculo. 
 
 ## Propuestas
 
-- Caso de Uso 1: Generación de un Autómata Push Down para detección de lenguajes.
+- Caso de Uso 1: Generación de un Autómata Push Down para detección de funciones y lenguajes.
 
-- Caso de Uso 2: 
+- Caso de Uso 2: Generación de un Autómata Finito Determinista para detección de funciones y lenguajes.
 
 ## Documentos:
 
-- [Documentación](https://github.com/DotPin/INFO290/tree/master/Taller%20HTML/Documentacion): Material de apoyo para construcción del proyecto.
+- [Caso de Uso 1](https://github.com/DotPin/INFO290/tree/master/Teoria%20de%20Automatas/Tarea%201) : Generación de un Autómata Push Down para detección de funciones y lenguajes.
 
-- [Caso Estudio 1](https://github.com/DotPin/INFO290/tree/master/Taller%20HTML/Tarea%201): Tutorial en uso de aplicación de diseño para imágenes.
-
+- [Caso Estudio 2](https://github.com/DotPin/INFO290/tree/master/Teoria%20de%20Automatas/Tarea%202): Generación de un Autómata Finito Determinista para detección de funciones y lenguajes.
 
 
 ## Referencias:
