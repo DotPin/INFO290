@@ -23,3 +23,14 @@ Disciplina encargada de fundamentar todo proceso funcional de comunicación medi
 
 ## Referencias:
 
+- Tanenbaum, A. S., & Wetherall, D. J. (2011). Computer networks (5th ed.). Pearson.
+
+- Forouzan, B. A. (2012). Data communications and networking (5th ed.). McGraw-Hill.
+
+- Stevens, W. R. (1994). TCP/IP illustrated, Vol. 1: The protocols. Addison-Wesley.
+
+- Fall, K. R., & Stevens, W. R. (2011). TCP/IP illustrated, Vol. 1: The protocols (2nd ed.). Addison-Wesley.
+
+- Stallings, W. (2017). Network security essentials: Applications and standards (6th ed.). Pearson.
+
+- Goransson, P., Black, C., & Culver, T. (2016). Software defined networks: A comprehensive approach (2nd ed.). Morgan Kaufmann.
