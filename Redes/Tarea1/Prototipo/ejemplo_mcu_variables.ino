@@ -1,11 +1,11 @@
 #include <ESP8266WiFi.h>
 #include "WifiLocation.h"
-#define GOOGLE_KEY "AIzaSyDP4SOZgPpJCEYormxf53cA9tnFIPoxArk" // Clave API Google Geolocation
-#define SSID "PATRICIA" // SSID de tu red WiFi
-#define PASSWD "qaws78ed" // Clave de tu red WiFi
-//#define HOSTFIREBASE "proyecto1-8852c.firebaseio.com" // Host o url de Firebase
-#define HOSTFIREBASE "probando-nodemcu.firebaseio.com" // Host o url de Firebase
-#define LOC_PRECISION 7 // Precision de latitud y longitud
+#define GOOGLE_KEY "<API_KEY_GOOGLE>" // Clave API Google Geolocation
+#define SSID "<NOMBRE_DE_RED>"        // SSID de tu red WiFi
+#define PASSWD "<CLAVE_RED>"          // Clave de tu red WiFi
+// #define HOSTFIREBASE "proyecto1-8852c.firebaseio.com" // Host o url de Firebase
+#define HOSTFIREBASE "<URL_HOST_FIREBASE>" // Host o url de Firebase
+#define LOC_PRECISION 7                    // Precision de latitud y longitud
 // Llamada a la API de Google
 WifiLocation location(GOOGLE_KEY);
 location_t loc; // Estructura de datos que devuelve la librera WifiLocation
@@ -23,53 +23,57 @@ int rpm = 30;
 int kmh = 50;
 int lane = 1;
 
-String eventType= "none";
-int oldLane= 1;
-int newLane= 0;
-bool airbagActive= false;
-int failureCode=0;
-
+String eventType = "none";
+int oldLane = 1;
+int newLane = 0;
+bool airbagActive = false;
+int failureCode = 0;
 
 /**********ciclo de eventos****/
 
-void mf(){
+void mf()
+{
   eventType = "mechanicFailure";
-  //r = sensorAuto() <---------permite saber a través de sensores que falla mecánica tiene
+  // r = sensorAuto() <---------permite saber a través de sensores que falla mecánica tiene
   r = 1;
-  if (r==1){
-    failureCode=1;  //falla de motor
-  }else{
-    failureCode=2;  //falla de rueda
+  if (r == 1)
+  {
+    failureCode = 1; // falla de motor
+  }
+  else
+  {
+    failureCode = 2; // falla de rueda
   }
 }
 
-void choque(){
+void choque()
+{
   eventType = "crash";
   aceleration = 0;
   kmh = 0;
   ariBagActive = true;
 }
 
-void carril(){
-  evetnType="laneChanged";
-  //oldLane = getLane();  <-----obtiene carril usado (Lane)
+void carril()
+{
+  evetnType = "laneChanged";
+  // oldLane = getLane();  <-----obtiene carril usado (Lane)
   oldLane = 1;
-  //newLane= getNewLane();  <-----obtiene carril de cambio
-  newLane= 2;
+  // newLane= getNewLane();  <-----obtiene carril de cambio
+  newLane = 2;
 }
 
-
-
 /******************************/
-
 
 // Cliente WiFi
 WiFiClientSecure client;
 
-void setup() {
+void setup()
+{
   Serial.begin(115200);
   // Conexion con la red WiFi
-  while (WiFi.status() != WL_CONNECTED) {
+  while (WiFi.status() != WL_CONNECTED)
+  {
     Serial.print("Attempting to connect to WPA SSID: ");
     Serial.println(SSID);
     // Connect to WPA/WPA2 network:
@@ -84,7 +88,8 @@ void setup() {
   Serial.print("MAC NodeMCU: ");
   Serial.println(macStr);
 }
-void loop() {
+void loop()
+{
   // Obtenemos la geolocalizacion WiFi
   loc = location.getGeoFromWiFi();
   // Mostramos la informacion en el monitor serie
@@ -99,37 +104,41 @@ void loop() {
   delay(15000);
 }
 /********** FUNCION PARA OBTENER MAC COMO STRING **********/
-String obtenerMac() {
+String obtenerMac()
+{
   // Obtenemos la MAC del dispositivo
   WiFi.macAddress(mac);
   // Convertimos la MAC a String
   String keyMac = "";
-  for (int i = 0; i < 6; i++) {
+  for (int i = 0; i < 6; i++)
+  {
     String pos = String((uint8_t)mac[i], HEX);
     if (mac[i] <= 0xF)
-    pos = "0" + pos;
+      pos = "0" + pos;
     pos.toUpperCase();
     keyMac += pos;
     if (i < 5)
-    keyMac += ":";
+      keyMac += ":";
   }
   // Devolvemos la MAC en String
   return keyMac;
 }
 /********** FUNCION QUE REALIZA LA PETICION PUT **************/
-void peticionPut() {
+void peticionPut()
+{
   // Cerramos cualquier conexion antes de enviar una nueva peticion
   client.stop();
   client.flush();
   // Enviamos una peticion por SSL
-  if (client.connect(HOSTFIREBASE, 443)) {
+  if (client.connect(HOSTFIREBASE, 443))
+  {
     // Peticion PUT JSON
     String toSend = "PUT /dispositivo/";
     toSend += macStr;
     toSend += ".json HTTP/1.1\r\n";
     toSend += "Host:";
     toSend += HOSTFIREBASE;
-    toSend += "\r\n" ;
+    toSend += "\r\n";
     toSend += "Content-Type: application/json\r\n";
     String payload = "{\"lat\":";
     payload += String(loc.lat, LOC_PRECISION);
@@ -158,7 +167,7 @@ void peticionPut() {
     payload += ",";
     payload += "\"lane\":";
     payload += String(lane);
-    //incorporar sentencias if para registrar los estados
+    // incorporar sentencias if para registrar los estados
     payload += "}";
     payload += ",";
     payload += "\"carld\": \"";
@@ -174,7 +183,9 @@ void peticionPut() {
     client.flush();
     client.stop();
     Serial.println("Todo OK");
-  } else {
+  }
+  else
+  {
     // Si no podemos conectar
     client.flush();
     client.stop();
