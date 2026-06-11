@@ -34,6 +34,8 @@ Disciplina encargada de aprender mediante lenguaje de programación Python, algo
 
 - [Caso Estudio 5](https://github.com/DotPin/INFO290/tree/master/Inteligencia%20Artificial/Trabajo%205): Desafío cual pretende presentar algoritmos de aprendizaje automático, que premiten generar estudio para el ajuste de parámetros astronómicos en la búsqueda de Galaxia, Estrellas o Quasares
 
+- [Caso Estudio 6](https://github.com/DotPin/INFO290/tree/master/Inteligencia%20Artificial/Trabajo%206): Desafío de uso de algoritmo de simulación "Taxi" para determinación de tazas de aprendizaje y calibración de parámetros. 
+
 
 ## Referencias:
 
