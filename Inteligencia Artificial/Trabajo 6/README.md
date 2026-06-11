@@ -1,4 +1,4 @@
-# Presentación de caso 56 de software.
+# Presentación de caso 6 de software.
 
 **Cliente: Transporte, Informático, Físico**
 
