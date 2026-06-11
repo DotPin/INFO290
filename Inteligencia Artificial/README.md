@@ -21,6 +21,8 @@ Disciplina encargada de aprender mediante lenguaje de programación Python, algo
 
 - Caso de Uso 5: Desafío cual predende presentar algoritmos de aprendizaje automático, que premiten generar estudio para el ajuste de parámetros astronómicos en la búsqueda de Galaxia, Estrellas o Quasares. 
 
+- Caso Estudio 6: Desafío de uso de algoritmo de simulación "Taxi" para determinación de tazas de aprendizaje y calibración de parámetros en la convergencia del algoritmo de simulación.
+
 
 ## Documentos:
 
